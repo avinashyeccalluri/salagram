@@ -2,20 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="app.js" />
-    <link href="dist/hamburgers.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -29,75 +19,44 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
-
-    <title>Document</title>
   </head>
   <body>
-    <!-- <nav class="navbar">
-      <div class="brand-title">
-        <img class="logo" src="IMAGES/logo-removebg.png" alt="" />
-      </div>
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
-      <div class="navbar-links">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Corporate</a></li>
-          <li><a href="">Product</a></li>
-          <li><a href="">People</a></li>
-          <li><a href="">Buy</a></li>
-          <li><a href="">Contact Us</a></li>
-        </ul>
-      </div>
-    </nav> -->
-    <section>
-      <div>
-        <img class="header-image" src="./images/header.jpeg" alt="" srcset="" />
-      </div>
-    </section>
-    <section>
+    <div id="header-container">
+      <img src="./images/metal_pouring.jpeg" alt="" class="img" id="image" />
       <div
-        class="row moto-info d-flex justify-content-around align-items-center"
+        class="row d-flex justify-content-center align-items-center"
+        id="text"
       >
-        <div class="col-md-5 text-white fs-1">
-          <h1 class="ml-4">SMARTER STEEL FOR A BETTER TOMORROW</h1>
+        <div class="col-md-4">
+          <h1>SMARTER STEEL FOR A BETTER TOMORROW</h1>
         </div>
-        <div
-          class="col-md-6 offset-md-2 orange d-flex flex-column justify-content-center align-content-center align-items-center"
-        >
-          <div
-            class="row d-flex justify-content-center align-content-center align-items-center"
-          >
-            <div class="col-md-4 box m-1 p-2">
-              <h3 class="text-center">1.2 Lakh</h3>
-              Tonnes of steel production
+        <div class="offset-lg-2 col-md-4 text-dark bg-info p-4">
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-4 m-1 bg-danger p-2">
+              <p class="text-center">1.2LAKH</p>
+              <div>Tonnes of steel production</div>
             </div>
-            <div class="col-md-4 box m-1 p-2">
-              <h3 class="text-center">1K+</h3>
-              Employment generated
+            <div class="col-md-4 m-1 bg-danger p-2">
+              <p class="text-center">1.2LAKH</p>
+              <div>Employment generated</div>
             </div>
           </div>
-          <div
-            class="row d-flex justify-content-center align-content-center align-items-center"
-          >
-            <div class="col-md-4 box m-1">
-              <h3 class="text-center">8MWH</h3>
-              Captive Power Plant
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-4 m-1 bg-danger p-2">
+              <p class="text-center">1.2LAKH</p>
+              <div>Tonnes of steel production</div>
             </div>
-            <div class="col-md-4 box m-1">
-              <h3 class="text-center">4+</h3>
-              Exported to four continents
+            <div class="col-md-4 m-1 bg-danger p-2">
+              <p class="text-center">1.2LAKH</p>
+              <div>Employment generated</div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="aboutus-container">
-      <div class="row d-flex justify-content-around align-items-center">
-        <div class="col-md-6 pt-5 fs-3">
+    </div>
+    <div class="aboutus-container">
+      <div class="row d-flex justify-content-around align-items-center test" style="margin-top: 150px;">
+        <div class="col-md-7 pt-5 fs-3">
           The commitment and innovation of Salagram has led to the company
           becoming a competitive and promising steel manufacturing company with
           an annual production capacity of 1.2 lakh tons. With its flagship
@@ -106,12 +65,18 @@
           growth, the company has aggressively expanded its footprint across the
           country
         </div>
-        <div class="col-md-6 pt-5">
-          <img class="hot-steel" src="./images/shutterstock_1138752473.png" alt="hot-steel" srcset="">
+        <div class="col-md-5 pt-5">
+          <img
+            class="hot-steel"
+            src="./images/shutterstock_1138752473.png"
+            alt="hot-steel"
+            srcset=""
+          />
         </div>
       </div>
       <button class="my-5 b-about-us">About us</button>
-    </section>
+    </div>
+    
     <section class="">
       <div class="d-flex prod-cap flex-column page justify-content-around power-container">
         <div class="fs-3 text-white w-50">
@@ -124,6 +89,7 @@
         </div>
       </div>
     </section>
+    
     <section
       class="d-flex w-100 align-items-center justify-content-center text-center my-4"
     >
@@ -134,6 +100,7 @@
     >
       <div class="fs-1 border border-4 border-warning px-4">OUR CLIENTS</div>
     </section>
+    
     <footer class="footer-container">
       <div class="d-flex justify-content-between">
         <div class="logo">
@@ -161,32 +128,5 @@
         <div class="border border-1 border-dark p-2">Join Us</div>
       </div>
     </footer>
-    <script src="app.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-      var mySwiper = new Swiper(".swiper-container", {
-        // Optional parameters
-        // direction: 'vertical',
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination",
-        },
-
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-          el: ".swiper-scrollbar",
-        },
-      });
-    </script>
   </body>
 </html>
