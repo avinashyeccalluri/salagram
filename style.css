@@ -24,9 +24,6 @@
     z-index: 3;
   }
   
-  .brand-title{font-size: 1.5rem;
-    margin: .5rem;
-  }
   
    ul {
     margin: 0;
@@ -52,191 +49,10 @@
     color: grey;
   }
   
-  .toggle-button{
-    position: absolute;
-    top: 0.75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-  }
-  
-  .toggle-button .bar{
-    height: 3px;
-    width: 100%;
-    background-color: black;
-    border-radius: 10px;
-  }
-  
   .header-image { 
     height: 100%;
     width: 100%;
   }
-  body{
-    position: relative;
-  }
-  
-  @media only screen and (max-width:768px){
-    .toggle-button{
-      display: flex;
-    }
-  
-    .navbar-links{
-      display: none;
-      animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-      transition: all 3s ease-out;
-    }
-    .navbar{
-      flex-direction: column;
-      align-items: flex-start;
-      flex-direction: column;
-      
-    }
-  
-    .navbar-links ul{
-      flex-direction: column;
-      width: 100vw ;
-    }
-  
-    .navbar-links li {
-      text-align: center;
-    }
-  
-    .navbar-links li{
-      padding: .5rem 1rem;
-    }
-  
-    .navbar-links.active{
-        display: flex;
-    } 
-  
-    @keyframes slide-in-bck-center {
-      0% {
-        transform: translateZ(600px);
-        opacity: 0;
-      }
-      100% {
-        transform: translateZ(0);
-        opacity: 1;
-      }
-    }
-  }
-  
-  /* NAVBAR SECTION ENDS HERE */
-  
-  .swiper-container {
-    width: 100vw;
-    height: 90vh;
-    z-index: -1;
-  }
-  
-  .c1{
-    background: url('IMAGES/7091.jpg') no-repeat center center/cover;
-  }
-  .c2{
-    background: url('IMAGES/21199.png') no-repeat center center/cover;
-    /* background-size: 100% 100%; */
-  }
-  
-  /* CAROUSEL ENDS HERE */
-  
-  .cards-list {
-    z-index: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 0  180px;
-  }
-  
-  .card {
-    margin: 30px auto;
-    width: 300px;
-    height: 300px;
-    border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-    cursor: pointer;
-    transition: 0.4s;
-  }
-  
-  .card .card_image {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-  }
-  
-  .card .card_image img {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-    object-fit: cover;
-  }
-  
-  .card .card_title {
-    text-align: center;
-    border-radius: 0px 0px 40px 40px;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: -80px;
-    height: 40px;
-  }
-  
-  .card:hover {
-    transform: scale(0.9, 0.9);
-    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-      -5px -5px 30px 15px rgba(0,0,0,0.22);
-  }
-  
-  .title-white {
-    color: white;
-  }
-  
-  .title-black {
-    color: black;
-  }
-  
-  @media all and (max-width: 500px) {
-    .card-list {
-      /* On small screens, we are no longer using row direction but column */
-      flex-direction: column;
-    }
-  }
-  
-  
-  /*
-  .card {
-    margin: 30px auto;
-    width: 300px;
-    height: 300px;
-    border-radius: 40px;
-    background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-repeat: no-repeat;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-    transition: 0.4s;
-  }
-  */
-  
-  /* cards ends here */
-  
-  /* li{
-    list-style: none;
-  } */
-  
-  .whyUs-flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  
-    background-color:#F1F1F1;
-    padding: 40px 120px;
-  }
-  
   .ourServices{
     display: flex;
     /* padding: 0 120px; */
@@ -253,14 +69,6 @@
   .title{
     font-size: 2rem;
     text-align: center;
-  }
-
-  .donateEye-flex{
-    display: flex;
-    background-color:#F1F1F1;
-    justify-content: space-around;
-    align-items: center;
-    padding: 40px 120px;
   }
 
   .red{
@@ -312,18 +120,6 @@
     padding: 0 175px 0 175px;
   }
   
-  .moto-info{
-    position: absolute;
-    top: 18%;
-    left: 0;
-    height: auto;
-    width: auto;
-    /* height: 100%;
-    width: 100%;
-    background: #000; */
-    /* display: block; */
-    /* transform: translate( 0, -75%); */
-  }
 
   .align-items-flex-end { 
     align-items: flex-end;
@@ -334,6 +130,44 @@
     background: url('./images/header.jpeg') ;
   }
   
+
+  .header-container {
+    height: 100vh;
+    width: 100vw;
+    background: url('./images/header.jpeg') no-repeat center center/cover;
+  }
+
+  .achievement-status-container{
+    /* position: relative; */
+  }
+
+  .achievement-status{
+    position: absolute;
+    right: 10%;
+    top: 45% ;
+  }
+
+  .w-35{
+    width: 32% !important;
+  }
+
+  .h-30 {
+    height: 30% !important;
+  }
+
+  .h-64{
+    height: 61% !important;
+  }
+
+  /* .custom-div {
+    width: 200px;
+    height: 200px;
+  } */
+  
+  
+  
+  
+  
   @media only screen and (max-width : 768px){
     .whyUs-flex , .ourServices, .donateEye-flex, .footer-flex {
       flex-direction: column;
@@ -342,6 +176,33 @@
     .header-image {
       scale: 1.2;
     }
+
+    .start-container {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+    .header-container , .prod-cap{
+        height: 75vh;
+        width: 100vw;
+        max-width: 100%;
+        
+      }
+
+      .mbw-100{
+        width: 100% !important;
+      }
+      
+  .achievement-status{
+    position: relative;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0% !important;
+    bottom: 0%;
+    /* left: 0 !important;
+    right: 0 !important; */
+    width: 100% !important;
+    height: 50vh !important;
+}
 
     
   }
