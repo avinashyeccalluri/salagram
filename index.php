@@ -32,109 +32,155 @@
 
     <title>Document</title>
   </head>
-  <body>
-    <!-- <nav class="navbar">
-      <div class="brand-title">
-        <img class="logo" src="IMAGES/logo-removebg.png" alt="" />
+  <body class="">
+    <header>
+      <div class="header-container d-flex flex-column justify-content-between p-4">
+        <div class="">
+          <!-- <div>Logo</div> -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- <div>
+            <ul>
+              <li>Home</li>
+              <li>Corporate</li>
+              <li>Product</li>
+              <li>People</li>
+              <li>Buy</li>
+              <li>Contact Us</li>
+            </ul>
+          </div> -->
+        </div>
+        <div class=" row  text-light mbw-100">
+          <div class="col-lg-6 col-sm-12">
+            <h1>SMARTER STEEL FOR A BETTER TOMORROW</h1>
+          </div>
+        </div>
       </div>
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
-      <div class="navbar-links">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Corporate</a></li>
-          <li><a href="">Product</a></li>
-          <li><a href="">People</a></li>
-          <li><a href="">Buy</a></li>
-          <li><a href="">Contact Us</a></li>
-        </ul>
-      </div>
-    </nav> -->
+    </header>
     <section>
-      <div>
-        <img class="header-image" src="./images/header.jpeg" alt="" srcset="">
+      <div class="achievement-status-container">
+        <div class="achievement-status  w-35 h-64 align-content-center m-lg-5 bg-danger d-flex flex-column justify-content-center">
+              <div class="row text-center d-flex justify-content-center h-30">
+                <div class="col-3 bg-info m-1 d-flex justify-content-center flex-column align-content-center custom-div">
+                  <div class="fs-3">1.2 Lakh</div>
+                  <span>Tonnes of steel</span>
+                </div>
+                <div class="col-3 bg-info m-1 d-flex justify-content-center flex-column align-content-center custom-div">
+                  <div class="fs-3">1.2 Lakh</div>
+                  <span>Tonnes of steel</span>
+                </div>
+              </div>
+              
+              <div class="row text-center d-flex justify-content-center h-30 ">
+                <div class="col-3 bg-info m-1 d-flex justify-content-center flex-column align-content-center custom-div">
+                  <div class="fs-3">1.2 Lakh</div>
+                  <span>Tonnes of steel</span>
+                </div>
+                <div class="col-3 bg-info m-1 d-flex justify-content-center flex-column align-content-center custom-div">
+                  <div class="fs-3">1.2 Lakh</div>
+                  <span>Tonnes of steel</span>
+                </div>
+              </div>
+        </div>
       </div>
     </section>
-    <section >
-      <div class="row d-flex align-items-center m-3 moto-info">
-        <div class="col-md-5 white fs-1">
-        SMARTER STEEL FOR A BETTER TOMORROW
-        </div>
-        <div class="col-md-6 offset-md-2 orange d-flex flex-column justify-content-center align-content-center align-items-center">
-          <div class="row d-flex justify-content-center align-content-center align-items-center  ">
-            <div class="col-md-4 box m-1 p-2 ">
-              <h3 class="text-center">1.2 Lakh</h3>
-              Tonnes of steel production
-            </div>
-            <div class="col-md-4 box m-1 p-2">
-              <h3 class="text-center">1K+</h3>
-              Employment generated
-            </div>
-          </div>
-          <div class="row d-flex justify-content-center align-content-center align-items-center">
-            <div class="col-md-4 box m-1 ">
-              <h3 class="text-center">8MWH</h3>
-              Captive Power Plant
-            </div>
-            <div class="col-md-4 box m-1 ">
-              <h3 class="text-center">4+</h3>
-              Exported to four continents
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <section>
-      <div class="row mt-5">
-        <div class="col-md-6 m-5 pt-5 fs-3 text">The commitment and innovation of
-          Salagram has led to the company
-          becoming a competitive and promising
-          steel manufacturing company with an
-          annual production capacity of 1.2 lakh
-          tons. With its flagship brand Salagram
-          MT, the company plans to become one
-          of the top MT bar manufacturers in
-          India. In order to contribute to India's
-          economic growth, the company has
-          aggressively expanded its footprint
-          across the country</div>
-        <div class="col-md-6">
+      <div class="row d-flex justify-content-around align-items-center start-container mt-lg-5">
+        <div class="col-md-6 mt-lg-5 pt-lg-5 fs-3 start-container">
+          The commitment and innovation of Salagram has led to the company
+          becoming a competitive and promising steel manufacturing company with
+          an annual production capacity of 1.2 lakh tons. With its flagship
+          brand Salagram MT, the company plans to become one of the top MT bar
+          manufacturers in India. In order to contribute to India's economic
+          growth, the company has aggressively expanded its footprint across the
+          country
         </div>
+        <div class="col-md-6"></div>
       </div>
       <button class="m-5 b-about-us">About us</button>
     </section>
     <section class="">
-      <div class="d-flex prod-cap flex-column page space-evenly cp">
-        <div class="fs-3 text-white w-50">
-          Our captive power plant at Burdwan's Dewandighi is producing 8MWH of electricity.
+      <div class="d-flex prod-cap flex-column page justify-content-around p-4 ">
+        <div class="row">
+          
+        <div class="fs-3 text-white col-sm-12 col-lg-6">
+          Our captive power plant at Burdwan's Dewandighi is producing 8MWH of
+          electricity.
         </div>
-          <div class="d-flex space-evenly white border border-4">
-            <div class="py-3 fs-4 w-50 text-center">STEEL</div>
-            <div class="py-3 fs-4 w-50 bg-white text-center text-dark">POWER</div>
-          </div>
+        </div>
+        <div class="d-flex justify-content-around white border border-4">
+          <div class="py-2 fs-5 w-50 text-center">STEEL</div>
+          <div class="py-2 fs-5 w-50 bg-white text-center text-dark">POWER</div>
+        </div>
       </div>
     </section>
-    <section class="d-flex">
-      <div class="fs-1 border border-4 border-warning flex-column text-center align-items-center justify-content-center">
-        OUR PRODUCTS
-      </div>
+    <section
+      class="d-flex w-100 align-items-center justify-content-center text-center my-4"
+    >
+      <div class="fs-1 border border-4 border-warning px-4">OUR PRODUCTS</div>
     </section>
-    <section class="d-flex">
-      <div class="fs-1 border border-4 border-warning flex-column text-center align-items-center justify-content-center">
-        OUR CLIENTS
-      </div>
+    <section
+      class="d-flex w-100 align-items-center justify-content-center text-center my-4"
+    >
+      <div class="fs-1 border border-4 border-warning px-4">OUR CLIENTS</div>
     </section>
     <footer>
-      <div class="row">
-        <div class="col-md-6">
-          LOGO
+      <div class="d-flex justify-content-around">
+        <div class="">logo</div>
+        <div class="">Contact Us</div>
+      </div>
+      <div class="d-flex justify-content-around">
+        <div class="">Corporate</div>
+        <ul class="d-flex">
+          <li>Home</li>
+          <li>|</li>
+          <li>Product</li>
+          <li>|</li>
+          <li>People</li>
+          <li>|</li>
+          <li>Buy</li>
+        </ul>
+      </div>
+      <div class="d-flex align-items-flex-end justify-content-around">
+        <div>
+          PS Continental <br />
+          83, 2/1, Topsi Rd, <br />
+          Topsi, Kolkata, West <br />
+          Bengal 70000461, India <br />
         </div>
-        <div class="col-md-6"> 
-          <p class=" text-right">Contact Us</p>
-        </div>
+        <div>Info@salagram.co.in</div>
+        <div>+91 334086 2000</div>
+        <div class="border border-1 border-dark p-2">Join Us</div>
       </div>
     </footer>
     <script src="app.js"></script>
