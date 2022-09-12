@@ -21,7 +21,7 @@
 
 <body class="">
     <header>
-        <div class="header-container d-flex flex-column justify-content-between p-4">
+        <div class="square-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
                 <div class="col-lg-6 col-sm-12">
@@ -42,6 +42,13 @@
             <div class="col-12"></div>
         </div>
     </section>
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <img src="./images/5.png" class="img-fluid" alt="" srcset="">
+            </div>
+        </div>
+    </section>
     <section class="container">
         <div class="row">
 
@@ -56,19 +63,19 @@
                 </ul>
             </div>
             <div class="col-md-5" >
-                <img src="./images/metal_pouring.jpeg" class="img-fluid" alt="" style="height: 100%;">
+                <img src="./images/construction_half.png" class="img-fluid" alt="" style="height: 100%;">
             </div>
         </div>
     </section>
 
-    <section class="container">
+    <section class="container mt-5">
         <h1 class="orange-text h1">Product Size Chart</h1>
-        <div class="row d-flex justify-content-left align-content-center my-3">
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20">10 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20">12 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20">16 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20">20 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20">25 MM</div>
+        <div class="row d-flex justify-content-left align-content-center my-3 text-white">
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20"><strong>10 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20"><strong>12 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20"><strong>16 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20"><strong>20 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20"><strong>25 MM</strong></div>
         </div>
     </section>
     <?php include('footer.php') ?>

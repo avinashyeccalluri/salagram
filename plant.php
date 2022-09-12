@@ -21,7 +21,7 @@
 
 <body class="">
     <header>
-        <div class="header-container d-flex flex-column justify-content-between p-4">
+        <div class="plant-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
                 <div class="col-lg-6 col-sm-12">
@@ -32,15 +32,37 @@
             </div>
         </div>
     </header>
-    <section class="container">
+    <section class="container my-5">
         <div class="row">
             <div class="col-5">
                 <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-12"></div>
-                    <div class="col-12"></div>
+                    <div class="col-12 pt-4">
+                        <div class="row justify-content-end align-items-flex-end ">
+                            <div class="col-6">
+                                <img src="./images/thermal_logo.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-6 border border-3 default-border-color text-center">
+                                <strong>Thermal power</strong>
+                                <div>Production- 8 MWH</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-12 pt-4">
+                        <div class="row justify-content-end align-items-flex-end ">
+                            <div class="col-6">
+                                <img src="./images/thermal_logo.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-6 border border-3 default-border-color text-center">
+                                <strong>Steel</strong>
+                                <div>Production- 1.2 Lakh MTPA</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-7 fs-4">
+            <div class="col-7 fs-4" style="line-height: 39px;">
                 <div>
 
                     The steel Industry plays an essential Industrial role, formina the
@@ -60,7 +82,7 @@
                     electricity, reducing our dependency for energy on power
                     distribution companies.
                 </div>
-                <div>
+                <div class="mt-2">
                     We Produce World class MT Bars, MS ROUNDS, MS FLATS, MS
                     ANGLES, and a whole range or supreme quality products
                     through commitment and innovation that are exported

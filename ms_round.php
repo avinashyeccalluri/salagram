@@ -21,7 +21,7 @@
 
 <body class="">
     <header>
-        <div class="header-container d-flex flex-column justify-content-between p-4">
+        <div class="round-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
                 <div class="col-lg-6 col-sm-12">
@@ -41,6 +41,14 @@
             <div class="col-12"></div>
         </div>
     </section>
+    
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <img src="./images/7.png" class="img-fluid" alt="" srcset="">
+            </div>
+        </div>
+    </section>
     <section class="container">
         <div class="row">
 
@@ -56,22 +64,38 @@
                 </ul>
             </div>
             <div class="col-md-5" >
-                <img src="./images/metal_pouring.jpeg" class="img-fluid" alt="" style="height: 100%;">
+                <img src="./images/crane.png" class="img-fluid" alt="" style="height: 100%;">
             </div>
         </div>
     </section>
 
-    <section class="container">
+    <section class="container my-5">
         <h1 class="orange-text h1">Product Size Chart</h1>
-        <div class="row d-flex justify-content-left align-content-center my-3">
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">9.8 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">10.8 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">11.2 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">12.5 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">13.5 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">15.2 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">15.8 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">16.5 MM</div>
+        <div class="row d-flex justify-content-left align-content-center my-3 text-light">
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>9.8 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>10.8 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>11.2 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>12.5 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>13.5 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>15.2 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>15.8 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>16.5 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>17.2 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>17.8 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>18.7 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>19.2 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>20.5 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>21.8 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>28 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>23.2 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>23.8 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>24.8 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>27 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>30 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>32 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>33 MM</strong></div>
+            <!-- <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>15.8 MM</strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>16.5 MM</strong></div> -->
         </div>
     </section>
     <?php include('footer.php') ?>

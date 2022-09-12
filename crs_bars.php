@@ -30,9 +30,9 @@
             </div>
         </div>
     </header>
-    <section class="container-fluid px-5">
+    <section class="container my-5" >
         <div class="row">
-            <div class="col-md-6 mt-lg-5 mt-3 lh">
+            <div class="col-md-6 lh">
                 There are many variations of passages of Lore Ipsum available,
                 but the majority have suffered alteration in some form, by
                 injected humour, or randomised words which don't look even
@@ -49,82 +49,58 @@
                 some form, by injected humour, or randomised words which
                 don't look even slightly believable.
             </div>
-            <div class="col-md-6  mt-lg-5 mt-3">
-                <div class="tmt-bars"></div>
+            <div class="col-md-6">
+                <img src="./images/crs_tmt.png" class="img-fluid" alt="" srcset="">
             </div>
         </div>
     </section>
-    <section class="container-fluid px-5 orange-gradient mt-lg-5 text-light">
-        <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-lg-6 col-sm-12 lh">
-                <div class="h3">APPLICATION</div>
-                <div>
-                    <ul>
-                        <li>Typically used in construction in coastal areas.</li>
-                        <li>Areas with high salinity in air.</li>
-                        <li>Industrial areas.</li>
-                        <li>Construction of marine structures.</li>
-                        <li>In areas with high acid content in air.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-12 lh py-4">
-                <div class="">
-                    <img src="./images/sea-pillar.png" alt="" class="sea-pillar">
-                </div>
+
+    <section class="container my-5 ">
+        <div class="row">
+            <div class="col-12">
+                <img src="./images/2.png" class="img-fluid crs" alt="" srcset="">
             </div>
         </div>
     </section>
-    <section class="container-fluid px-5">
-        <div class="row border border-2 border-danger lh mt-lg-5">
-            <div class="h3 col-12 text-center border border-2 border-danger">
+    <section class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="h1 gradient text-light container lh">Application</div>
+                <ul class="lh h3" style="line-height: 56px;">
+                    <li>Typically used in construction in coastal areas.</li>
+                    <li>Areas with high salinity in tha air.</li>
+                    <li>Industrial areas.</li>
+                    <li>Construction on marine structures.</li>
+                    <li>In areas with high acid content in the air.</li>
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <img src="./images/construction_half.png" class="img-fluid" alt="" style="height: 100%;">
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <div class="row border bottom-radius border-4 lh mt-lg-5">
+            <div class="h2 col-12 pt-1 text-center crs_corner bottom-gradient">
                 OUR CORROSION RESISTANT STEEL (CRS) BAR(Fe-550D):
             </div>
-            <div class="col-12 text-left">
-                CRS MT Bar or Corrosion Resistant MT Bars are more advance than normal TMT.
-                Their high corrosion resistance features make it a significant product in projects near
+            <div class="col-12 text-left lh" >
+                CRS TMT Bar or Corrosion Resistant TMT Bars are more advance than normal TMT.
+                Their high corrosion resista nce features make it a significant product in projects near
                 coastal areas and with structures such as bridges and dams. This high-end product
                 helps improve the life of the structure significantly. Manufactured by an addition of
                 Copper and Chromium to prevent from the rust and corrosion. Copper will plug the
                 pores in the rust. By adding Chromium (Cr) into steel, increase the passivity of anions.
                 Chromium also increases the passivity and will form an invisible layer.
                 Phosphorous acts as inhibitor. This will reduce the anodic reaction. These CRS bars
-                are manufactured through the MT procedure in our plant.
+                are manufactured through the TMT procedure in our plant.
                 We are in a position to supply 8mm to 32mm dia and these are made to order of at least
-                100MT per ce and ac lable in short lead time of 10-12 days from the date of confirm
+                100MT per size and available in short lead time of 10-12 days from the date of confirm
                 order
-                DeLL
             </div>
         </div>
     </section>
     <?php include('footer.php') ?>
-    <script src="app.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-        var mySwiper = new Swiper(".swiper-container", {
-            // Optional parameters
-            // direction: 'vertical',
-            loop: true,
-
-            // If we need pagination
-            pagination: {
-                el: ".swiper-pagination",
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: ".swiper-scrollbar",
-            },
-        });
-    </script>
 </body>
 
 </html>

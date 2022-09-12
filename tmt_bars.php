@@ -21,7 +21,7 @@
 
 <body class="">
     <header>
-        <div class="header-container d-flex flex-column justify-content-between p-4">
+        <div class="tmt-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
                 <div class="col-lg-6 col-sm-12">
@@ -35,13 +35,16 @@
     <section class="container my-lg-5">
         <div class="row">
             <div class="col-12 lh fs-3" style="line-height: 48px;">
-                <strong>MS Channels</strong> or commonly known as C- channel, because of their C like
-                shape is represented by its Web height & Flange width of the channel
-                (diagram attached). MS Channel primarily <strong>carries horizontal gravitational
-                    forces</strong> and is used for bus body, OT cranes and many more engineering
-                industry needs.
+            To build a future perfect construction, <strong>Salagram TMT 550D</strong>(thermomechanically treated bars) is the most formidable force.  <strong>Salagram steel</strong> manufactures it using the latest automation technology, attesting to the unsurpassed trust they have earned over the years. The <strong>supreme strength</strong> and <strong>ductility</strong> of steel makes every rebar capable of carrying more load. In addition, its <strong>earthquake-resistant</strong> properties are enhanced. With Salagram 550D, you can <strong>build an unshakable foundation</strong> for your dreams.
             </div>
             <div class="col-12"></div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <img src="./images/3.png" class="img-fluid" alt="" srcset="">
+            </div>
         </div>
     </section>
     <section class="container">
@@ -50,7 +53,7 @@
             <div class="col-md-7">
                 <div class="h1 gradient text-light container lh">Application</div>
 
-                <ul class="lh-52s fs-3">
+                <ul class="lh-52s fs-3" style="line-height: 56px;">
                     <li>High Rise construction</li>
                     <li>Constructing Power Plants</li>
                     <li>Constructing Airports</li>
@@ -60,8 +63,28 @@
                 </ul>
             </div>
             <div class="col-md-5">
-                <img src="./images/metal_pouring.jpeg" class="img-fluid" alt="" style="height: 100%;">
+                <img src="./images/sea-pillar.png" class="img-fluid" alt="" style="height: 100%;">
             </div>
+        </div>
+    </section>
+    
+    <section class="container">
+        <h1 class="orange-text h1">Product Size Chart</h1>
+        <div class="row d-flex justify-content-left align-content-center my-3 text-light">
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong> 9.8 MM </strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong>10.8 MM </strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong>11.2 MM </strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong>12.5 MM </strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong>13.5 MM </strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong>15.2 MM </strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong>15.8 MM </strong></div>
+            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong>16.5 MM </strong></div>
+        </div>
+    </section>
+
+    <section class="container my-4 fs-4">
+        <div class="row text-center justify-content-center">
+            <div class="col-2 price">View price</div>
         </div>
     </section>
 

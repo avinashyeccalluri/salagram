@@ -21,7 +21,7 @@
 
 <body class="">
     <header>
-        <div class="header-container d-flex flex-column justify-content-between p-4">
+        <div class="ms_angle-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
                 <div class="col-lg-6 col-sm-12">
@@ -43,6 +43,13 @@
             <div class="col-12"></div>
         </div>
     </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <img src="./images/1.jpg" class="img-fluid" alt="" srcset="">
+            </div>
+        </div>
+    </div>
     <section class="container">
         <div class="row vh-50">
 

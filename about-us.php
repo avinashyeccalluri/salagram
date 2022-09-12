@@ -21,23 +21,23 @@
 
 <body class="">
     <header>
-        <div class="crs-header-container d-flex flex-column justify-content-between p-4">
+        <div class="about-us-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
-            <div class="row text-light mbw-100 ">
+            <div class="row text-light mbw-100 justify-content-center align-items-center">
                 <div class="col-lg-12 col-sm-12">
                     <div class="row">
                         <div class="col-4 ">
-                            <img src="./images/metal_pouring.jpeg" class="img-fluid vh-70" alt="" srcset="">
+                            <img src="./images/director.png" class="img-fluid vh-70" alt="" srcset="">
                         </div>
-                        <div class="col-8 d-flex justify-content-center align-items-center font-light">
+                        <div class="col-8 d-flex justify-content-center align-items-flex-end font-light">
                             <div class="row">
                                 <div class="col-12 fs-1">
-                                    Mr. Pawan Kumar Agarwal
+                                    <strong>Mr. Pawan Kumar Agarwal</strong>
                                 </div>
                                 <div class="col-12">
-                                    Chairman and Managing Director
+                                    <strong>Chairman and Managing Director</strong>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 mt-5 fs-3">
                                     Mr. Pawan Kumar Agarwal is the Chairman and Managing Director
                                     of the company. He has an experience of over 42 years in the steel
                                     industry. His core belief and values are deeply entrenched in the
@@ -53,27 +53,23 @@
         </div>
         <section>
 
-            <div class="row directors d-flex justify-content-center align-items-center">
-                <div class="col-8 d-flex justify-content-center align-items-center font-light">
-                    <div class="row container">
+            <div class="row directors">
+                <div class="col-8">
+                    <div class="row d-flex justify-content-end align-items-center font-light">
                         <div class="col-12 fs-1">
-                            Mr. Pawan Kumar Agarwal
+                            <strong>Mr. Suyash Agarwal</strong>
                         </div>
                         <div class="col-12">
-                            Chairman and Managing Director
+                            <strong>Director</strong>
                         </div>
-                        <div class="col-12">
-                            Mr. Pawan Kumar Agarwal is the Chairman and Managing Director
-                            of the company. He has an experience of over 42 years in the steel
-                            industry. His core belief and values are deeply entrenched in the
-                            company's work culture. Mr. Agarwal believes that with a perfect
-                            balance of experience and youthful enthusiasm, Salagram will
-                            emerge as one of the top steel makers of the country.
+                        <div class="col-12 mt-5 fs-3">Mr. Suyash Agarwal the Director of our company. His emphasis on the latest technologies to enhance the quality of products and towards creating the right work culture is taking the company to the next level.
+
+                            His ability to drive progress and usher in periods of change by inspiring employees and earning trust for new ideas has helped the company tremendously. He established a strong organizational bond to foster confidence among all employees and team members.
                         </div>
                     </div>
                 </div>
                 <div class="col-4 ">
-                    <img src="./images/metal_pouring.jpeg" class="img-fluid vh-70" alt="" srcset="">
+                    <img src="./images/director-1.png" class="img-fluid vh-70" alt="" srcset="">
                 </div>
             </div>
         </section>
