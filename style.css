@@ -30,6 +30,10 @@ body {
   border-color: #dd8302;
 }
 
+.price_list_border_radius {
+  border-radius: 30px !important;
+}
+
 .orange-text {
   color: #ff5d01;
 }
@@ -499,6 +503,16 @@ ul .unordered > li {
 .bottom-radius {
   border-radius: 20px;
   border: 5px solid;
+}
+
+.price_button {  
+  height: 50px;
+  width: 188px;
+}
+
+.border_2px {
+  border : 2px solid;
+  border-color: #d2652d;
 }
 
 @media only screen and (max-width: 768px) {
