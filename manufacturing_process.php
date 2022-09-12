@@ -34,10 +34,10 @@
     </header>
     <section class="container my-5">
         <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-5">
+            <div class="col-lg-5 col-12 d-flex justify-content-center align-items-center">
                 <img src="./images/Thermax_logo.png" class="img-fluid" alt="" srcset="">
             </div>
-            <div class="col-7 fs-4" style="line-height: 50px;">
+            <div class="col-lg-7 col-12 fs-4" style="line-height: 50px;">
                 <div>
                     Contrary to popular belief, Lorem Ipsum is not simply random
                     text. It has roots in a piece of classical Latin literature from 45
@@ -53,7 +53,7 @@
     <section class="my-5 container">
 
         <div class="row">
-            <div class="gradient1 h1 col-4 text-light">
+            <div class="gradient1 h1 col-lg-4 col-sm-5 text-light">
                 Production Process
             </div>
         </div>

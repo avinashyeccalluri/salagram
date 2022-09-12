@@ -26,7 +26,7 @@
             <div class="row  text-light mbw-100">
                 <div class="col-lg-6 col-sm-12">
                     <strong>
-                        <h1>TMT BARS</h1>
+                        <h1 class="">TMT BARS</h1>
                     </strong>
                 </div>
             </div>
@@ -34,8 +34,8 @@
     </header>
     <section class="container my-lg-5">
         <div class="row">
-            <div class="col-12 lh fs-3" style="line-height: 48px;">
-            To build a future perfect construction, <strong>Salagram TMT 550D</strong>(thermomechanically treated bars) is the most formidable force.  <strong>Salagram steel</strong> manufactures it using the latest automation technology, attesting to the unsurpassed trust they have earned over the years. The <strong>supreme strength</strong> and <strong>ductility</strong> of steel makes every rebar capable of carrying more load. In addition, its <strong>earthquake-resistant</strong> properties are enhanced. With Salagram 550D, you can <strong>build an unshakable foundation</strong> for your dreams.
+            <div class="col-12 lh fs-3 text-justify" style="line-height: 48px;">
+            <p>To build a future perfect construction, <strong>Salagram TMT 550D</strong>(thermomechanically treated bars) is the most formidable force.  <strong>Salagram steel</strong> manufactures it using the latest automation technology, attesting to the unsurpassed trust they have earned over the years. The <strong>supreme strength</strong> and <strong>ductility</strong> of steel makes every rebar capable of carrying more load. In addition, its <strong>earthquake-resistant</strong> properties are enhanced. With Salagram 550D, you can <strong>build an unshakable foundation</strong> for your dreams.</p>
             </div>
             <div class="col-12"></div>
         </div>
@@ -63,7 +63,7 @@
                 </ul>
             </div>
             <div class="col-md-5">
-                <img src="./images/sea-pillar.png" class="img-fluid" alt="" style="height: 100%;">
+                <img src="./images/sea-pillar.png" class="img-fluid" alt="">
             </div>
         </div>
     </section>

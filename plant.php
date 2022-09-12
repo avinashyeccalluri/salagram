@@ -32,9 +32,9 @@
             </div>
         </div>
     </header>
-    <section class="container my-5">
-        <div class="row">
-            <div class="col-5">
+    <section class="container">
+        <div class="row ">
+            <div class="col-lg-5 col-sm-12">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-12 pt-4">
                         <div class="row justify-content-end align-items-flex-end ">
@@ -62,7 +62,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-7 fs-4" style="line-height: 39px;">
+            <div class="col-lg-7 col-sm-12 fs-4" style="line-height: 39px;">
                 <div>
 
                     The steel Industry plays an essential Industrial role, formina the

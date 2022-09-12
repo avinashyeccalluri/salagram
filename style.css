@@ -543,7 +543,7 @@ ul .unordered > li {
     padding-top: 0 !important;
     margin-top: 0 !important;
   }
-  .header-container,
+  .header-container,.square-header-container 
   .prod-cap {
     height: 75vh;
     width: 100vw;
