@@ -21,14 +21,20 @@
 
 <body class="">
     <header>
-        <div class="square-header-container d-flex flex-column justify-content-flex-start  p-4">
+        <div class="market-header-container d-flex flex-column justify-content-flex-start  p-4">
             <?php include('header.php') ?>
-            <div class="row container d-flex justify-content-center align-items-center text-end">
-                <div class="col-6 h3 orange-background text-white">
-                    Domestic Market
-                </div>
-                <div class="col-6 orange-text h3">
-                    International Market
+            <div class="container my-5 py-3">
+                <div class="row text-center">
+                    <div class="col-6 h3 orange-background text-white">
+                        Domestic Market
+                    </div>
+                    <div class="col-6 orange-text h3">
+                        International Market
+                    </div>
+                    <div class="col-12 test">
+                        <div class=""></div>
+                        <!-- <img src="./images/india.png" class="img-fluid" alt=""> -->
+                    </div>
                 </div>
             </div>
         </div>
