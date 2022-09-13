@@ -32,7 +32,7 @@
             </div>
         </div>
     </header>
-    <section class="container my-lg-5">
+    <section class="container my-lg-5 py-4">
         <div class="row">
             <div class="col-12 lh fs-3" style="line-height: 48px;">
                 <strong>MS Square</strong> are suitable for use in a variety of commercial and industrial applications. It is commonly used in construction, engineering and fabrication activities, with Mild Steel Square Bars
@@ -70,12 +70,12 @@
 
     <section class="container mt-5">
         <h1 class="orange-text h1">Product Size Chart</h1>
-        <div class="row d-flex justify-content-left align-content-center my-3 text-white">
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20"><strong>10 MM</strong></div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20"><strong>12 MM</strong></div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20"><strong>16 MM</strong></div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20"><strong>20 MM</strong></div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-20"><strong>25 MM</strong></div>
+        <div class="row d-flex justify-lg-content-left justify-content-center align-content-center my-3">
+            <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-20 my-2"><strong>10 MM</strong></div>
+            <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-20 my-2"><strong>12 MM</strong></div>
+            <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-20 my-2"><strong>16 MM</strong></div>
+            <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-20 my-2"><strong>20 MM</strong></div>
+            <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-20 my-2"><strong>25 MM</strong></div>
         </div>
     </section>
     <?php include('footer.php') ?>

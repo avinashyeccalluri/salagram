@@ -49,8 +49,8 @@
                 some form, by injected humour, or randomised words which
                 don't look even slightly believable.
             </div>
-            <div class="col-md-6">
-                <img src="./images/crs_tmt.png" class="img-fluid" alt="" srcset="">
+            <div class="col-md-6" >
+                <img src="./images/crs_tmt.png" class="img-fluid" alt="" srcset="" style="height: 500px;">
             </div>
         </div>
     </section>

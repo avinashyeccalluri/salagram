@@ -34,20 +34,20 @@
         <div class="">
 
             <div class="row d-flex justify-content-between">
-                <div class="col-lg-3 col-sm-12 px-3 default-border-color border border-4 price_list_border_radius">
+                <div class="col-lg-3 col-sm-12 default-border-color border border-4 price_list_border_radius">
                     <div class="h3 border-bottom border-1 py-2">
                         <strong>Home Owner Zone</strong>
                     </div>
                     <div class="row">
                         <div class="col-12 py-2"><strong>Recommended Consumer Price</strong></div>
-                        <div class="col-12 text-light bg-orange py-3"><strong>Dealer Locator</strong></div>
+                        <div class="col-12 text-light bg-orange py-3" style="border-bottom-left-radius: 27px;border-bottom-right-radius: 27px;"><strong>Dealer Locator</strong></div>
                     </div>
                 </div>
 
-                <div class="col-lg-8 col-sm-12 border border-4 price_list_border_radius mt-2">
-                    <div class="row">
-                        <div class="col-lg-7 col-sm-12">
-                            Locate our Distributor/Retailer
+                <div class="col-lg-8 col-sm-12 border border-4 price_list_border_radius mt-2 d-flex justify-content-around align-items-center">
+                    <div class="row d-flex justify-content-around align-items-center">
+                        <div class="col-lg-6 col-sm-12">
+                            <strong>Locate our Distributor/Retailer</strong>
                             <div class="row">
 
                                 <div class="orange-text h3 col-lg-12">
@@ -74,7 +74,27 @@
                                 </div>
                             </div>
                         </div>
-                        
+                        <div class="col-lg-1 col-12 h1 text-lg-start text-center">
+                            OR
+                        </div>
+                        <div class="col-lg-5 col-12 orange-text mt-5">
+                            <div>By Location</div>
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-6">
+                                    <div>PIN CODE : </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+
+                                <div class="col-12 my-3">
+                                    <button type="button" class="text-right price_list_border_radius gradient1 h4 price_button">Search</button>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

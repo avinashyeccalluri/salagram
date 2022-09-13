@@ -30,7 +30,7 @@
             </div>
         </div>
     </header>
-    <section class="container">
+    <section class="container my-5 py-3">
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-6 col-sm-12 d-flex flex-column">
                 <div>We envision a long-term goal of creating
@@ -48,34 +48,65 @@
                     and values in our policies
                 </div>
             </div>
-            <div class="col-6">
-                <img src="./images/customer_support.png" class="img-fluid" alt="" srcset="">
+            <div class="col-lg-6">
+                <img src="./images/customer_support.png" class="img-fluid" alt="" srcset="" style="height: 400px;">
             </div>
         </div>
     </section>
     <section class="container">
-        <div class="fs-2">Our Initiatives</div>
+        <div class="fs-2 h1 orange-text"><strong>Our Initiatives</strong></div>
     </section>
 
-    <section>
+    <section class="container my-5 py-3">
         <div class="row vh-70 poligon-shadow">
             <div class="col-4 poligon bg-danger ">
-                <div class="row">
+                <div class="row d-flex flex-column justify-content-center align-items-center">
                     <div class="col-12">
                         <div class="poligon-image"></div>
                     </div>
-                    <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-                        <div class="fs-3 border-bottom pb-3">
+                    <div class="col-12 d-flex flex-column justify-content-center align-items-center text-light">
+                        <div class="fs-3 border-bottom pb-3 fst-italic">
                             Education
                         </div>
-                        <div>
-                            To ensure that children have access to quality education, we have partnered with a number of charitable institutions. Across india, we work with many non-profit organizations.
+                        <div class="fst-italic text-center" style="margin-left: 44px;margin-right: 73px;">
+                        To ensure that children have access to quality education, we have partnered with a number of charitable institutions. Across india, we work with many non-profit organizations.
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-4 poligon bg-danger"></div>
-            <div class="col-4 poligon bg-danger"></div>
+            <div class="col-4 poligon bg-danger ">
+                <div class="row d-flex flex-column justify-content-center align-items-center">
+                    <div class="col-12">
+                        <div class="poligon-image"></div>
+                    </div>
+                    <div class="col-12 d-flex flex-column justify-content-center align-items-center text-light">
+                        <div class="fs-3 border-bottom pb-3 fst-italic">
+                            Animal Welfare
+                        </div>
+                        <div class="fst-italic text-center" style="margin-left: 44px;margin-right: 73px;">
+                           We strongly believe in animal welfare,believing that every creature with a will to live is entitled to a life free from pain and suffering, Past projects have included the construction of many cowsheds (gaushalas).
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 poligon bg-danger ">
+                <div class="row d-flex flex-column justify-content-center align-items-center">
+                    <div class="col-12">
+                        <div class="poligon-image"></div>
+                    </div>
+                    <div class="col-12 d-flex flex-column justify-content-center align-items-center text-light">
+                        <div class="fs-3 border-bottom pb-3 fst-italic">
+                            Covid-12 Relief Camp
+                        </div>
+                        <div class="fst-italic text-center" style="margin-left: 44px;margin-right: 73px;">
+                           A key goal of ours is to provide technical and financial assistance to the less privileged
+                           and vulnerable. A number of health camps have been organized and ambulances and other services have been
+                           provided. A key goal of ours is to provide technical and financial assistance to the less privileged and vulnerable. A number of health 
+                           camps have been organized and ambulances and other services have been provided. 
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="row"></div>
     </section>

@@ -32,6 +32,7 @@ body {
 
 .price_list_border_radius {
   border-radius: 30px !important;
+  height: fit-content;
 }
 
 .orange-text {
@@ -332,6 +333,11 @@ ul .unordered > li {
   background-image: url("./images/square.png");
 }
 
+/* .crs_bar {
+  background-image: url('./images/crs_tmt.png');
+  object-fit: contain;
+} */
+
 .header-container {
   height: 100vh;
   width: 100vw;
@@ -508,11 +514,22 @@ ul .unordered > li {
 .price_button {  
   height: 50px;
   width: 188px;
+  border: 3px solid;
+  border-color: #ff5d01;
 }
 
 .border_2px {
   border : 2px solid;
   border-color: #d2652d;
+}
+
+#footer li {
+  list-style: none;
+  gap: 20px;
+}
+
+#footer ul {
+  gap : 80px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -569,4 +586,21 @@ ul .unordered > li {
     width: 100% !important;
     height: 50vh !important;
   }
+
+  .crs_corner{
+    height: 75px !important;
+  }
+
+  .w-12{
+    width: 115px !important;
+  }
+
+  .w-15{
+    width: auto !important;
+  }
+
+  .w-20{
+    width: auto !important;
+  }
+  
 }

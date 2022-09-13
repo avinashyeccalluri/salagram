@@ -16,7 +16,7 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
-    <title>Document</title>
+    <title>Price List</title>
 </head>
 
 <body class="">
@@ -30,7 +30,7 @@
             </div>
         </div>
     </header>
-    <div class="container my-5">
+    <section class="container my-lg-5 py-3 mx-1">
         <div class="">
 
             <div class="row d-flex justify-content-between">
@@ -47,16 +47,16 @@
                 <div class="col-lg-8 col-sm-12 border border-4 price_list_border_radius mt-2">
                     <div class="row d-flex justify-content-between ">
 
-                        <div class="col-4">
-                            State <select class="form-select" aria-label="Default select example">
+                        <div class="col-4 py-4">
+                             <select class="form-select" aria-label="Default select example">
                                 <option selected>Select State</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
                             </select>
                         </div>
-                        <div class="col-4">
-                            District <select class="form-select" aria-label="Default select example">
+                        <div class="col-4 py-4">
+                             <select class="form-select" aria-label="Default select example">
                                 <option selected>Select District</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
@@ -75,7 +75,7 @@
                         <div class="col-12 my-3">TMT BARS</div>
                     </div>
                     <div class="row">
-                        <div class="col-1">Size</div>
+                        <div class="col-lg-1 col-12">Size</div>
                         <div class="col-2 mr-1">
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
@@ -103,7 +103,7 @@
                         </div>
                     </div>
                     <div class="row mt-3">
-                        <div class="col-1">Price</div>
+                        <div class="col-lg-1 col-12">Price</div>
                         <div class="col-2 mr-1">
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
@@ -136,7 +136,7 @@
 
             </div>
         </div>
-    </div>
+    </section>
     <?php include('footer.php') ?>
     <script src="app.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>

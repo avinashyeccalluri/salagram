@@ -32,7 +32,7 @@
             </div>
         </div>
     </header>
-    <section class="container my-lg-5">
+    <section class="container my-lg-5 py-3">
         <div class="row">
             <div class="col-12 lh fs-3" style="line-height: 48px;">
                 <strong>MS Flat</strong> are used by many engineering industries, including grating manufacturers,
@@ -63,21 +63,19 @@
 
     <section class="container">
         <h1 class="orange-text h1">Product Size Chart</h1>
-        <div class="row d-flex justify-content-left align-content-center my-3">
-            <div class="col-2 bg-orange text-center mar-right h-40 w-15 pt-6">19°6F</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 w-15 pt-6">20°5F F</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 w-15 pt-6">20°6F</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 w-15 pt-6">25°5F</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 w-15 pt-6">25°6F</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 w-15 pt-6">25°8F</div>
-        </div>
-        <div class="row d-flex justify-content-left align-content-center my-3">
-            <div class="col-2 bg-orange text-center mar-right h-40 w-15 pt-6">30°5F</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 w-15 pt-6">30°6F</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 w-15 pt-6">32°6F</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 w-15 pt-6">32°8F</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 w-15 pt-6">35°6F</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 w-15 pt-6">40°6F</div>
+        <div class="row d-flex justify-lg-content-left justify-content-center align-content-center my-3">
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">19°6F</div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">20°5F</div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">20°6F</div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">25°5F</div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">25°6F</div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">25°8F</div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">30°5F</div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">30°6F</div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">32°6F</div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">32°8F</div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">35°6F</div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">40°6F</div>
         </div>
     </section>
     <?php include('footer.php') ?>

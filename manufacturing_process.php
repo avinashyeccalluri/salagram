@@ -24,7 +24,7 @@
         <div class="production-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-lg-6 col-sm-12 text-dark">
                     <strong>
                         <h1>MANUFACTURING PROCESS</h1>
                     </strong>
@@ -32,13 +32,13 @@
             </div>
         </div>
     </header>
-    <section class="container my-5">
+    <section class="container my-lg-5 py-3">
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-5 col-12 d-flex justify-content-center align-items-center">
                 <img src="./images/Thermax_logo.png" class="img-fluid" alt="" srcset="">
             </div>
-            <div class="col-lg-7 col-12 fs-4" style="line-height: 50px;">
-                <div>
+            <div class="col-lg-7 col-12 fs-4 my-3" style="line-height: 50px;">
+                <div class="text-lg-start text-center">
                     Contrary to popular belief, Lorem Ipsum is not simply random
                     text. It has roots in a piece of classical Latin literature from 45
                     BC, making it over 2000 years old. Richard McClintock, a Latin
@@ -50,10 +50,10 @@
             </div>
         </div>
     </section>
-    <section class="my-5 container">
+    <section class="my-lg-5 container">
 
         <div class="row">
-            <div class="gradient1 h1 col-lg-4 col-sm-5 text-light">
+            <div class="gradient1 h1 col-lg-4 col-sm-8 text-light">
                 Production Process
             </div>
         </div>

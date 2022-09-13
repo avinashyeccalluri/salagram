@@ -23,17 +23,40 @@
     <header>
         <div class="square-header-container d-flex flex-column justify-content-flex-start  p-4">
             <?php include('header.php') ?>
-            <div class="row container d-flex justify-content-center align-items-center text-end">
-                <div class="col-6 h3 orange-background text-white">
-                    Domestic Market
-                </div>
-                <div class="col-6 orange-text h3">
-                    International Market
-                </div>
-            </div>
         </div>
     </header>
+    <div class="container my-5 py-3">
+        <div class="row">
+            <div class="col-lg-6 col-12 lh fs-2">
+                <strong>Quality</strong> and <strong>value</strong> are the hallmarks of our Steel Products. Striking a fine <strong>balance between grip and flexibility</strong>,
+                these corrosion-resistant bars help in <strong>reducing the chances of corrosion</strong> and make structures <strong>earthquake resistant.</strong>
+            </div>
+            <div class="col-lg-6 col-12"></div>
+        </div>
+    </div>
+    <section class="container my-5 py-3">
+        <div class="row">
+            <div class="col-5 h1 gradient text-light lh">OUR PRODUCTS</div>
+        </div>
+    </section>
+    <section class="container my-5 py-3">
+        <div class="row">
+            <div class="col-4 bg-orange">
+                <div class="row">
+                    <div class="col-12">TMT BARS</div>
+                    <div class="col-12 position-relative">
+                        <div class="">
+                            <img src="./images/2.jpg" alt="img-thumbnail" srcset="" style="height: 285px;width: -moz-available;width: -webkit-fill-available;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 bg-info"></div>
+            <div class="col-4 bg-orange">Hello</div>
+        </div>
+    </section>
     <?php include('footer.php') ?>
     <script src="app.js"></script>
+</body>
 
 </html>

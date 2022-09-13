@@ -56,7 +56,7 @@
     </div>
   </section>
   <section>
-    <div class="row d-flex justify-content-between align-items-center flex-sm-column-reverse orange-background">
+    <div class="row d-flex justify-content-between align-items-center flex-lg-row flex-column-reverse orange-background">
       <div class="col-lg-4 col-sm-12">
         <img src="./images/hand_shake.png" alt="" class="img-fluid" />
       </div>

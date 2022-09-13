@@ -32,7 +32,7 @@
             </div>
         </div>
     </header>
-    <section class="container my-lg-5">
+    <section class="container my-lg-5 py-3">
         <div class="row">
             <div class="col-12 lh fs-3" style="line-height: 48px;">
             <strong>Our MS Round bar</strong> is suitable for a wide range of manufacturing applications. In addition to general <strong>fabrication</strong>. As Mild steel round bar suppliers, we provide MS Rounds that are used in <strong> agricultural implements,</strong> equipment and Maintenance of <strong>industrial equipment, fencing,</strong> etc
@@ -71,7 +71,7 @@
 
     <section class="container my-5">
         <h1 class="orange-text h1">Product Size Chart</h1>
-        <div class="row d-flex justify-content-left align-content-center my-3 text-light">
+        <div class="row d-flex justify-lg-content-left justify-content-center align-content-center my-3 text-light">
             <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>9.8 MM</strong></div>
             <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>10.8 MM</strong></div>
             <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>11.2 MM</strong></div>

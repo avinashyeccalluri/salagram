@@ -32,8 +32,8 @@
             </div>
         </div>
     </header>
-    <section class="container">
-        <div class="row ">
+    <section class="container my-lg-5 py-3">
+        <div class="row d-flex flex-lg-row flex-column-reverse">
             <div class="col-lg-5 col-sm-12">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-12 pt-4">

@@ -48,9 +48,9 @@
         </div>
     </section>
     <section class="container">
-        <div class="row vh-50">
+        <div class="row d-flex justify-content-center align-items-center flex-lg-row flex-column-reverse">
 
-            <div class="col-md-7">
+            <div class="col-md-7 py-3">
                 <div class="h1 gradient text-light container lh">Application</div>
 
                 <ul class="lh-52s fs-3" style="line-height: 56px;">
@@ -62,7 +62,7 @@
                     <li>Constructing Complex Buildings</li>
                 </ul>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 py-3">
                 <img src="./images/sea-pillar.png" class="img-fluid" alt="">
             </div>
         </div>
@@ -70,15 +70,15 @@
     
     <section class="container">
         <h1 class="orange-text h1">Product Size Chart</h1>
-        <div class="row d-flex justify-content-left align-content-center my-3 text-light">
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong> 9.8 MM </strong></div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong>10.8 MM </strong></div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong>11.2 MM </strong></div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong>12.5 MM </strong></div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong>13.5 MM </strong></div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong>15.2 MM </strong></div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong>15.8 MM </strong></div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12"><strong>16.5 MM </strong></div>
+        <div class="row d-flex justify-lg-content-left justify-content-center align-content-center my-3 text-light">
+            <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong> 9.8 MM </strong></div>
+            <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong>10.8 MM </strong></div>
+            <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong>11.2 MM </strong></div>
+            <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong>12.5 MM </strong></div>
+            <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong>13.5 MM </strong></div>
+            <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong>15.2 MM </strong></div>
+            <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong>15.8 MM </strong></div>
+            <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong>16.5 MM </strong></div>
         </div>
     </section>
 

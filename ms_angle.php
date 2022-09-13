@@ -51,12 +51,12 @@
         </div>
     </div>
     <section class="container">
-        <div class="row vh-50">
+        <div class="row">
 
             <div class="col-md-7">
                 <div class="h1 gradient text-light container lh">Application</div>
 
-                <ul class="lh-52s fs-3">
+                <ul class="lh-52 fs-3">
                     <li>Automobile Industries</li>
                     <li>Constructing Railway Engines</li>
                     <li>Making machinery and equipment farms</li>
