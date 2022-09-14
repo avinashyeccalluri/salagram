@@ -24,10 +24,8 @@
         <div class="round-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
-                <div class="col-lg-6 col-sm-12">
-                    <strong>
-                        <h1>MS ROUND</h1>
-                    </strong>
+                <div class="col-lg-6 col-sm-12 text-lg-left text-center header-text">
+                    MS ROUND
                 </div>
             </div>
         </div>
@@ -35,13 +33,13 @@
     <section class="container my-lg-5 py-3">
         <div class="row">
             <div class="col-12 lh fs-3" style="line-height: 48px;">
-            <strong>Our MS Round bar</strong> is suitable for a wide range of manufacturing applications. In addition to general <strong>fabrication</strong>. As Mild steel round bar suppliers, we provide MS Rounds that are used in <strong> agricultural implements,</strong> equipment and Maintenance of <strong>industrial equipment, fencing,</strong> etc
+                <strong>Our MS Round bar</strong> is suitable for a wide range of manufacturing applications. In addition to general <strong>fabrication</strong>. As Mild steel round bar suppliers, we provide MS Rounds that are used in <strong> agricultural implements,</strong> equipment and Maintenance of <strong>industrial equipment, fencing,</strong> etc
 
             </div>
             <div class="col-12"></div>
         </div>
     </section>
-    
+
     <section class="container my-5">
         <div class="row">
             <div class="col-12">
@@ -54,16 +52,16 @@
 
             <div class="col-md-7">
                 <div class="h1 gradient text-light container lh">Application</div>
-                
+
                 <ul class="lh h3" style="line-height: 56px;">
-                    <li >Automobile Industries</li>
-                    <li >Constructing Railway Engines and Coaches</li>
-                    <li >Making Arms and Ammunition</li>
-                    <li >Making Agricultural Machinery</li>
-                    <li >Used in Oil and Petroleum</li>
+                    <li>Automobile Industries</li>
+                    <li>Constructing Railway Engines and Coaches</li>
+                    <li>Making Arms and Ammunition</li>
+                    <li>Making Agricultural Machinery</li>
+                    <li>Used in Oil and Petroleum</li>
                 </ul>
             </div>
-            <div class="col-md-5" >
+            <div class="col-md-5">
                 <img src="./images/crane.png" class="img-fluid" alt="" style="height: 100%;">
             </div>
         </div>

@@ -24,8 +24,8 @@
     <div class="header-container d-flex flex-column justify-content-between p-4">
       <?php include('header.php') ?>
       <div class=" row  text-light mbw-100">
-        <div class="col-lg-6 col-sm-12">
-          <h1>SMARTER STEEL FOR A BETTER TOMORROW</h1>
+        <div class="col-lg-6 col-sm-12 text-lg-left text-center header-text">
+          SMARTER STEEL FOR A BETTER TOMORROW
         </div>
       </div>
     </div>

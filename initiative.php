@@ -24,8 +24,8 @@
         <div class="initiative-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class=" row  text-light mbw-100">
-                <div class="col-lg-6 col-sm-12">
-                    <div class="px-5 fs-1 header-text">CSR</div>
+                <div class="col-lg-6 col-sm-12 text-lg-left text-center header-text">
+                CSR
                 </div>
             </div>
         </div>

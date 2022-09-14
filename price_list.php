@@ -21,11 +21,11 @@
 
 <body class="">
     <header>
-        <div class="header-container d-flex flex-column justify-content-between p-4">
+        <div class="price_list-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class=" row  text-light mbw-100">
-                <div class="col-lg-6 col-sm-12">
-                    <h1>PRICE LIST</h1>
+                <div class="col-lg-6 col-sm-12 text-lg-left text-center header-text text-dark">
+                PRICE LIST
                 </div>
             </div>
         </div>

@@ -90,6 +90,10 @@ body {
   height: 50vh !important;
 }
 
+.vh-50 {
+  height: 40vh !important;
+}
+
 .lh-52 {
   line-height: 52px !important;
 }
@@ -279,6 +283,8 @@ ul .unordered > li {
 .about-us-header-container,
 .initiative-header-container,
 .market-header-container,
+.quality-header-container,
+.price_list-header-container,
 .directors {
   background: url("./images/power-plants-1.png");
   background-size: cover;
@@ -286,12 +292,16 @@ ul .unordered > li {
   width: 100vw;
 }
 
-.market-header-container{
-  background-image: url('./images/vector-1.png');
+.market-header-container {
+  background-image: url("./images/vector-1.png");
 }
 
-.test{
-  background-image: url('./images/india.png');
+.test {
+  background-image: url("./images/india.png");
+}
+
+.quality-header-container {
+  background-image: url('./images/testing.jpg');
 }
 
 .about-us-header-container {
@@ -303,16 +313,20 @@ ul .unordered > li {
 }
 
 .crs-header-container {
-  background-image: url("./images/crs_header.png");
+  background-image: url("./images/crs_bars.jpg");
   object-fit: contain;
 }
 
+.price_list-header-container {
+  background-image: url('./images//price.jpg');
+}
+
 .carrier-header-container {
-  background-image: url("./images/carrer.png");
+  background-image: url("./images/career.jpg");
 }
 
 .initiative-header-container {
-  background-image: url("./images/initiative-header.png");
+  background-image: url("./images/CSR.jpg");
 }
 
 .carrier-bottom-gradient {
@@ -324,11 +338,11 @@ ul .unordered > li {
   );
 }
 .plant-header-container {
-  background-image: url("./images/plant.png");
+  background-image: url("./images/plant.jpg");
 }
 
 .ms_angle-header-container {
-  background-image: url("./images/ms_angle.png");
+  background-image: url("./images/ms_angle.jpg");
 }
 
 .production-header-container {
@@ -565,10 +579,9 @@ ul .unordered > li {
   border-radius: 25px;
   width: 30%;
   height: 40px;
-  
 }
 
-.orange-border{
+.orange-border {
   border: 2px solid rgb(255, 93, 1);
   border-radius: 25px;
 }
@@ -579,7 +592,6 @@ ul .unordered > li {
   border-radius: 25px;
   width: 30%;
   height: 40px;
-  
 }
 
 .input-fields {
@@ -587,6 +599,22 @@ ul .unordered > li {
   border-bottom: 2px solid grey;
 }
 
+.contact-us-form {
+  border-radius: 55px;
+  border-right: 111px solid orange;
+}
+
+.info-container {
+  left: 51%;
+  width: 25rem;
+}
+
+.header-text {
+
+  font-size: 40px;
+  font-weight: bold;
+
+}
 @media only screen and (max-width: 768px) {
   .whyUs-flex,
   .ourServices,
@@ -615,9 +643,29 @@ ul .unordered > li {
     padding-top: 0 !important;
     margin-top: 0 !important;
   }
-  .header-container,
+  /* .header-container,
   .square-header-container .prod-cap {
     height: 75vh;
+    width: 100vw;
+    max-width: 100%;
+  } */
+
+  .prod-cap,
+  .square-header-container,
+  .tmt-header-container,
+  .round-header-container,
+  .production-header-container,
+  .plant-header-container,
+  .carrier-header-container,
+  .ms_angle-header-container,
+  .crs-header-container,
+  .about-us-header-container,
+  .initiative-header-container,
+  .market-header-container,
+  .quality-header-container,
+  .price_list-header-container,
+  .directors {
+    height: 80vh;
     width: 100vw;
     max-width: 100%;
   }
@@ -676,11 +724,17 @@ ul .unordered > li {
   #footer ul {
     gap: 10px !important;
   }
-  .hide{
+  .hide {
     display: none;
   }
 
   .footer-img {
     width: 180px !important;
   }
+
+  .header-text {
+
+    font-size: 44px !important;
+
+}
 }
