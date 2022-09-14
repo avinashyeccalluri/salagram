@@ -25,15 +25,25 @@
             <?php include('header.php') ?>
             <div class="container my-5 py-3">
                 <div class="row text-center">
-                    <div class="col-6 h3 orange-background text-white">
+                    <div class="col-6 h3 orange-background bottom-gradient text-white">
                         Domestic Market
                     </div>
                     <div class="col-6 orange-text h3">
                         International Market
                     </div>
-                    <div class="col-12 test">
-                        <div class=""></div>
-                        <!-- <img src="./images/india.png" class="img-fluid" alt=""> -->
+                    <div class="col-12">
+                       <img src="./images/india.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-6 h3 orange-text ">
+                        Domestic Market
+                    </div>
+                    <div class="col-6 h3 orange-background bottom-gradient text-white">
+                        International Market
+                    </div>
+                    <div class="col-12">
+                       <img src="./images/international.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>

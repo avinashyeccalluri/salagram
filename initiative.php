@@ -118,7 +118,7 @@
         <div class="row"></div>
     </section>
 
-    <section class="container my-5 py-3 mb-poligon-container" style="display: none;">
+    <section class="container my-5 py-3 mb-poligon-container d-block d-sm-none" >
         <div class="row d-flex flex-column justify-content-center align-items-center pent-gradient">
             <div class="col-12">
                 <div>

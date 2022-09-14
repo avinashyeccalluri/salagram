@@ -282,7 +282,6 @@ ul .unordered > li {
 .crs-header-container,
 .about-us-header-container,
 .initiative-header-container,
-.market-header-container,
 .quality-header-container,
 .price_list-header-container,
 .directors {
@@ -291,10 +290,15 @@ ul .unordered > li {
   height: 100vh;
   width: 100vw;
 }
-
-.market-header-container {
-  background-image: url("./images/vector-1.png");
+.market-header-container .nav-link, .market-header-container .navbar-brand{
+  color: black !important;
 }
+.market-header-container .orange-text{
+  border: 2px solid #ff5d01;
+}
+ .market-header-container {
+  background-image: url("./images/vector-1.png");
+} 
 
 .test {
   background-image: url("./images/india.png");
@@ -661,7 +665,6 @@ ul .unordered > li {
   .crs-header-container,
   .about-us-header-container,
   .initiative-header-container,
-  .market-header-container,
   .quality-header-container,
   .price_list-header-container,
   .directors {
@@ -738,3 +741,6 @@ ul .unordered > li {
 
 }
 }
+.nav-link, .navbar-brand, .navbar-toggler{color: #fff !important;}
+.navbar-toggler-icon{background-color: #fff;}
+.navbar-toggler{height: 40px;}
