@@ -284,6 +284,7 @@ ul .unordered > li {
 .initiative-header-container,
 .quality-header-container,
 .price_list-header-container,
+.overview-header-container,
 .directors {
   background: url("./images/power-plants-1.png");
   background-size: cover;
@@ -299,6 +300,10 @@ ul .unordered > li {
  .market-header-container {
   background-image: url("./images/vector-1.png");
 } 
+
+.overview-header-container{
+  background-image: url('./images/OverView.jpg');
+}
 
 .test {
   background-image: url("./images/india.png");
@@ -619,6 +624,18 @@ ul .unordered > li {
   font-weight: bold;
 
 }
+
+.our-story{
+  font-size: 153px;
+  color: gray;
+  line-height: 125px;
+  font-weight: inherit;
+}
+
+/* .crs-border {
+  border: 4px solid orange;
+  border-radius: 25px;
+} */
 @media only screen and (max-width: 768px) {
   .whyUs-flex,
   .ourServices,

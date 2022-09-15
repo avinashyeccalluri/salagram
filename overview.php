@@ -21,7 +21,7 @@
 
 <body class="">
     <header>
-        <div class="initiative-header-container d-flex flex-column justify-content-between p-4">
+        <div class="overview-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class=" row  text-light mbw-100">
                 <div class="col-lg-6 col-sm-12">
@@ -33,7 +33,7 @@
     </header>
     <section class="container my-5 py-3">
         <div class="row d-flex justify-content-center align-items-center flex-lg-row flex-column-reverse">
-            <div class="col-lg-6 col-12 fs-1">Our Story</div>
+            <div class="col-lg-6 col-12 our-story">Our Story</div>
             <div class="col-lg-6 col-12">
                 <div class="my-2">Salagram Steel was founded in 2016 after the demerger of
                     Shyam Metallics, one of the leading steel manufacturers in

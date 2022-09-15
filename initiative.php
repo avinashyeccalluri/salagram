@@ -57,7 +57,7 @@
         <div class="fs-2 h1 orange-text"><strong>Our Initiatives</strong></div>
     </section>
 
-    <section class="container my-5 py-3 poligon-container">
+    <section class="container my-5 py-3 poligon-container d-lg-block d-sm-none">
         <div class="row vh-70 poligon-shadow">
             <div class="col-4 poligon pent-gradient ">
                 <div class="row d-flex flex-column justify-content-center align-items-center">
@@ -118,7 +118,7 @@
         <div class="row"></div>
     </section>
 
-    <section class="container my-5 py-3 mb-poligon-container d-block d-sm-none" >
+    <section class="container my-5 py-3 mb-poligon-container d-lg-none d-sm-block" >
         <div class="row d-flex flex-column justify-content-center align-items-center pent-gradient">
             <div class="col-12">
                 <div>

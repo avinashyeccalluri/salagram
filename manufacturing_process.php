@@ -25,7 +25,7 @@
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
                 <div class="col-lg-6 col-sm-12 text-lg-left text-center header-text">
-                MANUFACTURING PROCESS<
+                MANUFACTURING PROCESS
                 </div>
             </div>
         </div>
