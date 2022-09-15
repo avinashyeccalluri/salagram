@@ -787,7 +787,7 @@ body{
    font-size: 1.4em;
 }
 .brand a, .brand a:visited {
-   /* color: #ffffff; */
+   color: #ffffff;
    text-decoration: none;
 }
 .nav-container {
@@ -810,17 +810,17 @@ nav ul li a,nav ul li a:visited {
    display: block;
    padding: 0 20px;
    line-height: 55px;
-   /* color: #fff; */
+   color: #fff;
    background: #262626 ;
    text-decoration: none;
 }
 nav ul li a{
    background: transparent;
-   /* color: #FFF; */
+   color: #FFF;
 }
 nav ul li a:hover, nav ul li a:visited:hover {
    background: none;
-   /* color: #ffffff; */
+   color: #ffffff;
 }
 .navbar-dropdown li a{
    background: none;
@@ -895,7 +895,7 @@ nav ul li ul li a {
    border-radius: 1px;
    height: 3px;
    width: 30px;
-   /* background: #ffffff; */
+   background: #ffffff;
    position: absolute;
    display: block;
    content: '';

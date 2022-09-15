@@ -1,5 +1,4 @@
 (function($) { 
-    alert(111)
     $(function() { 
   
       //  open and close nav 
