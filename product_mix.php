@@ -21,23 +21,23 @@
 
 <body class="">
     <header>
-        <div class="row">
-            <div class="col-12">
-                <?php include('header.php') ?>
-            </div>
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-12">
-                        PRODUCT
-                        <div>MIX</div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2">SQUARE</div>
-                            <div class="col-2">ROUND</div>
-                            <div class="col-2">ANGLE</div>
-                            <div class="col-2">TMT BARS</div>
-                            <div class="col-2">SPONGE</div>
+        <div class="square-header-container d-flex flex-column justify-content-between p-4">
+            <?php include('header.php') ?>
+            <div class="row  text-light mbw-100">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 text-lg-left text-center header-text">
+                            PRODUCT
+                            <div>MIX</div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-2">SQUARE</div>
+                                <div class="col-2">ROUND</div>
+                                <div class="col-2">ANGLE</div>
+                                <div class="col-2">TMT BARS</div>
+                                <div class="col-2">SPONGE</div>
+                            </div>
                         </div>
                     </div>
                 </div>
