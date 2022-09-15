@@ -98,6 +98,7 @@
         </div>
     </section>
     <?php include('footer.php') ?>
+    <script src="./js/app.js"></script>
     <script src="app.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

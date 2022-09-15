@@ -1,39 +1,56 @@
-<div class="">
-  <!-- <div>Logo</div> -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <div class="d-flex justify-content-between align-items-center">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-      </div>
+<section class="navigation">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="#!">Logo</a>
     </div>
-  </nav>
-</div>
+    <nav>
+      <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+      <ul class="nav-list">
+        <li>
+          <a href="index.php">Home</a>
+        </li>
+        <li>
+          <a href="about-us.php">Corporate</a>
+        </li>
+        <li>
+          <a href="#!">Product</a>
+          <ul class="navbar-dropdown">
+            <li>
+              <a href="product_mix.php">All products</a>
+            </li>
+            <li>
+              <a href="tmt_bars.php">TMT Bars</a>
+            </li>
+            <li>
+              <a href="ms_square.php">MS Square</a>
+            </li>
+            <li>
+              <a href="ms_round.php">MS Round</a>
+            </li>
+            <li>
+              <a href="ms_flat.php">MS Flat</a>
+            </li>
+            <li>
+              <a href="crs_bars.php">CRS Bar</a>
+            </li>
+            <li>
+              <a href="manufacturing_process.php">Production Process</a>
+            </li>
+            <li>
+              <a href="quality.php">Quality & Certificate</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="carrer.php">People</a>
+        </li>
+        <li>
+          <a href="price_list.php">Buy</a>
+        </li>
+        <li>
+          <a href="contact-us.php">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
