@@ -25,7 +25,7 @@
         <div class="quality-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
-                <div class="col-lg-6 col-sm-12 text-lg-left text-center header-text">
+                <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text">
                         <h1 class="text-sm-center text-dark text-left">TESTING, APPROVAL <span class="orange-text">AND</span> CERTIFICATION</h1>
                 </div>
             </div>

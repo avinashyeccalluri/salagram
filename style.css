@@ -855,6 +855,12 @@ nav ul li ul li a {
    width: 70px;
 }
 @media only screen and (max-width: 800px) {
+
+  .vh-700 {
+    height: 80vh !important;
+  }
+  
+  
    .nav-mobile {
        display: block;
   }
@@ -924,6 +930,14 @@ nav ul li ul li a {
 
 .navbar-dropdown {
   color: #262626 !important;
+}
+
+.index-header-text {
+  font-size: 50px !important;
+}
+
+.logo_image{
+  height: 60px;
 }
 
 

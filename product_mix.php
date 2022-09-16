@@ -27,7 +27,7 @@
             <div class="row  text-light mbw-100">
                 <div class="col-12">
                     <div class="row">
-                        <div class="col-lg-6 col-sm-12 text-lg-left text-center header-text">
+                        <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text">
                             PRODUCT
                             <div>MIX</div>
                         </div>
