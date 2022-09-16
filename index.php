@@ -15,56 +15,65 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <title>Document</title>
   <style type="text/css">
+    .carousel-inner {
+      padding: 1em;
+    }
+
+    .card {
+      margin: 0 0.5em;
+      box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+      border: none;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      background-color: #e1e1e1;
+      width: 6vh;
+      height: 6vh;
+      border-radius: 50%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    @media (min-width: 768px) {
+      .carousel-item {
+        margin-right: 0;
+        flex: 0 0 33.333333%;
+        display: block;
+      }
+
       .carousel-inner {
-        padding: 1em;
+        display: flex;
       }
-      .card {
-        margin: 0 0.5em;
-        box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-        border: none;
-      }
-      .carousel-control-prev,
-      .carousel-control-next {
-        background-color: #e1e1e1;
-        width: 6vh;
-        height: 6vh;
-        border-radius: 50%;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-      @media (min-width: 768px) {
-        .carousel-item {
-          margin-right: 0;
-          flex: 0 0 33.333333%;
-          display: block;
-        }
-        .carousel-inner {
-          display: flex;
-        }
-      }
+    }
+
+    .card .img-wrapper {
+      max-width: 100%;
+      height: 13em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card img {
+      max-height: 100%;
+    }
+
+    @media (max-width: 767px) {
       .card .img-wrapper {
-          max-width: 100%;
-          height: 13em;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+        height: 17em;
       }
-      .card img {
-          max-height: 100%;
-      }
-      @media (max-width: 767px) {
-        .card .img-wrapper {
-          height: 17em;
-        }
-      }
-      .carousel-control-prev, .carousel-control-next{
-        width: 8vh;
-        height: 8vh;
-      }  
-</style>
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 8vh;
+      height: 8vh;
+    }
+  </style>
 </head>
 
 <body class="">
@@ -72,7 +81,7 @@
     <div class="header-container d-flex flex-column justify-content-between p-4">
       <?php include('header.php') ?>
       <div class=" row  text-light mbw-100">
-        <div class="col-lg-6 col-sm-12 text-lg-left text-center header-text">
+        <div class="col-lg-6 col-sm-12 text-lg-start text-center header-text">
           SMARTER STEEL FOR A BETTER TOMORROW
         </div>
       </div>
@@ -144,72 +153,96 @@
   <section class="d-flex w-100 align-items-center justify-content-center text-center my-4">
     <div class="fs-1 border border-4 border-warning px-4">OUR PRODUCTS</div>
   </section>
-    <section class="d-flex w-100 align-items-center justify-content-center text-center my-4">
-      <div class="fs-1 border border-4 border-warning px-4">OUR CLIENTS</div>
-    </section>
-    <div id="carouselExampleControls" class="carousel mb-5 pb-5" data-bs-ride="carousel">
+  <div id="carouselExampleControls" class="carousel mb-5 pb-5" data-bs-ride="carousel">
     <div class="carousel-inner">
-        <div class="carousel-item active">
-            <div class="card">
-                <div class="img-wrapper"><img src="./images/Tata Housing.png" width="50" class="d-block w-100" alt="..."> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 1</h5> 
-                </div>
-            </div>
+      <div class="carousel-item active">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/tmt-1.png" width="50" class="d-block w-100" alt="..."> </div>
+          <div class="card-body text-center bg-dark text-light" style="opacity: 0.7;">
+            <h5 class="card-title">TMT Bars</h5>
+          </div>
         </div>
-        <div class="carousel-item">
-            <div class="card">
-                <div class="img-wrapper"><img src="./images/Tata Housing.png" width="50" class="d-block w-100" alt="..."> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 2</h5> 
-                </div>
-            </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/square-1.png" width="50" class="d-block w-100" alt="..."> </div>
+          <div class="card-body text-center bg-dark text-light" style="opacity: 0.7;">
+            <h5 class="card-title">Square Bar</h5>
+          </div>
         </div>
-        <div class="carousel-item">
-            <div class="card">
-                <div class="img-wrapper"><img src="./images/Tata Housing.png" width="50" class="d-block w-100" alt="..."> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 3</h5> 
-                </div>
-            </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/round (2).png" width="50" class="d-block w-100" alt="..."> </div>
+          <div class="card-body text-center bg-dark text-light" style="opacity: 0.7;">
+            <h5 class="card-title">Round Bar</h5>
+          </div>
         </div>
-        <div class="carousel-item">
-            <div class="card">
-                <div class="img-wrapper"> <img src="./images/Tata Housing.png" width="50" class="d-block w-100" alt="..."> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 4</h5> 
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="card">
-                <div class="img-wrapper"><img src="./images/Tata Housing.png" width="50" class="d-block w-100" alt="..."> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 5</h5> 
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="card">
-                <div class="img-wrapper"><img src="./images/Tata Housing.png" width="50" class="d-block w-100" alt="..."> </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title 6</h5> 
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
     </button>
-</div>
-<?php include('footer.php') ?>
-<script src="./js/app.js"></script>
-<script type="text/javascript" language="javascript">
+  </div>
+  <section class="d-flex w-100 align-items-center justify-content-center text-center my-4">
+    <div class="fs-1 border border-4 border-warning px-4">OUR CLIENTS</div>
+  </section>
+  <div id="carouselExampleControls" class="carousel mb-5 pb-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/Tata Housing.png" width="50" class="d-block w-100" alt="..."> </div>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/ps.png" width="50" class="d-block w-100" alt="..."> </div>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/Bgr.png" width="50" class="d-block w-100" alt="..."> </div>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/Tata Housing.png" width="50" class="d-block w-100" alt="..."> </div>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/ps.png" width="50" class="d-block w-100" alt="..."> </div>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/Bgr.png" width="50" class="d-block w-100" alt="..."> </div>
+
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <?php include('footer.php') ?>
+  <script src="./js/app.js"></script>
+  <script type="text/javascript" language="javascript">
     var multipleCardCarousel = document.querySelector(
       "#carouselExampleControls"
     );
@@ -220,20 +253,22 @@
       var carouselWidth = $(".carousel-inner")[0].scrollWidth;
       var cardWidth = $(".carousel-item").width();
       var scrollPosition = 0;
-      $("#carouselExampleControls .carousel-control-next").on("click", function () {
+      $("#carouselExampleControls .carousel-control-next").on("click", function() {
         if (scrollPosition < carouselWidth - cardWidth * 4) {
           scrollPosition += cardWidth;
-          $("#carouselExampleControls .carousel-inner").animate(
-            { scrollLeft: scrollPosition },
+          $("#carouselExampleControls .carousel-inner").animate({
+              scrollLeft: scrollPosition
+            },
             600
           );
         }
       });
-      $("#carouselExampleControls .carousel-control-prev").on("click", function () {
+      $("#carouselExampleControls .carousel-control-prev").on("click", function() {
         if (scrollPosition > 0) {
           scrollPosition -= cardWidth;
-          $("#carouselExampleControls .carousel-inner").animate(
-            { scrollLeft: scrollPosition },
+          $("#carouselExampleControls .carousel-inner").animate({
+              scrollLeft: scrollPosition
+            },
             600
           );
         }
@@ -241,7 +276,7 @@
     } else {
       $(multipleCardCarousel).addClass("slide");
     }
-</script>
+  </script>
 </body>
 
 </html>
