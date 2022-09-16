@@ -79,10 +79,10 @@
   </section>
   <section class="container my-5">
     <div class="row d-flex align-items-center orange-text">
-      <div class="col-4">
+      <div class="col-lg-4 col-6 ">
         <img src="./images/customer_support.png" alt="" class="img-fluid" />
       </div>
-      <div class="col-8">
+      <div class="col-lg-8 col-6">
         <h3>Employee Speak</h3>
         <div>
           Employee-1 Career growth for employees has been a key focus at
@@ -95,12 +95,12 @@
   </section>
   <section class="container">
     <div class="row d-flex">
-      <div class="col-3">
+      <div class="col-lg-3 col-12">
         <select class="form-select" aria-label="Default select example">
-          <option selected>Open this select menu</option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
+          <option selected>Current Opening</option>
+          <option value="1">Engineer</option>
+          <option value="2">Junior Engineer</option>
+          <option value="3">Assistant Engineer</option>
         </select>
       </div>
     </div>
@@ -146,14 +146,17 @@
     </div>
 
     <div class="row d-flex text-center justify-content-center my-3">
-      <div class="col-4 price pt-1">SUBMIT APPLICATION</div>
+      <div class="col-lg-4 col-8 price pt-1">SUBMIT APPLICATION</div>
     </div>
 
     <div class="row text-center justify-content-center my-3">
-      <div class="col-2 price pt-1 carrier-bottom-gradient">JOIN US</div>
+      <div class="col-lg-2 col-6 price pt-1 carrier-bottom-gradient">JOIN US</div>
     </div>
   </section>
   <?php include('footer.php') ?>
+  
+  <script src="./js/app.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

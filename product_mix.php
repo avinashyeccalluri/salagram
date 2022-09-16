@@ -22,7 +22,7 @@
 
 <body class="">
     <header>
-        <div class="square-header-container d-flex flex-column justify-content-between p-4">
+        <div class="product-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
                 <div class="col-12">
@@ -32,7 +32,7 @@
                             <div>MIX</div>
                         </div>
                         <div class="col-12">
-                            <div class="row">
+                            <div class="row d-flex justify-content-center align-content-flex-end text-dark h4">
                                 <div class="col-2">SQUARE</div>
                                 <div class="col-2">ROUND</div>
                                 <div class="col-2">ANGLE</div>
@@ -58,7 +58,7 @@
     </div>
     <section class="container">
         <div class="row">
-            <div class="col-5 h1 gradient text-light lh">OUR PRODUCTS</div>
+            <div class="col-lg-5 col-12 h1 gradient text-light lh">OUR PRODUCTS</div>
         </div>
     </section>
     <section class="container my-5 py-3">

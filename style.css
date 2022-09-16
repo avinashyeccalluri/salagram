@@ -285,6 +285,7 @@ ul .unordered > li {
 .quality-header-container,
 .price_list-header-container,
 .overview-header-container,
+.product-header-container,
 .directors {
   background: url("./images/power-plants-1.png");
   background-size: cover;
@@ -296,6 +297,10 @@ ul .unordered > li {
 }
 .market-header-container .orange-text{
   border: 2px solid #ff5d01;
+}
+
+.product-header-container {
+  background-image: url("./images/avi.png");
 }
  .market-header-container {
   background-image: url("./images/vector-1.png");

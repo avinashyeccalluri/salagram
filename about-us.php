@@ -24,30 +24,6 @@
     <header class="">
         <div class="about-us-header-container d-flex flex-column justify-content-between p-4 ">
             <?php include('header.php') ?>
-            <!-- <div class="row m-lg-5 text-light mbw-100 justify-content-center align-items-center justify-lg-content-end ">
-                <div class="col-lg-4 col-12 justify-content-center">
-                    <img src="./images/director.png" class="img-fluid director-images" alt="" srcset="" style="height: 516px;">
-                </div>
-                <div class="col-lg-8 col-12 px-lg-5 d-flex justify-content-center align-items-lg-flex-end align-items-center font-light">
-                    <div class="row text-light">
-                        <div class="col-12 fs-1">
-                            <strong>Mr. Pawan Kumar Agarwal</strong>
-                        </div>
-                        <div class="col-12">
-                            <strong>Chairman and Managing Director</strong>
-                        </div>
-                        <div class="col-12">
-                            Mr. Pawan Kumar Agarwal is the Chairman and Managing Director
-                            of the company. He has an experience of over 42 years in the steel
-                            industry. His core belief and values are deeply entrenched in the
-                            company's work culture. Mr. Agarwal believes that with a perfect
-                            balance of experience and youthful enthusiasm, Salagram will
-                            emerge as one of the top steel makers of the country.
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
             <div class="row px-5 d-flex justify-content-center align-items-center">
                 <div class="col-lg-4 col-12  container">
                     <img src="./images/director.png" class="img-fluid director-images" alt="" srcset="">

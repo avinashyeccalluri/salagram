@@ -1,7 +1,7 @@
 <section class="navigation">
   <div class="nav-container">
     <div class="brand">
-      <a href="#!">Logo</a>
+      <a href="#!"><img src="./images/main_logo.png" alt="" srcset=""></a>
     </div>
     <nav>
       <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
