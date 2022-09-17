@@ -3,7 +3,7 @@
 
     <div class="row d-flex justify-content-between align-items-center">
       <div class="col-lg-6 col-6 footer-logo">
-        <img src="./images/main_logo.png" alt="" srcset="" class="footer-img" />
+        <img src="./images/salagram_logo.png" alt="" srcset="" class="footer-img" />
       </div>
       <div class="col-lg-6 col-6 text-end">
         <h2><a href="contact-us.php">Contact Us</a></h2>
