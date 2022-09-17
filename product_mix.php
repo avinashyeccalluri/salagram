@@ -31,7 +31,7 @@
                             PRODUCT
                             <div>MIX</div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 hide">
                             <div class="row d-flex justify-content-center align-content-flex-end text-dark h4">
                                 <div class="col-2">SQUARE</div>
                                 <div class="col-2">ROUND</div>

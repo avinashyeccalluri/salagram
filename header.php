@@ -1,7 +1,7 @@
 <section class="navigation">
   <div class="nav-container">
     <div class="brand">
-      <a href="#!"><img src="./images/main_logo.png" alt="" srcset=""></a>
+      <a href="#!"><img src="./images/Tata Housing.png" style="height: 80px;" alt="" srcset=""></a>
     </div>
     <nav>
       <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>

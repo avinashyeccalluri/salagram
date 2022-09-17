@@ -2,11 +2,11 @@
   <div class="container">
 
     <div class="row d-flex justify-content-between align-items-center">
-      <div class="col-lg-6 col-3 footer-logo">
+      <div class="col-lg-6 col-6 footer-logo">
         <img src="./images/main_logo.png" alt="" srcset="" class="footer-img" />
       </div>
       <div class="col-lg-6 col-6 text-end">
-        <h2>Contact Us</h2>
+        <h2><a href="contact-us.php">Contact Us</a></h2>
       </div>
     </div>
     <div class="row d-flex justify-content-end flex-lg-row flex-column">
@@ -34,13 +34,13 @@
         <div class="row d-flex flex-column justify-content-between align-items-flex-ends">
           <div class="col-12" id="footer">
             <ul class="d-flex justify-content-lg-end justify-content-center align-items-center py-4 ">
-              <li>Home</li>
+              <li><a href="index.php">Home</a></li>
               <li class="hide">|</li>
-              <li>Product</li>
+              <li><a href="product_mix.php">Product</a></li>
               <li class="hide">|</li>
-              <li>People</li>
+              <li><a href="about-us.php">People</a></li>
               <li class="hide">|</li>
-              <li>Buy</li>
+              <li><a href="price_list.php">Buy</a></li>
             </ul>
           </div>
           <div class="col-12">

@@ -24,7 +24,7 @@
     <header class="">
         <div class="about-us-header-container d-flex flex-column justify-content-between p-4 ">
             <?php include('header.php') ?>
-            <div class="row px-5 d-flex justify-content-center align-items-center">
+            <div class="row px-lg-5 px-md-5 d-flex justify-content-center align-items-center mt-5">
                 <div class="col-lg-4 col-12  container">
                     <img src="./images/director.png" class="img-fluid director-images" alt="" srcset="">
                 </div>

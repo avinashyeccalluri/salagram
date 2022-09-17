@@ -299,6 +299,11 @@ ul .unordered > li {
   border: 2px solid #ff5d01;
 }
 
+a {
+  text-decoration: none;
+  color: white !important;
+}
+
 .product-header-container {
   background-image: url("./images/avi.png");
 }
@@ -641,6 +646,9 @@ ul .unordered > li {
   border: 4px solid orange;
   border-radius: 25px;
 } */
+@media only screen and (max-width: 576px) {
+  .footer-img{  width: 140px;}
+}
 @media only screen and (max-width: 768px) {
   .whyUs-flex,
   .ourServices,
@@ -658,11 +666,6 @@ ul .unordered > li {
 
   ul .unordered {
     gap: 1rem;
-  }
-
-  .footer-logo {
-    height: 20% !important;
-    width: 20% !important;
   }
 
   .start-container {
@@ -755,10 +758,6 @@ ul .unordered > li {
   }
   .hide {
     display: none;
-  }
-
-  .footer-img {
-    width: 180px !important;
   }
 
   .header-text {
