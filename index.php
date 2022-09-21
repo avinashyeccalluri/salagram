@@ -81,8 +81,8 @@
     <div class="header-container d-flex flex-column justify-content-between p-4">
       <?php include('header.php') ?>
       <div class=" row  text-light mbw-100">
-        <div class="col-lg-6 col-sm-12 text-lg-start text-center header-text">
-          SMARTER STEEL FOR A BETTER TOMORROW
+        <div class="col-lg-6 col-sm-12 px-lg-5 text-lg-start text-center" style="font-size: 50px !important;">
+          <strong>SMARTER STEEL FOR A BETTER TOMORROW</strong>
         </div>
       </div>
     </div>
@@ -92,23 +92,23 @@
       <div class="achievement-status  w-35 h-64 align-content-center m-lg-5 dangerRed d-flex flex-column justify-content-center">
         <div class="row text-center d-flex justify-content-center h-30">
           <div class="col-3 bg-light m-1 d-flex justify-content-center flex-column align-content-center custom-div text-dark">
-            <div class="fs-3">1.2 Lakh</div>
-            <span>Tonnes of steel</span>
+            <div class="fs-3"><strong>1.2 Lakh</strong></div>
+            <span class="square-span text-start">Tonnes of steel production</span>
           </div>
           <div class="col-3 bg-s1 m-1 d-flex justify-content-center flex-column align-content-center custom-div text-light">
-            <div class="fs-3">1.2 Lakh</div>
-            <span>Tonnes of steel</span>
+            <div class="fs-3"><strong>1k+</strong></div>
+            <span class="square-span text-start">Employment generated</span>
           </div>
         </div>
 
         <div class="row text-center d-flex justify-content-center h-30 ">
           <div class="col-3 bg-s2 m-1 d-flex justify-content-center flex-column align-content-center custom-div text-light">
-            <div class="fs-3">1.2 Lakh</div>
-            <span>Tonnes of steel</span>
+            <div class="fs-3"><strong>8 MWH</strong></div>
+            <span class="square-span text-start">Captive Power Plant</span>
           </div>
           <div class="col-3 bg-s3 m-1 d-flex justify-content-center flex-column align-content-center custom-div text-light">
-            <div class="fs-3">1.2 Lakh</div>
-            <span>Tonnes of steel</span>
+            <div class="fs-3"><strong>4+</strong></div>
+            <span class="square-span text-start">Exported to four continents</span>
           </div>
         </div>
       </div>

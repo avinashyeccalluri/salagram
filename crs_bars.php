@@ -76,7 +76,7 @@
                 </ul>
             </div>
             <div class="col-md-5">
-                <img src="./images/construction_half.png" class="img-fluid" alt="" style="height: 100%;">
+                <img src="./images/port_crs.png" class="img-fluid" alt="" style="height: 100%;">
             </div>
         </div>
     </section>

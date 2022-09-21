@@ -25,26 +25,24 @@
         <div class="quality-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
-                <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text">
-                        <h1 class="text-sm-center text-dark text-left">TESTING, APPROVAL <span class="orange-text">AND</span> CERTIFICATION</h1>
+                
+            <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text text-light">
+                    TESTING, APPROVAL <span class="orange-text">AND</span> CERTIFICATION
                 </div>
             </div>
         </div>
     </header>
 
     <section class="container my-5">
-        <div class="h1  text-center text-lg-left">
+        <div class="h1 orange-text  text-center text-lg-left montserrat">
             <strong>TEST CERTIFICATE</strong>
         </div>
         <div class="row">
-            <div class="col-md-3 border border-2 border-dark ">
-
-            </div>
         </div>
     </section>
 
     <section class="container my-5">
-        <div class="h1 orange-text text-center text-lg-left">
+        <div class="h1 orange-text text-center text-lg-left montserrat">
             <strong>APPROVALS</strong>
         </div>
         <div class="row d-flex justify-content-center align-items-center">
@@ -83,7 +81,7 @@
     </section>
 
     <div class="container my-5">
-        <div class="h1 orange-text text-center text-lg-left">
+        <div class="h1 orange-text text-center text-lg-left montserrat">
             <strong>CERTIFICATION</strong>
         </div>
         <div class="row">

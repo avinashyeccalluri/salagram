@@ -22,7 +22,7 @@
 
 <body class="">
     <header>
-        <div class="header-container d-flex flex-column justify-content-between p-4">
+        <div class="flat-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
                 <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text">
@@ -42,11 +42,19 @@
             <div class="col-12"></div>
         </div>
     </section>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <img src="./images/ms-info.png" class="img-fluid" alt="" srcset="">
+            </div>
+        </div>
+    </div>
     <section class="container">
         <div class="row vh-50">
 
             <div class="col-md-7">
-                <div class="h1 gradient text-light container lh">Application</div>
+                <div class="h1 gradient text-light container lh montserrat">Application</div>
 
                 <ul class="lh h3" style="line-height: 56px;">
                     <li>Building Construction</li>
@@ -55,26 +63,26 @@
                 </ul>
             </div>
             <div class="col-md-5">
-                <img src="./images/metal_pouring.jpeg" class="img-fluid" alt="" style="height: 100%;">
+                <img src="./images/sun-worker.png" class="img-fluid" alt="" style="height: 100%;">
             </div>
         </div>
     </section>
 
-    <section class="container">
-        <h1 class="orange-text h1">Product Size Chart</h1>
+    <section class="container montserrat">
+        <h1 class="orange-text h1 ">Product Size Chart</h1>
         <div class="row d-flex justify-lg-content-left justify-content-center align-content-center my-3">
-            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">19°6F</div>
-            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">20°5F</div>
-            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">20°6F</div>
-            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">25°5F</div>
-            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">25°6F</div>
-            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">25°8F</div>
-            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">30°5F</div>
-            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">30°6F</div>
-            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">32°6F</div>
-            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">32°8F</div>
-            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">35°6F</div>
-            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2">40°6F</div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>19°6F</strong></div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>20°5F</strong></div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>20°6F</strong></div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>25°5F</strong></div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>25°6F</strong></div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>25°8F</strong></div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>30°5F</strong></div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>30°6F</strong></div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>32°6F</strong></div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>32°8F</strong></div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>35°6F</strong></div>
+            <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>40°6F</strong></div>
         </div>
     </section>
     <?php include('footer.php') ?>

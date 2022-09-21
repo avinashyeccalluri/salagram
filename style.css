@@ -1,7 +1,12 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Noto+Sans:wght@500&display=swap');
 * {
   box-sizing: border-box;
+}
+
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -286,6 +291,7 @@ ul .unordered > li {
 .price_list-header-container,
 .overview-header-container,
 .product-header-container,
+.flat-header-container,
 .directors {
   background: url("./images/power-plants-1.png");
   background-size: cover;
@@ -297,6 +303,9 @@ ul .unordered > li {
 }
 .market-header-container .orange-text{
   border: 2px solid #ff5d01;
+}
+.flat-header-container{
+  background-image: url("./images/ms-flat-01.png");
 }
 
 a {
@@ -640,6 +649,10 @@ a {
   color: gray;
   line-height: 125px;
   font-weight: inherit;
+}
+
+.square-span {
+  font-size: 17px !important;
 }
 
 /* .crs-border {
