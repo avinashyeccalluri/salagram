@@ -114,9 +114,9 @@
       </div>
     </div>
   </section>
-  <section class="container-fluid px-5">
-    <div class="row d-flex justify-content-center mt-lg-5 pt-lg-5">
-      <div class="col-md-6 mt-lg-5 mt-3 fs-3 start-container">
+  <section class="container-fluid px-5 ">
+    <div class="row d-flex justify-content-center mt-lg-5 mx-lg-5 pt-lg-5">
+      <div class="col-md-7 mt-lg-5 mt-3 fs-3 start-container montserrat" style="font-weight: lighter;">
         The commitment and innovation of Salagram has led to the company
         becoming a competitive and promising steel manufacturing company with
         an annual production capacity of 1.2 lakh tons. With its flagship
@@ -125,11 +125,11 @@
         growth, the company has aggressively expanded its footprint across the
         country
       </div>
-      <div class=" col-md-6 align-items-end mt-lg-5 mt-3">
+      <div class=" col-md-5 align-items-end mt-lg-5 mt-3">
         <div class="hot-rod"></div>
       </div>
     </div>
-    <div class="row">
+    <div class="row mx-lg-5 ">
       <div class="col-md-12 ">
         <button class="my-5 b-about-us text-center">About us</button>
       </div>
@@ -144,22 +144,22 @@
           electricity.
         </div>
       </div>
-      <div class="d-flex justify-content-around white border border-4">
+      <div class="d-flex justify-content-around white border border-4 montserrat">
         <div class="py-2 fs-5 w-50 text-center">STEEL</div>
         <div class="py-2 fs-5 w-50 bg-white text-center text-dark">POWER</div>
       </div>
     </div>
   </section>
   <section class="d-flex w-100 align-items-center justify-content-center text-center my-4">
-    <div class="fs-1 border border-4 border-warning px-4">OUR PRODUCTS</div>
+    <div class="fs-1 border-orangered px-4 montserrat"><strong>OUR PRODUCTS</strong></div>
   </section>
-  <div id="carouselExampleControls" class="carousel mb-5 pb-5" data-bs-ride="carousel">
+  <div id="carouselExampleControls" class="carousel mb-5 pb-5 montserrat" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="card">
           <div class="img-wrapper"><img src="./images/tmt-1.png" width="50" class="d-block w-100" alt="..."> </div>
           <div class="card-body text-center bg-dark text-light" style="opacity: 0.7;">
-            <h5 class="card-title">TMT Bars</h5>
+            <h5 class="card-title"><strong>TMT Bars</strong></h5>
           </div>
         </div>
       </div>
@@ -167,7 +167,7 @@
         <div class="card">
           <div class="img-wrapper"><img src="./images/square-1.png" width="50" class="d-block w-100" alt="..."> </div>
           <div class="card-body text-center bg-dark text-light" style="opacity: 0.7;">
-            <h5 class="card-title">Square Bar</h5>
+            <h5 class="card-title"><strong>Square Bar</strong></h5>
           </div>
         </div>
       </div>
@@ -175,7 +175,7 @@
         <div class="card">
           <div class="img-wrapper"><img src="./images/round (2).png" width="50" class="d-block w-100" alt="..."> </div>
           <div class="card-body text-center bg-dark text-light" style="opacity: 0.7;">
-            <h5 class="card-title">Round Bar</h5>
+            <h5 class="card-title"><strong>Round Bar</strong></h5>
           </div>
         </div>
       </div>
@@ -190,7 +190,7 @@
     </button>
   </div>
   <section class="d-flex w-100 align-items-center justify-content-center text-center my-4">
-    <div class="fs-1 border border-4 border-warning px-4">OUR CLIENTS</div>
+    <div class="fs-1 border-orangered px-4 montserrat"><strong>OUR CLIENTS</strong></div>
   </section>
   <div id="carouselExampleControls" class="carousel mb-5 pb-5" data-bs-ride="carousel">
     <div class="carousel-inner">
