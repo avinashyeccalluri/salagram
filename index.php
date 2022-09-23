@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
   <!-- JavaScript Bundle with Popper -->
@@ -89,26 +93,26 @@
   </header>
   <section>
     <div class="achievement-status-container">
-      <div class="achievement-status  w-35 h-64 align-content-center m-lg-5 dangerRed d-flex flex-column justify-content-center">
+      <div class="achievement-status  w-35 h-64 align-content-center m-lg-5 dangerRed d-flex flex-column justify-content-center" style="padding: 19px;">
         <div class="row text-center d-flex justify-content-center h-30">
-          <div class="col-3 bg-light m-1 d-flex justify-content-center flex-column align-content-center custom-div text-dark">
-            <div class="fs-3"><strong>1.2 Lakh</strong></div>
-            <span class="square-span text-start">Tonnes of steel production</span>
+          <div class="col-lg-5 col-5 bg-light m-1 d-flex justify-content-center flex-column align-content-center custom-div text-dark">
+            <div class="fs-2"><strong>1.2 Lakh</strong></div>
+            <span class="square-span text-center fs-4">Tonnes of steel production</span>
           </div>
-          <div class="col-3 bg-s1 m-1 d-flex justify-content-center flex-column align-content-center custom-div text-light">
-            <div class="fs-3"><strong>1k+</strong></div>
-            <span class="square-span text-start">Employment generated</span>
+          <div class="col-lg-5 col-5 bg-s1 m-1 d-flex justify-content-center flex-column align-content-center custom-div text-light">
+            <div class="fs-2"><strong>1k+</strong></div>
+            <span class="square-span text-center fs-4">Employment generated</span>
           </div>
         </div>
 
         <div class="row text-center d-flex justify-content-center h-30 ">
-          <div class="col-3 bg-s2 m-1 d-flex justify-content-center flex-column align-content-center custom-div text-light">
-            <div class="fs-3"><strong>8 MWH</strong></div>
-            <span class="square-span text-start">Captive Power Plant</span>
+          <div class="col-lg-5 col-5 bg-s2 m-1 d-flex justify-content-center flex-column align-content-center custom-div text-light">
+            <div class="fs-2"><strong>8 MWH</strong></div>
+            <span class="square-span text-center fs-4">Captive Power Plant</span>
           </div>
-          <div class="col-3 bg-s3 m-1 d-flex justify-content-center flex-column align-content-center custom-div text-light">
-            <div class="fs-3"><strong>4+</strong></div>
-            <span class="square-span text-start">Exported to four continents</span>
+          <div class="col-lg-5 col-5 bg-s3 m-1 d-flex justify-content-center flex-column align-content-center custom-div text-light">
+            <div class="fs-2"><strong>4+</strong></div>
+            <span class="square-span text-center fs-4">Exported to four continents</span>
           </div>
         </div>
       </div>
@@ -116,7 +120,7 @@
   </section>
   <section class="container-fluid px-5 ">
     <div class="row d-flex justify-content-center mt-lg-5 mx-lg-5 pt-lg-5">
-      <div class="col-md-7 mt-lg-5 mt-3 fs-3 start-container montserrat" style="font-weight: lighter;">
+      <div class="col-md-7 mt-lg-5 mt-3 fs-3 start-container montserrat animate__backInLeft" style="font-weight: lighter;">
         The commitment and innovation of Salagram has led to the company
         becoming a competitive and promising steel manufacturing company with
         an annual production capacity of 1.2 lakh tons. With its flagship
@@ -126,7 +130,9 @@
         country
       </div>
       <div class=" col-md-5 align-items-end mt-lg-5 mt-3">
-        <div class="hot-rod"></div>
+        <div class="">
+          <img src="./images/shutterstock_1138752473.png" class="img-fluid" alt="" srcset="">
+        </div>
       </div>
     </div>
     <div class="row mx-lg-5 ">
