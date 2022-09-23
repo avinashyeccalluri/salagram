@@ -470,7 +470,7 @@ a {
 }
 
 .w-35 {
-  width: 35% !important;
+  width: 32% !important;
 }
 
 .h-30 {
@@ -687,6 +687,16 @@ a {
 }
 @media only screen and (max-width: 768px) {
 
+  
+  .crs_corner {
+    height: 120px !important;
+  }
+
+  
+.corrosion-margin {
+  margin: 0 !important;
+}
+
   .commitment-padding {
     padding: 0 30px 0 30px !important;
   }
@@ -764,9 +774,6 @@ a {
     height: 50vh !important;
   }
 
-  .crs_corner {
-    height: 75px !important;
-  }
 
   .w-12 {
     width: 115px !important;
@@ -937,6 +944,11 @@ nav ul li ul li a {
 
   .corrosion-margin {
     margin: 0 !important;
+  }
+
+  
+  .crs_corner {
+    height: 75px !important;
   }
    .nav-list {
        display: block !important;

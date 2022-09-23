@@ -27,5 +27,18 @@
       $('html').click(function() {
         $('.navbar-dropdown').hide();
       });
+
+      $(document).on('click','.steel-power', function(e){
+        var type = $(this).attr('type')
+        if(type == "steel"){
+          $('#steel').show()
+          $('#power').hide()
+        }
+        else{
+          $('#steel').hide()
+          $('#power').show()
+        }
+      })
+      
     }); 
   })(jQuery); 

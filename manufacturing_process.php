@@ -52,7 +52,7 @@
     <section class="my-lg-5 container">
 
         <div class="row">
-            <div class="gradient1 h1 col-lg-4 col-sm-8 text-light">
+            <div class="gradient1 h1 col-lg-4 col-sm-8 text-light text-lg-start text-center">
                 Production Process
             </div>
         </div>

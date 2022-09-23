@@ -136,12 +136,12 @@
       </div>
     </div>
     <div class="row mx-lg-5 ">
-      <div class="col-md-12 ">
+      <div class="col-md-12 d-flex justify-content-lg-start justify-content-center align-items-start">
         <button class="my-5 b-about-us text-center">About us</button>
       </div>
     </div>
   </section>
-  <section class="">
+  <section class="" id="steel">
     <div class="container-fluid px-4 d-flex prod-cap flex-column page justify-content-around p-4 ">
       <div class="row">
 
@@ -151,8 +151,23 @@
         </div>
       </div>
       <div class="d-flex justify-content-around white border border-4 montserrat">
-        <div class="py-2 fs-5 w-50 text-center">STEEL</div>
-        <div class="py-2 fs-5 w-50 bg-white text-center text-dark">POWER</div>
+        <div class="py-2 fs-5 w-50 bg-white text-center text-dark steel-power" type="steel">STEEL</div>
+        <div class="py-2 fs-5 w-50 text-center steel-power" type="power">POWER</div>
+      </div>
+    </div>
+  </section>
+  <section class="" id="power" style="display: none;">
+    <div class="container-fluid px-4 d-flex prod-cap flex-column page justify-content-around p-4 ">
+      <div class="row">
+
+        <div class="fs-3 text-white col-sm-12 col-lg-6">
+          Our captive power plant at Burdwan's Dewandighi is producing 8MWH of
+          electricity. - power
+        </div>
+      </div>
+      <div class="d-flex justify-content-around white border border-4 montserrat">
+        <div class="py-2 fs-5 w-50  text-center steel-power" type="steel">STEEL</div>
+        <div class="py-2 fs-5 w-50 text-center bg-white text-dark steel-power" type="power">POWER</div>
       </div>
     </div>
   </section>

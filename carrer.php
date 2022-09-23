@@ -35,7 +35,7 @@
   <section>
     <div class="row d-flex justify-content-between align-items-center">
       <div class="col-lg-8 col-sm-12 container">
-        <div class="row d-flex justify-content-between align-items-center container px-5">
+        <div class="row d-flex justify-content-between align-items-center container px-lg-5 p-4">
           <div class="col-12">
             <div class="fs-1 orange-text">
               <strong>Our
@@ -59,7 +59,7 @@
       <div class="col-lg-4 col-sm-12">
         <img src="./images/hand_shake.png" alt="" class="img-fluid" />
       </div>
-      <div class="col-8 ">
+      <div class="col-lg-4 col-sm-12 p-4">
         <div class="row d-flex justify-content-between align-items-center text-light">
           <div class="col-12">
             <div class="fs-1">
@@ -106,27 +106,27 @@
     </div>
     <div class="row mt-3">
       <div class="col-12 text-muted">PERSONAL DETAILS</div>
-      <div class="col-4">
+      <div class="col-lg-4 col-12">
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1" />
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-lg-4 col-12">
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Age" aria-label="Username" aria-describedby="basic-addon1" />
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-lg-4 col-12">
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Qualification" aria-label="Username" aria-describedby="basic-addon1" />
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-lg-4 col-12">
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1" />
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-lg-4 col-12">
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Contact Number" aria-label="Username" aria-describedby="basic-addon1" />
         </div>
@@ -145,12 +145,12 @@
       </div>
     </div>
 
-    <div class="row d-flex text-center justify-content-center my-3">
-      <div class="col-lg-4 col-8 price pt-1">SUBMIT APPLICATION</div>
+    <div class="row d-flex text-center justify-content-center align-item-center my-3">
+      <div class="col-lg-4 col-8 price pt-1 montserrat">SUBMIT APPLICATION</div>
     </div>
 
     <div class="row text-center justify-content-center my-3">
-      <div class="col-lg-2 col-6 price pt-1 carrier-bottom-gradient">JOIN US</div>
+      <div class="col-lg-2 col-6 price pt-1 carrier-bottom-gradient montserrat">JOIN US</div>
     </div>
   </section>
   <?php include('footer.php') ?>
