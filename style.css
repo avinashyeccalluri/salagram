@@ -5,6 +5,30 @@
   box-sizing: border-box;
 }
 
+
+
+.contact_us_center_div {
+  box-shadow: 0 1px 10px 0 rgb(0 0 0 / 14%);
+  border-radius: 50px 0px 0px 50px;
+  height: fit-content !important
+}
+
+.contact-us-form {
+  position: relative;
+  top: -200px;
+  z-index: 100;
+  background-color: white;
+}
+
+.info_contact_us {
+  background-color: #655959;
+  position: relative;
+  right: -110px;
+}
+.w-70{
+  width: 70% !important;
+}
+
 .montserrat{
   font-family: 'Montserrat', sans-serif;
 }
@@ -106,6 +130,10 @@ body {
 
 .w-20 {
   width: 19% !important;
+}
+
+.vh-90 {
+  height: 60vh !important;
 }
 
 .vh-50 {
@@ -682,11 +710,44 @@ a {
   border: 4px solid orange;
   border-radius: 25px;
 } */
+
 @media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
+
+  .vh-90 {
+    height: 90vh !important;
+  }
+  
   .footer-img{  width: 140px;}
+  
+  .contact-us-form {
+    border-right: 55px solid orange;
+
+  } 
+  .info_contact_us {
+    margin: 0 0 20px 2px !important;
+  }
+
 }
 @media only screen and (max-width: 768px) {
 
+  .info_contact_us {
+    margin: 0 0 20px 2px !important;
+  }
+
+  .w-70 {
+    width: 93% !important;
+  }
+
+  .info_contact_us{
+    position: static;
+  }
+
+  .vh-90 {
+    height: 90vh !important;
+  }
+  
   
   .crs_corner {
     height: 120px !important;
@@ -773,7 +834,6 @@ a {
     width: 100% !important;
     height: 50vh !important;
   }
-
 
   .w-12 {
     width: 115px !important;

@@ -41,12 +41,11 @@
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
                 <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text">
-                    Contact Us
                 </div>
             </div>
         </div>
     </header>
-    <section class="container w-lg-50 contact-us-form mt-4 mb-4">
+    <section class="container w-70 contact-us-form mt-4 mb-4 contact-us-form">
         <div class="row vh-50 d-flex justify-content-start align-items-center contact_us_center_div pb-3">
             <div class="col-12">
                 <?php if (!empty($statusMsg)) { ?>
@@ -67,16 +66,16 @@
                         <div class="col-12 py-3">
                             <input type="textarea" name="message" id="" class="input-fields" placeholder="Message">
                         </div>
-                        <div class="col-12 py-3">
+                        <div class="col-12 py-3 d-flex justify-content-lg-start justify-content-center align-items-lg-start align-items-center">
                                 <button class="btn carrier-bottom-gradient" type="submit"  name="submit">Submit</button>
                         </div>
                     </div>
                 </form>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-light " style="background-color: #655959;">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-light info_contact_us p-3">
                 <h1>INFO</h1>
                 <div class="row ">
-                    <div class="col-12">info@salagram.co.in</div>
+                    <div class="col-12"> info@salagram.co.in</div>
                     <div class="col-12">+91 33 40862000</div>
                     <div class="col-12">
                         <div>Salagram Power & Steel LTD</div>
@@ -93,8 +92,7 @@
     <section class="">
         <div class="row d-flex flex-column justify-content-center align-items-center position-relative">
             <div class="col-12">
-                <div class="container">
-                    ​
+                <div class="container">​
                     <div class="row d-flex justify-content-start align-items-center ">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div class="row">
@@ -120,19 +118,18 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div class="row">
                                 <div class="col-12">
-                                    <img src="./images/pnat-c.jpg" class="img-fluid" alt="" style="height: 362px !important;">
+                                    <img src="./images/Layer 2.png" class="img-fluid" alt="" style="height: 362px !important;">
                                 </div>
                                 <div class="col-12">
                                     <div class="row py-3 text-light">
                                         <div class="col-12">
-                                            OFFICE ADDRESS
+                                            PLANT ADDRESS
                                         </div>
                                         <div class="col-12">
-                                            <div>SALAGRAM POWER & STEEL PVT LTD</div>
-                                            <div>ROOM NO 403, 4TH FLOOR </div>
-                                            <div>CONTINENTAL, 83/2/1 ROAD(S),</div>
-                                            <div>KOLKATA</div>
-                                            <div>PIN-700046</div>
+                                            <div>PALITPUR ROAD,</div>
+                                            <div>DEWANDIGHI,</div>
+                                            <div>BURWAN,</div>
+                                            <div>PIN-713102,</div>
                                         </div>
                                     </div>
                                 </div>
@@ -142,7 +139,7 @@
                 </div>
             </div>
             <div class="col-12 position-absolute" style="top: 15rem;z-index: -100;">
-                <div class="vh-50 carrier-bottom-gradient -absolute">
+                <div class="vh-90 carrier-bottom-gradient -absolute">
                     ​
                 </div>
             </div>
