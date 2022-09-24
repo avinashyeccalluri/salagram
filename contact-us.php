@@ -91,7 +91,7 @@
     </section>
     <section class="">
         <div class="row d-flex flex-column justify-content-center align-items-center position-relative">
-            <div class="col-12">
+            <div class="col-12" style="position: relative;top: -99px;">
                 <div class="container">​
                     <div class="row d-flex justify-content-start align-items-center ">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -99,12 +99,12 @@
                                 <div class="col-12">
                                     <img src="./images/Layer 2.png" class="img-fluid" alt="">
                                 </div>
-                                <div class="col-12">
-                                    <div class="row py-3 text-light">
-                                        <div class="col-12">
+                                <div class="col-12 montserrat">
+                                    <div class="row py-3 text-light bold">
+                                        <div class="col-12 ">
                                             OFFICE ADDRESS
                                         </div>
-                                        <div class="col-12">
+                                        <div class="col-12 py-4">
                                             <div>SALAGRAM POWER & STEEL PVT LTD</div>
                                             <div>ROOM NO 403, 4TH FLOOR </div>
                                             <div>CONTINENTAL, 83/2/1 ROAD(S),</div>
@@ -120,12 +120,12 @@
                                 <div class="col-12">
                                     <img src="./images/Layer 2.png" class="img-fluid" alt="" style="height: 362px !important;">
                                 </div>
-                                <div class="col-12">
-                                    <div class="row py-3 text-light">
+                                <div class="col-12 montserrat">
+                                    <div class="row py-3 text-light bold">
                                         <div class="col-12">
                                             PLANT ADDRESS
                                         </div>
-                                        <div class="col-12">
+                                        <div class="col-12 py-4">
                                             <div>PALITPUR ROAD,</div>
                                             <div>DEWANDIGHI,</div>
                                             <div>BURWAN,</div>
