@@ -85,7 +85,7 @@
     <div class="header-container d-flex flex-column justify-content-between p-4">
       <?php include('header.php') ?>
       <div class=" row  text-light mbw-100">
-        <div class="col-lg-6 col-sm-12 px-lg-5 text-lg-start text-center" style="font-size: 50px !important;">
+        <div class="col-lg-6 col-sm-12 px-lg-5 text-lg-start text-center index-text">
           <strong>SMARTER STEEL FOR A BETTER TOMORROW</strong>
         </div>
       </div>

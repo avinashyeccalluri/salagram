@@ -6,6 +6,12 @@
 }
 
 
+.index-text {
+  font-size: 50px !important;
+}
+
+
+
 
 .contact_us_center_div {
   box-shadow: 0 1px 10px 0 rgb(0 0 0 / 14%);
@@ -826,6 +832,10 @@ a {
 
   .hot-rod {
     height: 300px;
+  }
+
+  .index-text {
+    font-size: 32px !important;
   }
 
   .achievement-status {
