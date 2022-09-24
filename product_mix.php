@@ -27,11 +27,11 @@
             <div class="row  text-light mbw-100">
                 <div class="col-12">
                     <div class="row">
-                        <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text">
+                        <!-- <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text">
                             PRODUCT
                             <div>MIX</div>
-                        </div>
-                        <div class="col-12 hide">
+                        </div> -->
+                        <!-- <div class="col-12 hide">
                             <div class="row d-flex justify-content-center align-content-flex-end text-light h4">
                                 <div class="col-2">SQUARE</div>
                                 <div class="col-2">ROUND</div>
@@ -39,7 +39,7 @@
                                 <div class="col-2">TMT BARS</div>
                                 <div class="col-2">SPONGE</div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

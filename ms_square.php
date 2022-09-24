@@ -44,7 +44,7 @@
     <section class="container my-5">
         <div class="row">
             <div class="col-12">
-                <img src="./images/5.png" class="img-fluid" alt="" srcset="">
+                <img src="./images/5-bg.png" class="img-fluid" alt="" srcset="">
             </div>
         </div>
     </section>

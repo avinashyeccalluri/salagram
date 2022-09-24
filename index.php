@@ -118,9 +118,9 @@
       </div>
     </div>
   </section>
-  <section class="container-fluid px-5 ">
+  <section class="container-fluid px-5 vector">
     <div class="row d-flex justify-content-center mt-lg-5  mt-md-5 mx-lg-5 pt-lg-5">
-      <div class="col-md-12 col-7 mt-lg-5 mt-3 fs-3 start-container montserrat animate__backInLeft" style="font-weight: lighter;">
+      <div class="col-md-12 col-sm-12 col-lg-7 mt-lg-5 mt-3 fs-3 start-container montserrat animate__backInLeft" style="font-weight: lighter;">
         The commitment and innovation of Salagram has led to the company
         becoming a competitive and promising steel manufacturing company with
         an annual production capacity of 1.2 lakh tons. With its flagship
@@ -129,7 +129,7 @@
         growth, the company has aggressively expanded its footprint across the
         country
       </div>
-      <div class=" col-md-12 col-5 align-items-end mt-lg-5 mt-3">
+      <div class=" col-md-12 col-sm-12 col-lg-5 align-items-end mt-lg-5 mt-3">
         <div class="">
           <img src="./images/shutterstock_1138752473.png" class="img-fluid" alt="" srcset="">
         </div>

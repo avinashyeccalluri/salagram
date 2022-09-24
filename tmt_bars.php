@@ -46,10 +46,10 @@
             </div>
         </div>
     </section>
-    <section class="container">
+    <section class="container vector">
         <div class="row d-flex justify-content-center align-items-center flex-lg-row flex-column-reverse">
 
-            <div class="col-12 col-7  py-3">
+            <div class="col-lg-7 col-12  py-3">
                 <div class="h1 gradient text-light container lh">Application</div>
 
                 <ul class="lh-52s fs-3" style="line-height: 56px;">
@@ -61,7 +61,7 @@
                     <li>Constructing Complex Buildings</li>
                 </ul>
             </div>
-            <div class="col-12 col-5 py-3">
+            <div class="col-lg-5 col-12 py-3">
                 <img src="./images/sea-pillar.png" class="img-fluid" alt="">
             </div>
         </div>

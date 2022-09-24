@@ -63,7 +63,7 @@
             </div>
         </div>
     </section>
-    <section class="container">
+    <section class="container vector">
         <div class="row">
             <div class="col-md-7">
                 <div class="h1 gradient text-light container lh">Application</div>
@@ -81,7 +81,7 @@
         </div>
     </section>
     <section class="container my-5">
-        <div class="row border bottom-radius border-4 mt-lg-5 corrosion-margin" >
+        <div class="row bottom-radius mt-lg-5 corrosion-margin custom_border" >
             <div class="h2 col-12 py-lg-4 py-3 text-center crs_corner bottom-gradient  montserrat">
                 OUR CORROSION RESISTANT STEEL (CRS) BAR(Fe-550D):
             </div>
