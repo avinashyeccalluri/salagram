@@ -743,6 +743,11 @@ a {
 }
 @media only screen and (max-width: 768px) {
 
+  
+  .index-text {
+    font-size: 32px !important;
+  }
+
   .info_contact_us {
     margin: 0 0 20px 2px !important;
   }
@@ -1080,4 +1085,18 @@ nav ul li ul li a {
 }
 
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+  .index-text {
+    font-size: 32px !important;
+  }
+}
+
+@media all and (device-width: 1024px) {
+  .index-text {
+    font-size: 32px !important;
+  }
+  
+}
 /* avinash */

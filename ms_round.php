@@ -51,7 +51,7 @@
     <section class="container">
         <div class="row">
 
-            <div class="col-md-7">
+            <div class="col-lg-7 col-12">
                 <div class="h1 gradient text-light container lh">Application</div>
 
                 <ul class="lh h3" style="line-height: 56px;">
@@ -62,7 +62,7 @@
                     <li>Used in Oil and Petroleum</li>
                 </ul>
             </div>
-            <div class="col-md-5">
+            <div class="col-lg-5 col-12">
                 <img src="./images/crane.png" class="img-fluid" alt="" style="height: 100%;">
             </div>
         </div>

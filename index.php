@@ -85,7 +85,7 @@
     <div class="header-container d-flex flex-column justify-content-between p-4">
       <?php include('header.php') ?>
       <div class=" row  text-light mbw-100">
-        <div class="col-lg-6 col-sm-12 px-lg-5 text-lg-start text-center index-text">
+        <div class="col-lg-6 col-md-6 col-sm-12 px-lg-5 text-lg-start text-center index-text">
           <strong>SMARTER STEEL FOR A BETTER TOMORROW</strong>
         </div>
       </div>
@@ -119,8 +119,8 @@
     </div>
   </section>
   <section class="container-fluid px-5 ">
-    <div class="row d-flex justify-content-center mt-lg-5 mx-lg-5 pt-lg-5">
-      <div class="col-md-7 mt-lg-5 mt-3 fs-3 start-container montserrat animate__backInLeft" style="font-weight: lighter;">
+    <div class="row d-flex justify-content-center mt-lg-5  mt-md-5 mx-lg-5 pt-lg-5">
+      <div class="col-md-12 col-7 mt-lg-5 mt-3 fs-3 start-container montserrat animate__backInLeft" style="font-weight: lighter;">
         The commitment and innovation of Salagram has led to the company
         becoming a competitive and promising steel manufacturing company with
         an annual production capacity of 1.2 lakh tons. With its flagship
@@ -129,7 +129,7 @@
         growth, the company has aggressively expanded its footprint across the
         country
       </div>
-      <div class=" col-md-5 align-items-end mt-lg-5 mt-3">
+      <div class=" col-md-12 col-5 align-items-end mt-lg-5 mt-3">
         <div class="">
           <img src="./images/shutterstock_1138752473.png" class="img-fluid" alt="" srcset="">
         </div>
