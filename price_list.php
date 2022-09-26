@@ -31,8 +31,8 @@
             </div>
         </div>
     </header>
-    <section class="container my-lg-5 py-3 mx-1">
-        <div class="">
+    <section class="vector mt-lg-5 py-3 mx-1">
+        <div class="container">
 
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-3 col-sm-12 px-3 default-border-color border border-4 price_list_border_radius">

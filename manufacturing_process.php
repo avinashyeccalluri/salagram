@@ -16,7 +16,7 @@
     <!-- JavaScript Bundle with Popper -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Document</title>
 </head>
 
@@ -26,25 +26,27 @@
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
                 <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text">
-                MANUFACTURING PROCESS
+                    MANUFACTURING PROCESS
                 </div>
             </div>
         </div>
     </header>
-    <section class="container my-lg-5 py-3">
-        <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-lg-5 col-12 d-flex justify-content-center align-items-center">
-                <img src="./images/Thermax_logo.png" class="img-fluid" alt="" srcset="">
-            </div>
-            <div class="col-lg-7 col-12 fs-4 my-3" style="line-height: 50px;">
-                <div class="text-lg-start text-center">
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature from 45
-                    BC, making it over 2000 years old. Richard McClintock, a Latin
-                    professor at Hampden-Sydney College in Virginia, looked up
-                    one of the more obscure Latin words, consectetur, from a
-                    Lorem Ipsum passage, and going through the cites of the
-                    word in classical literature discovered the undoubtable
+    <section class="my-lg-5 py-3 vector">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-5 col-12 d-flex justify-content-center align-items-center">
+                    <img src="./images/Thermax_logo.png" class="img-fluid" alt="" srcset="">
+                </div>
+                <div class="col-lg-7 col-12 fs-4 my-3" style="line-height: 50px;">
+                    <div class="text-lg-start text-center">
+                        Contrary to popular belief, Lorem Ipsum is not simply random
+                        text. It has roots in a piece of classical Latin literature from 45
+                        BC, making it over 2000 years old. Richard McClintock, a Latin
+                        professor at Hampden-Sydney College in Virginia, looked up
+                        one of the more obscure Latin words, consectetur, from a
+                        Lorem Ipsum passage, and going through the cites of the
+                        word in classical literature discovered the undoubtable
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,7 +59,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="container my-5">
         <div class="row">
             <div class="col-12">

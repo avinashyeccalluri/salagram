@@ -4,7 +4,7 @@
       <a href="#!"><img src="./images/salagram_logo.png" style="height: 80px;" alt="" srcset=""></a>
     </div>
     <nav>
-      <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+      <div class="nav-mobile mt-4"><a id="navbar-toggle" href="#!"><span></span></a></div>
       <ul class="nav-list">
         <li>
           <a href="index.php">Home</a>

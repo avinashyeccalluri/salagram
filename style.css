@@ -13,7 +13,8 @@
 .vector{
   
   background-image: url("./images/vector-3.png");
-  object-fit: contain;
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 /* .custom_border {
