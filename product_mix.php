@@ -62,7 +62,7 @@
         </div>
     </section>
     <section class="container my-5 py-3">
-        <img src="./images/products.png" class="img-fluid" alt="">
+        <img src="./images/products-1.png" class="img-fluid" alt="">
     </section>
     <?php include('footer.php') ?>
     <script src="./js/app.js"></script>

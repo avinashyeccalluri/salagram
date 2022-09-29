@@ -59,7 +59,7 @@
     <section class="container my-5 ">
         <div class="row">
             <div class="col-12">
-                <img src="./images/2.png" class="img-fluid crs" alt="" srcset="">
+                <img src="./images/2-1.png" class="img-fluid crs" alt="" srcset="">
             </div>
         </div>
     </section>

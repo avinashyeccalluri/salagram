@@ -46,7 +46,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <img src="./images/ms-info.png" class="img-fluid" alt="" srcset="">
+                <img src="./images/ms-info-1.png" class="img-fluid" alt="" srcset="">
             </div>
         </div>
     </div>
