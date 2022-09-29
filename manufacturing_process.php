@@ -51,19 +51,22 @@
             </div>
         </div>
     </section>
-    <section class="my-lg-5 container">
-
-        <div class="row">
-            <div class="gradient1 h1 col-lg-4 col-sm-8 text-light text-lg-start text-center">
-                Production Process
+    <section class="vector">
+        <div class="my-lg-5 container">
+            <div class="row">
+                <div class="gradient1 h1 col-lg-4 col-sm-8 text-light text-lg-start text-center">
+                    Production Process
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="container my-5">
-        <div class="row">
-            <div class="col-12">
-                <img src="./images/6.png" class="img-fluid" alt="" srcset="">
+    <section class="vector">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-12">
+                    <img src="./images/6-1.png" class="img-fluid" alt="" srcset="">
+                </div>
             </div>
         </div>
     </section>

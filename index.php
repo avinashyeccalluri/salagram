@@ -157,7 +157,7 @@
     </div>
   </section>
   <section class="" id="power" style="display: none;">
-    <div class="container-fluid px-4 d-flex prod-cap flex-column page justify-content-around p-4 ">
+    <div class="container-fluid px-4 d-flex prod-pow flex-column page justify-content-around p-4 ">
       <div class="row">
 
         <div class="fs-3 text-white col-sm-12 col-lg-6">

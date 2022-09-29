@@ -16,7 +16,7 @@
     <!-- JavaScript Bundle with Popper -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Document</title>
 </head>
 
@@ -41,10 +41,12 @@
         </div>
     </section>
 
-    <section class="container my-5">
-        <div class="row">
-            <div class="col-12">
-                <img src="./images/7.png" class="img-fluid" alt="" srcset="">
+    <section class="vector">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-12">
+                    <img src="./images/7-1.png" class="img-fluid" alt="" srcset="">
+                </div>
             </div>
         </div>
     </section>

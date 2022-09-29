@@ -56,9 +56,9 @@
             </div>
         </div>
     </section>
-    <section>
-        <div>
-            <img src="./images/overview.png" class="img-fluid p-5" alt="" srcset="">
+    <section class="vector">
+        <div class="d-flex justify-content-center align-items-center">
+            <img src="./images/OverView-1.png" class="img-fluid p-5" alt="" srcset="">
         </div>
     </section>
     <section>

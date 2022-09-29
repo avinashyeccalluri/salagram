@@ -31,29 +31,37 @@
 
 <body class="">
     <header>
-        <div class="market-header-container d-flex flex-column justify-content-flex-start  p-4">
+        <div class="d-flex flex-column justify-content-flex-start  p-4">
             <?php include('header.php') ?>
-            <div class="container my-5 py-3">
-                <div class="row text-center">
-                    <div class="col-6 h3 orange-background bottom-gradient text-white">
-                        Domestic Market
-                    </div>
-                    <div class="col-6 orange-text h3">
-                        International Market
-                    </div>
-                    <div class="col-12">
-                        <img src="./images/india.png" class="img-fluid" alt="">
+            <div class="market-header-container">
+                <div>
+                    <div class="container my-5 py-3">
+                        <div class="row text-center">
+                            <div class="col-6 h3 orange-background bottom-gradient text-white">
+                                Domestic Market
+                            </div>
+                            <div class="col-6 orange-text h3">
+                                International Market
+                            </div>
+                            <div class="col-12">
+                                <img src="./images/india-1.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row text-center">
-                    <div class="col-6 h3 orange-text ">
-                        Domestic Market
-                    </div>
-                    <div class="col-6 h3 orange-background bottom-gradient text-white">
-                        International Market
-                    </div>
-                    <div class="col-12">
-                        <img src="./images/international.png" class="img-fluid" alt="">
+                <div class="market-header-container">
+                    <div class="container my-5 py-3">
+                        <div class="row text-center">
+                            <div class="col-6 h3 orange-text ">
+                                Domestic Market
+                            </div>
+                            <div class="col-6 h3 orange-background bottom-gradient text-white">
+                                International Market
+                            </div>
+                            <div class="col-12">
+                                <img src="./images/international-1.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -62,7 +70,7 @@
     <section class="container">
         <div class="row ">
             <div class="col-6 py-3">
-                <div class="row">
+                <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-1">
                         <i class='fa fa-map-marker' style='color:#8bcc5b'></i>
                     </div>
@@ -72,7 +80,7 @@
                 </div>
             </div>
             <div class="col-6 py-3">
-                <div class="row">
+                <div class="row  d-flex justify-content-center align-items-center">
                     <div class="col-1">
                         <i class='fa fa-map-marker' style='color:Red'></i>
                     </div>
@@ -82,7 +90,7 @@
                 </div>
             </div>
             <div class="col-6 py-3">
-                <div class="row">
+                <div class="row  d-flex justify-content-center align-items-center">
                     <div class="col-1">
                         <i class='fa fa-map-marker' style='color:blue'></i>
                     </div>
@@ -92,7 +100,7 @@
                 </div>
             </div>
             <div class="col-6 py-3">
-                <div class="row">
+                <div class="row  d-flex justify-content-center align-items-center">
                     <div class="col-1">
                         <i class='fa fa-map-marker' style='color:orange'></i>
                     </div>
@@ -102,7 +110,7 @@
                 </div>
             </div>
             <div class="col-6 py-3">
-                <div class="row">
+                <div class="row  d-flex justify-content-center align-items-center">
                     <div class="col-1">
                         <i class='fa fa-map-marker' style='color:pink'></i>
                     </div>

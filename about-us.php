@@ -50,7 +50,7 @@
         </div>
 
     </header>
-    <section class="directors about-us-header-container">
+    <section class="directors-1 about-us-header-container">
 
         <div class="row p-5 d-flex justify-content-lg-end justify-content-center align-items-center flex-lg-row flex-column-reverse">
             <div class="col-lg-7 col-12 container my-5 py-3">

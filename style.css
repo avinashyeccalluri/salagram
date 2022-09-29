@@ -14,7 +14,8 @@
   
   background-image: url("./images/vector-3.png");
   object-fit: cover;
-  background-repeat: no-repeat;
+  object-position: center center;
+  /* background-repeat: no-repeat; */
 }
 
 /* .custom_border {
@@ -367,6 +368,8 @@ font-size: 30px;
 .overview-header-container,
 .product-header-container,
 .flat-header-container,
+.contact-us-header-container,
+.prod-pow,
 .directors {
   background: url("./images/power-plants-1.png");
   background-size: cover;
@@ -384,9 +387,17 @@ font-size: 30px;
   background-image: url("./images/ms-flat-01.png");
 }
 
+.prod-pow {
+  background-image: url('./images/steels.jpg');
+}
+
 a {
   text-decoration: none;
   color: white !important;
+}
+
+.contact-us-header-container {
+  background-image: url("./images/about-us-header.jpg");
 }
 
 .product-header-container {
@@ -415,6 +426,11 @@ a {
 
 .directors {
   background-image: url("./images/about-us-header.png");
+}
+
+.directors-1 {
+  background-image: url("./images/leadership.jpg");
+  object-fit: contain;
 }
 
 .crs-header-container {
