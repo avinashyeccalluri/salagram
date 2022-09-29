@@ -222,6 +222,10 @@ body {
   line-height: 52px !important;
 }
 
+.lh-75 {
+  line-height: 75px !important;
+}
+
 .w-12 {
   width: 11% !important;
 }
@@ -798,14 +802,11 @@ a {
   font-size: 17px !important;
 }
 
-/* .crs-border {
-  border: 4px solid orange;
-  border-radius: 25px;
-} */
+@media only screen and (max-width: 576px) {
 
-@media only screen and (max-width: 576px) {
-}
-@media only screen and (max-width: 576px) {
+  .product-header-container {
+      height: 60vh !important;
+  }
 
   .vh-90 {
     height: 90vh !important;
@@ -1072,6 +1073,10 @@ nav ul li ul li a {
 
 @media only screen and (max-width: 800px) {
 
+  .lh-75 {
+    line-height: 60px !important;
+  }
+  
   .vh-700 {
     height: 80vh !important;
   }

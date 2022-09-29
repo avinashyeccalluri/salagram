@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -121,7 +124,7 @@
   </section>
   <section class="container-fluid px-5 vector">
     <div class="row d-flex justify-content-center mt-lg-5  mt-md-5 mx-lg-5 pt-lg-5">
-      <div class="col-md-12 col-sm-12 col-lg-7 mt-lg-5 mt-3 fs-3 start-container montserrat animate__backInLeft" style="font-weight: lighter;">
+      <div data-aos="fade-right" class="col-md-12 col-sm-12 col-lg-7 mt-lg-5 mt-3 fs-3 start-container montserrat animate__backInLeft" style="font-weight: lighter;">
         The commitment and innovation of Salagram has led to the company
         becoming a competitive and promising steel manufacturing company with
         an annual production capacity of 1.2 lakh tons. With its flagship
@@ -130,7 +133,7 @@
         growth, the company has aggressively expanded its footprint across the
         country
       </div>
-      <div class=" col-md-12 col-sm-12 col-lg-5 align-items-end mt-lg-5 mt-3">
+      <div data-aos="fade-left" class=" col-md-12 col-sm-12 col-lg-5 align-items-end mt-lg-5 mt-3">
         <div class="">
           <img src="./images/shutterstock_1138752473.png" class="img-fluid" alt="" srcset="">
         </div>
@@ -146,12 +149,12 @@
     <div class="container-fluid px-4 d-flex prod-cap flex-column page justify-content-around p-4 ">
       <div class="row">
 
-        <div class="fs-3 text-white col-sm-12 col-lg-6">
+        <div class="fs-3 text-white col-sm-12 col-lg-6" data-aos="fade-up">
           Our captive power plant at Burdwan's Dewandighi is producing 8MWH of
           electricity.
         </div>
       </div>
-      <div class="d-flex justify-content-around white border border-4 montserrat">
+      <div class="d-flex justify-content-around white border border-4 montserrat" data-aos="zoom-in">
         <div class="py-2 fs-5 w-50 bg-white text-center text-dark steel-power" type="steel">STEEL</div>
         <div class="py-2 fs-5 w-50 text-center steel-power" type="power">POWER</div>
       </div>
@@ -161,19 +164,19 @@
     <div class="container-fluid px-4 d-flex prod-pow flex-column page justify-content-around p-4 ">
       <div class="row">
 
-        <div class="fs-3 text-white col-sm-12 col-lg-6">
+        <div class="fs-3 text-white col-sm-12 col-lg-6" data-aos="fade-up">
           Our captive power plant at Burdwan's Dewandighi is producing 8MWH of
           electricity. - power
         </div>
       </div>
-      <div class="d-flex justify-content-around white border border-4 montserrat">
+      <div class="d-flex justify-content-around white border border-4 montserrat" data-aos="zoom-in">
         <div class="py-2 fs-5 w-50  text-center steel-power" type="steel">STEEL</div>
         <div class="py-2 fs-5 w-50 text-center bg-white text-dark steel-power" type="power">POWER</div>
       </div>
     </div>
   </section>
   <section class="d-flex w-100 align-items-center justify-content-center text-center my-4">
-    <div class="fs-1 border-orangered px-4 montserrat"><strong>OUR PRODUCTS</strong></div>
+    <div class="fs-1 border-orangered px-4 montserrat" ><strong>OUR PRODUCTS</strong></div>
   </section>
   <!-- avinash -->
   
