@@ -59,7 +59,7 @@
       <div class="col-lg-4 col-sm-12">
         <img src="./images/hand_shake.png" alt="" class="img-fluid" />
       </div>
-      <div class="col-lg-4 col-sm-12 p-4">
+      <div class="col-lg-8 col-sm-12 p-4">
         <div class="row d-flex justify-content-between align-items-center text-light">
           <div class="col-12">
             <div class="fs-1">
