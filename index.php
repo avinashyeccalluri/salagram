@@ -20,6 +20,7 @@
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
   <title>Document</title>
   <style type="text/css">
     .carousel-inner {
@@ -174,9 +175,35 @@
   <section class="d-flex w-100 align-items-center justify-content-center text-center my-4">
     <div class="fs-1 border-orangered px-4 montserrat"><strong>OUR PRODUCTS</strong></div>
   </section>
+  <!-- avinash -->
+  
   <div id="carouselExampleControls" class="carousel mb-5 pb-5 montserrat" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/tmt-1.png" width="50" class="d-block w-100" alt="..."> </div>
+          <div class="card-body text-center bg-dark text-light" style="opacity: 0.7;">
+            <h5 class="card-title"><strong>TMT Bars</strong></h5>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/square-1.png" width="50" class="d-block w-100" alt="..."> </div>
+          <div class="card-body text-center bg-dark text-light" style="opacity: 0.7;">
+            <h5 class="card-title"><strong>Square Bar</strong></h5>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/round (2).png" width="50" class="d-block w-100" alt="..."> </div>
+          <div class="card-body text-center bg-dark text-light" style="opacity: 0.7;">
+            <h5 class="card-title"><strong>Round Bar</strong></h5>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
         <div class="card">
           <div class="img-wrapper"><img src="./images/tmt-1.png" width="50" class="d-block w-100" alt="..."> </div>
           <div class="card-body text-center bg-dark text-light" style="opacity: 0.7;">
@@ -213,56 +240,52 @@
   <section class="d-flex w-100 align-items-center justify-content-center text-center my-4">
     <div class="fs-1 border-orangered px-4 montserrat"><strong>OUR CLIENTS</strong></div>
   </section>
-  <div id="carouselExampleControls" class="carousel mb-5 pb-5" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="card">
-          <div class="img-wrapper"><img src="./images/Tata Housing.png" width="50" class="d-block w-100" alt="..."> </div>
-
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="card">
-          <div class="img-wrapper"><img src="./images/ps.png" width="50" class="d-block w-100" alt="..."> </div>
-
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="card">
-          <div class="img-wrapper"><img src="./images/Bgr.png" width="50" class="d-block w-100" alt="..."> </div>
-
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="card">
-          <div class="img-wrapper"><img src="./images/Tata Housing.png" width="50" class="d-block w-100" alt="..."> </div>
-
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="card">
-          <div class="img-wrapper"><img src="./images/ps.png" width="50" class="d-block w-100" alt="..."> </div>
-
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="card">
-          <div class="img-wrapper"><img src="./images/Bgr.png" width="50" class="d-block w-100" alt="..."> </div>
-
-        </div>
-      </div>
+  
+  <div class="container-fluid">
+        <section class="customer-logos slider">
+            <div class="slide"><img src="images/Arabian Constructions.png" alt="logo"></div>
+            <div class="slide"><img src="images/Arss png.png" alt="logo"></div>
+            <div class="slide"><img src="images/Bgr energy.png" alt="logo"></div>
+            <div class="slide"><img src="images/Bhel.jpg" alt="logo"></div>
+            <div class="slide"><img src="images/CP MOHANTY.png" alt="logo"></div>
+            <div class="slide"><img src="images/download.png" alt="logo"></div>
+            <div class="slide"><img src="images/jindal trade mark.png" alt="logo"></div>
+            <div class="slide"><img src="images/Jkumar Nhai.png" alt="logo"></div>
+            <div class="slide"><img src="images/Merlin-Group.png" alt="logo"></div>
+            <div class="slide"><img src="images/Ps groups.png" alt="logo"></div>
+            <div class="slide"><img src="images/Rkd Constructios.png" alt="logo"></div>
+            <div class="slide"><img src="images/Tata Housing.png" alt="logo"></div>
+        </section>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
   <?php include('footer.php') ?>
   <script src="./js/app.js"></script>
+  
+  <script>
+    
+    $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover:false,
+            responsive: [{
+                breakpoint: 768,
+                setting: {
+                    slidesToShow:4
+                }
+            }, {
+                breakpoint: 520,
+                setting: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+
+    </script>
   <script type="text/javascript" language="javascript">
     var multipleCardCarousel = document.querySelector(
       "#carouselExampleControls"
