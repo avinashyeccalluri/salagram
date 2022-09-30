@@ -122,9 +122,11 @@
       </div>
     </div>
   </section>
-  <section class="container-fluid px-5 vector">
+  <section class="vector">
+    <div class="container-fluid px-5">
+      
     <div class="row d-flex justify-content-center mt-lg-5  mt-md-5 mx-lg-5 pt-lg-5">
-      <div data-aos="fade-right" class="col-md-12 col-sm-12 col-lg-7 mt-lg-5 mt-3 fs-3 start-container montserrat animate__backInLeft" style="font-weight: lighter;">
+      <div  data-aos="fade-right" data-aos-delay="10000" class="col-md-12 col-sm-12 col-lg-7 mt-lg-5 mt-3 fs-3 start-container montserrat animate__backInLeft" style="font-weight: lighter;">
         The commitment and innovation of Salagram has led to the company
         becoming a competitive and promising steel manufacturing company with
         an annual production capacity of 1.2 lakh tons. With its flagship
@@ -133,7 +135,7 @@
         growth, the company has aggressively expanded its footprint across the
         country
       </div>
-      <div data-aos="fade-left" class=" col-md-12 col-sm-12 col-lg-5 align-items-end mt-lg-5 mt-3">
+      <div data-aos-delay="300" data-aos="fade-left" class=" col-md-12 col-sm-12 col-lg-5 align-items-end mt-lg-5 mt-3">
         <div class="">
           <img src="./images/shutterstock_1138752473.png" class="img-fluid" alt="" srcset="">
         </div>
@@ -143,6 +145,7 @@
       <div class="col-md-12 d-flex justify-content-lg-start justify-content-center align-items-start">
         <button class="my-5 b-about-us text-center">About us</button>
       </div>
+    </div>
     </div>
   </section>
   <section class="" id="steel">
@@ -244,21 +247,21 @@
     <div class="fs-1 border-orangered px-4 montserrat"><strong>OUR CLIENTS</strong></div>
   </section>
   
-  <div class="container-fluid">
-        <section class="customer-logos slider">
-            <div class="slide"><img src="images/Arabian Constructions.png" alt="logo"></div>
-            <div class="slide"><img src="images/Arss png.png" alt="logo"></div>
-            <div class="slide"><img src="images/Bgr energy.png" alt="logo"></div>
-            <div class="slide"><img src="images/Bhel.jpg" alt="logo"></div>
-            <div class="slide"><img src="images/CP MOHANTY.png" alt="logo"></div>
-            <div class="slide"><img src="images/download.png" alt="logo"></div>
-            <div class="slide"><img src="images/jindal trade mark.png" alt="logo"></div>
-            <div class="slide"><img src="images/Jkumar Nhai.png" alt="logo"></div>
-            <div class="slide"><img src="images/Merlin-Group.png" alt="logo"></div>
-            <div class="slide"><img src="images/Ps groups.png" alt="logo"></div>
-            <div class="slide"><img src="images/Rkd Constructios.png" alt="logo"></div>
-            <div class="slide"><img src="images/Tata Housing.png" alt="logo"></div>
-        </section>
+  <div class="">
+        <div class="customer-logos slider">
+            <div class="slide"><img src="images/Arabian Constructions.png" alt="logo" ></div>
+            <div class="slide"><img src="images/Arss png.png" alt="logo" ></div>
+            <div class="slide"><img src="images/Bgr energy.png" alt="logo" ></div>
+            <div class="slide"><img src="images/Bhel.jpg" alt="logo" ></div>
+            <div class="slide"><img src="images/CP MOHANTY.png" alt="logo" ></div>
+            <div class="slide"><img src="images/download.png" alt="logo" ></div>
+            <div class="slide"><img src="images/jindal trade mark.png" alt="logo" ></div>
+            <div class="slide"><img src="images/Jkumar Nhai.png" alt="logo" ></div>
+            <div class="slide"><img src="images/Merlin-Group.png" alt="logo" ></div>
+            <div class="slide"><img src="images/Ps groups.png" alt="logo" ></div>
+            <div class="slide"><img src="images/Rkd Constructios.png" alt="logo" ></div>
+            <div class="slide"><img src="images/Tata Housing.png" alt="logo" ></div>
+        </div>
     </div>
   <?php include('footer.php') ?>
   <script src="./js/app.js"></script>
