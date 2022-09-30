@@ -50,9 +50,12 @@ h2{
   padding-top: 250px;
 }
 /*  */
+
+
 .splide__slide img {
-  width: 100%;
-  height: auto;
+  object-fit: contain;
+  height: 200px;
+  width: 180px;
 }
 
 .index-text {
