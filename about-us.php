@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
     <!-- JavaScript Bundle with Popper -->
@@ -50,7 +51,7 @@
         </div>
 
     </header>
-    <section class="directors about-us-header-container">
+    <section class="directors-1 about-us-header-container">
 
         <div class="row p-5 d-flex justify-content-lg-end justify-content-center align-items-center flex-lg-row flex-column-reverse">
             <div class="col-lg-7 col-12 container my-5 py-3">

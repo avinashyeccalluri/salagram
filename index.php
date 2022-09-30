@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -20,6 +23,7 @@
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
   <title>Document</title>
   <style type="text/css">
     .carousel-inner {
@@ -120,7 +124,7 @@
   </section>
   <section class="container-fluid px-5 vector">
     <div class="row d-flex justify-content-center mt-lg-5  mt-md-5 mx-lg-5 pt-lg-5">
-      <div class="col-md-12 col-sm-12 col-lg-7 mt-lg-5 mt-3 fs-3 start-container montserrat animate__backInLeft" style="font-weight: lighter;">
+      <div data-aos="fade-right" class="col-md-12 col-sm-12 col-lg-7 mt-lg-5 mt-3 fs-3 start-container montserrat animate__backInLeft" style="font-weight: lighter;">
         The commitment and innovation of Salagram has led to the company
         becoming a competitive and promising steel manufacturing company with
         an annual production capacity of 1.2 lakh tons. With its flagship
@@ -129,7 +133,7 @@
         growth, the company has aggressively expanded its footprint across the
         country
       </div>
-      <div class=" col-md-12 col-sm-12 col-lg-5 align-items-end mt-lg-5 mt-3">
+      <div data-aos="fade-left" class=" col-md-12 col-sm-12 col-lg-5 align-items-end mt-lg-5 mt-3">
         <div class="">
           <img src="./images/shutterstock_1138752473.png" class="img-fluid" alt="" srcset="">
         </div>
@@ -145,38 +149,64 @@
     <div class="container-fluid px-4 d-flex prod-cap flex-column page justify-content-around p-4 ">
       <div class="row">
 
-        <div class="fs-3 text-white col-sm-12 col-lg-6">
+        <div class="fs-3 text-white col-sm-12 col-lg-6" data-aos="fade-up">
           Our captive power plant at Burdwan's Dewandighi is producing 8MWH of
           electricity.
         </div>
       </div>
-      <div class="d-flex justify-content-around white border border-4 montserrat">
+      <div class="d-flex justify-content-around white border border-4 montserrat" data-aos="zoom-in">
         <div class="py-2 fs-5 w-50 bg-white text-center text-dark steel-power" type="steel">STEEL</div>
         <div class="py-2 fs-5 w-50 text-center steel-power" type="power">POWER</div>
       </div>
     </div>
   </section>
   <section class="" id="power" style="display: none;">
-    <div class="container-fluid px-4 d-flex prod-cap flex-column page justify-content-around p-4 ">
+    <div class="container-fluid px-4 d-flex prod-pow flex-column page justify-content-around p-4 ">
       <div class="row">
 
-        <div class="fs-3 text-white col-sm-12 col-lg-6">
+        <div class="fs-3 text-white col-sm-12 col-lg-6" data-aos="fade-up">
           Our captive power plant at Burdwan's Dewandighi is producing 8MWH of
           electricity. - power
         </div>
       </div>
-      <div class="d-flex justify-content-around white border border-4 montserrat">
+      <div class="d-flex justify-content-around white border border-4 montserrat" data-aos="zoom-in">
         <div class="py-2 fs-5 w-50  text-center steel-power" type="steel">STEEL</div>
         <div class="py-2 fs-5 w-50 text-center bg-white text-dark steel-power" type="power">POWER</div>
       </div>
     </div>
   </section>
   <section class="d-flex w-100 align-items-center justify-content-center text-center my-4">
-    <div class="fs-1 border-orangered px-4 montserrat"><strong>OUR PRODUCTS</strong></div>
+    <div class="fs-1 border-orangered px-4 montserrat" ><strong>OUR PRODUCTS</strong></div>
   </section>
+  <!-- avinash -->
+  
   <div id="carouselExampleControls" class="carousel mb-5 pb-5 montserrat" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/tmt-1.png" width="50" class="d-block w-100" alt="..."> </div>
+          <div class="card-body text-center bg-dark text-light" style="opacity: 0.7;">
+            <h5 class="card-title"><strong>TMT Bars</strong></h5>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/square-1.png" width="50" class="d-block w-100" alt="..."> </div>
+          <div class="card-body text-center bg-dark text-light" style="opacity: 0.7;">
+            <h5 class="card-title"><strong>Square Bar</strong></h5>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+          <div class="img-wrapper"><img src="./images/round (2).png" width="50" class="d-block w-100" alt="..."> </div>
+          <div class="card-body text-center bg-dark text-light" style="opacity: 0.7;">
+            <h5 class="card-title"><strong>Round Bar</strong></h5>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
         <div class="card">
           <div class="img-wrapper"><img src="./images/tmt-1.png" width="50" class="d-block w-100" alt="..."> </div>
           <div class="card-body text-center bg-dark text-light" style="opacity: 0.7;">
@@ -213,56 +243,52 @@
   <section class="d-flex w-100 align-items-center justify-content-center text-center my-4">
     <div class="fs-1 border-orangered px-4 montserrat"><strong>OUR CLIENTS</strong></div>
   </section>
-  <div id="carouselExampleControls" class="carousel mb-5 pb-5" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="card">
-          <div class="img-wrapper"><img src="./images/Tata Housing.png" width="50" class="d-block w-100" alt="..."> </div>
-
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="card">
-          <div class="img-wrapper"><img src="./images/ps.png" width="50" class="d-block w-100" alt="..."> </div>
-
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="card">
-          <div class="img-wrapper"><img src="./images/Bgr.png" width="50" class="d-block w-100" alt="..."> </div>
-
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="card">
-          <div class="img-wrapper"><img src="./images/Tata Housing.png" width="50" class="d-block w-100" alt="..."> </div>
-
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="card">
-          <div class="img-wrapper"><img src="./images/ps.png" width="50" class="d-block w-100" alt="..."> </div>
-
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="card">
-          <div class="img-wrapper"><img src="./images/Bgr.png" width="50" class="d-block w-100" alt="..."> </div>
-
-        </div>
-      </div>
+  
+  <div class="container-fluid">
+        <section class="customer-logos slider">
+            <div class="slide"><img src="images/Arabian Constructions.png" alt="logo"></div>
+            <div class="slide"><img src="images/Arss png.png" alt="logo"></div>
+            <div class="slide"><img src="images/Bgr energy.png" alt="logo"></div>
+            <div class="slide"><img src="images/Bhel.jpg" alt="logo"></div>
+            <div class="slide"><img src="images/CP MOHANTY.png" alt="logo"></div>
+            <div class="slide"><img src="images/download.png" alt="logo"></div>
+            <div class="slide"><img src="images/jindal trade mark.png" alt="logo"></div>
+            <div class="slide"><img src="images/Jkumar Nhai.png" alt="logo"></div>
+            <div class="slide"><img src="images/Merlin-Group.png" alt="logo"></div>
+            <div class="slide"><img src="images/Ps groups.png" alt="logo"></div>
+            <div class="slide"><img src="images/Rkd Constructios.png" alt="logo"></div>
+            <div class="slide"><img src="images/Tata Housing.png" alt="logo"></div>
+        </section>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
   <?php include('footer.php') ?>
   <script src="./js/app.js"></script>
+  
+  <script>
+    
+    $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover:false,
+            responsive: [{
+                breakpoint: 768,
+                setting: {
+                    slidesToShow:4
+                }
+            }, {
+                breakpoint: 520,
+                setting: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+
+    </script>
   <script type="text/javascript" language="javascript">
     var multipleCardCarousel = document.querySelector(
       "#carouselExampleControls"
@@ -297,6 +323,10 @@
     } else {
       $(multipleCardCarousel).addClass("slide");
     }
+  </script>
+  <script>
+    
+    AOS.init();
   </script>
 </body>
 

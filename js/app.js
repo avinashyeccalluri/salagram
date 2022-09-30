@@ -1,5 +1,8 @@
 (function($) { 
     $(function() { 
+
+      
+      AOS.init();
   
       //  open and close nav 
       $('#navbar-toggle').click(function() {
