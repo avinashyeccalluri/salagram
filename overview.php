@@ -24,7 +24,7 @@
     <header>
         <div class="overview-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
-            <div class=" row  text-light mbw-100">
+            <div class=" row  text-light mbw-100" data-aos="fade-up">
                 <div class="col-lg-6 col-sm-12">
                     <div class="px-5 fs-1 header-text">UNCOMPROMISING VALUES</div>
                     <div class="px-5 fs-1 header-text">UNPARALLELED STRENGTH</div>

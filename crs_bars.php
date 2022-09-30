@@ -26,7 +26,7 @@
         <div class="crs-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class=" row  text-light mbw-100">
-                <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text">
+                <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text"  data-aos="zoom-in">
                     CRS BAR
                 </div>
             </div>
@@ -34,7 +34,7 @@
     </header>
     <section class="container my-5" >
         <div class="row">
-            <div class="col-md-6 lh">
+            <div class="col-md-6 lh" data-aos="fade-right">
                 There are many variations of passages of Lore Ipsum available,
                 but the majority have suffered alteration in some form, by
                 injected humour, or randomised words which don't look even
@@ -51,20 +51,25 @@
                 some form, by injected humour, or randomised words which
                 don't look even slightly believable.
             </div>
-            <div class="col-md-6 hide" >
+            <div class="col-md-6 hide" data-aos="fade-left">
                 <img src="./images/crs_tmt.png" class="img-fluid" alt="" srcset="" style="height: 500px;">
             </div>
         </div>
     </section>
 
-    <section class="container my-5 ">
+    <section class="vector">
+        <div class="conatiner my-5 d-flex justify-content-center">
+            
         <div class="row">
             <div class="col-12">
                 <img src="./images/2-1.png" class="img-fluid crs" alt="" srcset="">
             </div>
         </div>
+        </div>
     </section>
-    <section class="container vector">
+    <section class="vector" data-aos="zoom-out">
+        <div class="container">
+            
         <div class="row">
             <div class="col-md-7">
                 <div class="h1 gradient text-light container lh">Application</div>
@@ -79,6 +84,7 @@
             <div class="col-md-5">
                 <img src="./images/port_crs.png" class="img-fluid" alt="" style="height: 100%;">
             </div>
+        </div>
         </div>
     </section>
     <section class="container my-5">

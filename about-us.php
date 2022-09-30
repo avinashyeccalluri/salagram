@@ -29,7 +29,7 @@
                 <div class="col-lg-4 col-12  container d-flex justify-content-center align-items-center">
                     <img src="./images/director.png" class="img-fluid director-images" alt="" srcset="">
                 </div>
-                <div class="col-lg-7 col-12 container my-5 py-3">
+                <div class="col-lg-7 col-12 container my-5 py-3" data-aos="zoom-out-up">
                     <div class="row d-flex justify-content-center align-items-center text-light text-start">
                         <div class="col-12 fs-1 text-lg-start text-center">
                             <strong>Mr. Pawan Kumar Agarwal</strong>
@@ -54,7 +54,7 @@
     <section class="directors-1 about-us-header-container">
 
         <div class="row p-5 d-flex justify-content-lg-end justify-content-center align-items-center flex-lg-row flex-column-reverse">
-            <div class="col-lg-7 col-12 container my-5 py-3">
+            <div class="col-lg-7 col-12 container my-5 py-3" data-aos="zoom-out-down">
                 <div class="row d-flex justify-content-end align-items-center text-light">
                     <div class="col-12 fs-1 text-lg-end text-center">
                         <strong>Mr. Suyash Agarwal</strong>

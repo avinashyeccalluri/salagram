@@ -23,7 +23,7 @@
 
 <body class="">
     <header>
-        <div class="header-container d-flex flex-column justify-content-between p-4">
+        <div class="header-container d-flex flex-column justify-content-between p-4" data-aos="fade-up">
             <?php include('header.php') ?>
             <div class=" row  text-light mbw-100">
                 <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text">

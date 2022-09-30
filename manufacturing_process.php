@@ -26,7 +26,7 @@
         <div class="production-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100">
-                <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text">
+                <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text" data-aos="fade-up">
                     MANUFACTURING PROCESS
                 </div>
             </div>
@@ -54,7 +54,7 @@
     </section>
     <section class="vector">
         <div class="my-lg-5 container">
-            <div class="row">
+            <div class="row" data-aos="zoom-out">
                 <div class="gradient1 h1 col-lg-4 col-sm-8 text-light text-lg-start text-center">
                     Production Process
                 </div>

@@ -46,8 +46,8 @@
             </div>
         </div>
     </header>
-    <section class="container w-70 contact-us-form mt-4 mb-4 contact-us-form">
-        <div class="row vh-50 d-flex justify-content-start align-items-center contact_us_center_div pb-3">
+    <section class="container w-70 contact-us-form mt-4 mb-4 contact-us-form"  data-aos="fade-up">
+        <div class="row vh-50 d-flex justify-content-start align-items-center contact_us_center_div pb-3" data-aos-duration="3000">
             <div class="col-12">
                 <?php if (!empty($statusMsg)) { ?>
                     <div class="status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></div>
