@@ -50,10 +50,16 @@ const splide = new Splide(".splide", {
     1024: {
       perPage: 4,
     },
-    767: {
+    800: {
+      perPage: 2,
+    },
+    768: {
       perPage: 2,
     },
     640: {
+      perPage: 1,
+    },
+    576: {
       perPage: 1,
     },
   },
