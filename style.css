@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+.custom-director {
+  background: url("./images/about-us-header.png");
+  height: 100vh;
+}
+
 /* avinash the carousel code */
 h2{
   text-align: center;
@@ -486,7 +491,9 @@ a {
 
 .directors-1 {
   background-image: url("./images/leadership.jpg");
-  object-fit: contain;
+  height: 100vh;
+  width: 100vw;
+  /* object-fit: cover; */
 }
 
 .crs-header-container {
