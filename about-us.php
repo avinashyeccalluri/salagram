@@ -28,25 +28,27 @@
                 <?php include('header.php') ?>
             </div>
             <div class="col-12">
-                <div class="row px-lg-5 px-md-5 d-flex justify-content-center align-items-center mt-5">
-                    <div class="col-lg-4 container d-flex justify-content-center align-items-center">
-                        <img src="./images/director.png" class="img-fluid director-images" alt="" srcset="">
-                    </div>
-                    <div class="col-lg-5 container my-5 py-3">
-                        <div class="row d-flex justify-content-center align-items-center text-light text-start">
-                            <div class="col-12 fs-1 text-lg-start text-center">
-                                <strong>Mr. Pawan Kumar Agarwal</strong>
-                            </div>
-                            <div class="col-12 text-lg-start text-center">
-                                <strong>Chairman and Managing Director</strong>
-                            </div>
-                            <div class="col-12 mt-5 fs-lg-3 text-start">
-                                Mr. Pawan Kumar Agarwal is the Chairman and Managing Director
-                                of the company. He has an experience of over 42 years in the steel
-                                industry. His core belief and values are deeply entrenched in the
-                                company's work culture. Mr. Agarwal believes that with a perfect
-                                balance of experience and youthful enthusiasm, Salagram will
-                                emerge as one of the top steel makers of the country.
+                <div class="container">
+                    <div class="row px-lg-5 px-md-5 d-flex justify-content-center align-items-center mt-5">
+                        <div class="col-lg-4 container d-flex justify-content-center align-items-center">
+                            <img src="./images/director.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-lg-5 container my-5 py-3">
+                            <div class="row d-flex justify-content-center align-items-center text-light text-start">
+                                <div class="col-12 fs-1 text-lg-start text-center">
+                                    <strong>Mr. Pawan Kumar Agarwal</strong>
+                                </div>
+                                <div class="col-12 text-lg-start text-center">
+                                    <strong>Chairman and Managing Director</strong>
+                                </div>
+                                <div class="col-12 mt-5 fs-lg-3 text-start">
+                                    Mr. Pawan Kumar Agarwal is the Chairman and Managing Director
+                                    of the company. He has an experience of over 42 years in the steel
+                                    industry. His core belief and values are deeply entrenched in the
+                                    company's work culture. Mr. Agarwal believes that with a perfect
+                                    balance of experience and youthful enthusiasm, Salagram will
+                                    emerge as one of the top steel makers of the country.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -55,26 +57,27 @@
         </div>
     </section>
     <section class="directors-1">
-        
-    <div class="row p-5 d-flex justify-content-lg-end justify-content-center align-items-center flex-lg-row flex-column-reverse">
-        <div class="col-lg-7 col-12 container my-5 py-3">
-            <div class="row d-flex justify-content-end align-items-center text-light">
-                <div class="col-12 fs-1 text-lg-end text-center">
-                    <strong>Mr. Suyash Agarwal</strong>
-                </div>
-                <div class="col-12 text-lg-end text-center">
-                    <strong>Director</strong>
-                </div>
-                <div class="col-12 mt-5 fs-lg-3 text-start">Mr. Suyash Agarwal the Director of our company. His emphasis on the latest technologies to enhance the quality of products and towards creating the right work culture is taking the company to the next level.
+        <div class="container">
+            <div class="row px-lg-5 px-md-5 d-flex justify-content-center align-items-center flex-column-reverse pt-5">
+                <div class="col-lg-5 container my-5 py-3">
+                    <div class="row d-flex justify-content-end align-items-center text-light">
+                        <div class="col-12 fs-1 text-lg-end text-center">
+                            <strong>Mr. Suyash Agarwal</strong>
+                        </div>
+                        <div class="col-12 text-lg-end text-center">
+                            <strong>Director</strong>
+                        </div>
+                        <div class="col-12 mt-5 fs-lg-3 text-start">Mr. Suyash Agarwal the Director of our company. His emphasis on the latest technologies to enhance the quality of products and towards creating the right work culture is taking the company to the next level.
 
-                    His ability to drive progress and usher in periods of change by inspiring employees and earning trust for new ideas has helped the company tremendously. He established a strong organizational bond to foster confidence among all employees and team members.
+                            His ability to drive progress and usher in periods of change by inspiring employees and earning trust for new ideas has helped the company tremendously. He established a strong organizational bond to foster confidence among all employees and team members.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 container d-flex justify-content-center align-items-center">
+                    <img src="./images/director-1.png" class="img-fluid" alt="" srcset="">
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-12  container">
-            <img src="./images/director-1.png" class="img-fluid director-images" alt="" srcset="">
-        </div>
-    </div>
     </section>
     <?php include('footer.php') ?>
     <script src="./js/app.js"></script>
