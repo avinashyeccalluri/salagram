@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <section class="custom-director">
+    <section class="custom-director py-5">
         <div class="row">
             <div class="col-12">
                 <?php include('header.php') ?>
@@ -30,7 +30,7 @@
             <div class="col-12">
                 <div class="container">
                     <div class="row px-lg-5 px-md-5 d-flex justify-content-center align-items-center mt-5">
-                        <div class="col-lg-4 container d-flex justify-content-center align-items-center">
+                        <div class="col-lg-4 d-flex justify-content-center align-items-center">
                             <img src="./images/director.png" class="img-fluid" alt="" srcset="">
                         </div>
                         <div class="col-lg-5 container my-5 py-3">
@@ -41,7 +41,7 @@
                                 <div class="col-12 text-lg-start text-center">
                                     <strong>Chairman and Managing Director</strong>
                                 </div>
-                                <div class="col-12 mt-5 fs-lg-3 text-start">
+                                <div class="col-12 mt-5 fs-lg-3 text-lg-start text-center">
                                     Mr. Pawan Kumar Agarwal is the Chairman and Managing Director
                                     of the company. He has an experience of over 42 years in the steel
                                     industry. His core belief and values are deeply entrenched in the
@@ -57,25 +57,23 @@
         </div>
     </section>
     <section class="directors-1">
-        <div class="container">
-            <div class="row px-lg-5 px-md-5 d-flex justify-content-center align-items-center flex-column-reverse pt-5">
-                <div class="col-lg-5 container my-5 py-3">
-                    <div class="row d-flex justify-content-end align-items-center text-light">
-                        <div class="col-12 fs-1 text-lg-end text-center">
-                            <strong>Mr. Suyash Agarwal</strong>
-                        </div>
-                        <div class="col-12 text-lg-end text-center">
-                            <strong>Director</strong>
-                        </div>
-                        <div class="col-12 mt-5 fs-lg-3 text-start">Mr. Suyash Agarwal the Director of our company. His emphasis on the latest technologies to enhance the quality of products and towards creating the right work culture is taking the company to the next level.
+        <div class="row d-flex flex-lg-row flex-column-reverse container py-5">
+            <div class="col-lg-5 container my-5 py-3">
+                <div class="row d-flex justify-content-end align-items-center text-light ">
+                    <div class="col-12 fs-1 text-lg-end text-center">
+                        <strong>Mr. Suyash Agarwal</strong>
+                    </div>
+                    <div class="col-12 text-lg-end text-center">
+                        <strong>Director</strong>
+                    </div>
+                    <div class="col-12 mt-5 fs-lg-3 text-lg-start text-center">Mr. Suyash Agarwal the Director of our company. His emphasis on the latest technologies to enhance the quality of products and towards creating the right work culture is taking the company to the next level.
 
-                            His ability to drive progress and usher in periods of change by inspiring employees and earning trust for new ideas has helped the company tremendously. He established a strong organizational bond to foster confidence among all employees and team members.
-                        </div>
+                        His ability to drive progress and usher in periods of change by inspiring employees and earning trust for new ideas has helped the company tremendously. He established a strong organizational bond to foster confidence among all employees and team members.
                     </div>
                 </div>
-                <div class="col-lg-4 container d-flex justify-content-center align-items-center">
-                    <img src="./images/director-1.png" class="img-fluid" alt="" srcset="">
-                </div>
+            </div>
+            <div class="col-lg-4 container d-flex justify-content-center align-items-center">
+                <img src="./images/director-1.png" class="img-fluid" alt="" srcset="">
             </div>
         </div>
     </section>
