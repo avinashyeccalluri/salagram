@@ -32,19 +32,23 @@
             </div>
         </div>
     </header>
-    <section class="container my-lg-5">
-        <div class="row">
-            <div class="col-12 lh fs-3 text-justify" style="line-height: 48px;">
-                <p>To build a future perfect construction, <strong>Salagram TMT 550D</strong>(thermomechanically treated bars) is the most formidable force. <strong>Salagram steel</strong> manufactures it using the latest automation technology, attesting to the unsurpassed trust they have earned over the years. The <strong>supreme strength</strong> and <strong>ductility</strong> of steel makes every rebar capable of carrying more load. In addition, its <strong>earthquake-resistant</strong> properties are enhanced. With Salagram 550D, you can <strong>build an unshakable foundation</strong> for your dreams.</p>
+    <section class="">
+        <div class="container my-lg-5" data-aos="fade-up">
+            <div class="row" data-aos-anchor-placement="center-bottom">
+                <div class="col-12 lh fs-3 text-justify" style="line-height: 48px;">
+                    <p>To build a future perfect construction, <strong>Salagram TMT 550D</strong>(thermomechanically treated bars) is the most formidable force. <strong>Salagram steel</strong> manufactures it using the latest automation technology, attesting to the unsurpassed trust they have earned over the years. The <strong>supreme strength</strong> and <strong>ductility</strong> of steel makes every rebar capable of carrying more load. In addition, its <strong>earthquake-resistant</strong> properties are enhanced. With Salagram 550D, you can <strong>build an unshakable foundation</strong> for your dreams.</p>
+                </div>
+                <div class="col-12"></div>
             </div>
-            <div class="col-12"></div>
         </div>
     </section>
-    <section class="container my-5">
+    <section class="" data-aos="fade-up">
+        <div class="container my-5" data-aos-anchor-placement="center-bottom">
         <div class="row">
             <div class="col-12">
                 <img src="./images/3-1.png" class="img-fluid" alt="" srcset="">
             </div>
+        </div>
         </div>
     </section>
     <section class="vector" data-aos="fade-up">
@@ -94,19 +98,6 @@
         </div>
     </section>
 
-    <!-- <section class="container">
-        <h1 class="orange-text h1">Product Size Chart</h1>
-        <div class="row d-flex justify-content-left align-content-center my-3">
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">9.8 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">10.8 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">11.2 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">12.5 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">13.5 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">15.2 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">15.8 MM</div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12">16.5 MM</div>
-        </div>
-    </section> -->
     <?php include('footer.php') ?>
     <script src="./js/app.js"></script>
 

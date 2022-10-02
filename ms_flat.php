@@ -17,7 +17,7 @@
     <!-- JavaScript Bundle with Popper -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Document</title>
 </head>
 
@@ -27,49 +27,57 @@
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100" data-aos="fade-up">
                 <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text">
-                MS FLAT
+                    MS FLAT
                 </div>
             </div>
         </div>
     </header>
-    <section class="container my-lg-5 py-3">
-        <div class="row">
-            <div class="col-12 lh fs-3" style="line-height: 48px;">
-                <strong>MS Flat</strong> are used by many engineering industries, including grating manufacturers,
-                cable trays, bright bar manufacturers, automobiles, car accessories, truck trailers, tippers,
-                railroads, buses, elevators and escalators, scaffold manufacturers, base plates, earthing
-                material, shipbuilding, washers, flanges, clamps, and many more.
+    <section class="" data-aos="fade-up">
+        <div class="container my-lg-5 py-3" data-aos-anchor-placement="center-bottom">
+            <div class="row">
+                <div class="col-12 lh fs-3" style="line-height: 48px;">
+                    <strong>MS Flat</strong> are used by many engineering industries, including grating manufacturers,
+                    cable trays, bright bar manufacturers, automobiles, car accessories, truck trailers, tippers,
+                    railroads, buses, elevators and escalators, scaffold manufacturers, base plates, earthing
+                    material, shipbuilding, washers, flanges, clamps, and many more.
+                </div>
+                <div class="col-12"></div>
             </div>
-            <div class="col-12"></div>
         </div>
     </section>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <img src="./images/ms-info-1.png" class="img-fluid" alt="" srcset="">
+
+    <div class="" data-aos="fade-up">
+        <div class="container" data-aos-anchor-placement="center-bottom">
+            <div class="row">
+                <div class="col-12">
+                    <img src="./images/ms-info-1.png" class="img-fluid" alt="" srcset="">
+                </div>
             </div>
         </div>
     </div>
-    <section class="container">
-        <div class="row vh-50">
+    <section class="" data-aos="fade-up">
+        <div class="container" data-aos-anchor-placement="center-bottom">
+            <div class="row vh-50">
 
-            <div class="col-lg-7 col-12">
-                <div class="h1 gradient text-light container lh montserrat">Application</div>
+                <div class="col-lg-7 col-12">
+                    <div class="h1 gradient text-light container lh montserrat">Application</div>
 
-                <ul class="lh h3" style="line-height: 56px;">
-                    <li>Building Construction</li>
-                    <li>Automobile Industry</li>
-                    <li>Structural Construction</li>
-                </ul>
-            </div>
-            <div class="col-lg-5 col-12">
-                <img src="./images/sun-worker.png" class="img-fluid" alt="" style="height: 100%;">
+                    <ul class="lh h3" style="line-height: 56px;">
+                        <li>Building Construction</li>
+                        <li>Automobile Industry</li>
+                        <li>Structural Construction</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-12">
+                    <img src="./images/sun-worker.png" class="img-fluid" alt="" style="height: 100%;">
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="container montserrat">
+    <section class="" data-aos="fade-up">
+        <div class="container montserrat" data-aos-anchor-placement="center-bottom">
+            
         <h1 class="orange-text h1 ">Product Size Chart</h1>
         <div class="row d-flex justify-lg-content-left justify-content-center align-content-center my-3">
             <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>19°6F</strong></div>
@@ -84,6 +92,7 @@
             <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>32°8F</strong></div>
             <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>35°6F</strong></div>
             <div class="col-lg-2 col-5 bg-orange text-center mar-right h-40 w-15 pt-6 my-2 text-light"><strong>40°6F</strong></div>
+        </div>
         </div>
     </section>
     <?php include('footer.php') ?>

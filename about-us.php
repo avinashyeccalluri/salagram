@@ -57,7 +57,7 @@
         </div>
     </section>
     <section class="directors-1">
-        <div class="row d-flex flex-lg-row flex-column-reverse container py-5">
+        <div class="row d-flex flex-lg-row flex-column-reverse container py-5 justify-content-center align-items-center">
             <div class="col-lg-5 container my-5 py-3">
                 <div class="row d-flex justify-content-end align-items-center text-light ">
                     <div class="col-12 fs-1 text-lg-end text-center">

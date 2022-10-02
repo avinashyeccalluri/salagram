@@ -39,35 +39,3 @@
   });
 })(jQuery);
 
-const splide = new Splide(".splide", {
-  type: "loop",
-  drag: "free",
-  focus: "center",
-  // rewind : true,
-  // autoStart : true,
-  perPage: 4,
-  breakpoints: {
-    1024: {
-      perPage: 4,
-    },
-    800: {
-      perPage: 2,
-    },
-    768: {
-      perPage: 2,
-    },
-    640: {
-      perPage: 1,
-    },
-    576: {
-      perPage: 1,
-    },
-  },
-  autoScroll: {
-    speed: 3,
-    pauseOnHover: false,
-    direction: "ltr",
-  },
-});
-
-splide.mount();

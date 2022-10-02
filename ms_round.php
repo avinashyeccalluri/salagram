@@ -32,18 +32,19 @@
             </div>
         </div>
     </header>
-    <section class="container my-lg-5 py-3">
-        <div class="row">
-            <div class="col-12 lh fs-3" style="line-height: 48px;">
-                <strong>Our MS Round bar</strong> is suitable for a wide range of manufacturing applications. In addition to general <strong>fabrication</strong>. As Mild steel round bar suppliers, we provide MS Rounds that are used in <strong> agricultural implements,</strong> equipment and Maintenance of <strong>industrial equipment, fencing,</strong> etc
-
+    <section class="" data-aos="fade-up">
+        <div class="container my-lg-5 py-3" data-aos-anchor-placement="center-bottom">
+            <div class="row">
+                <div class="col-12 lh fs-3" style="line-height: 48px;">
+                    <strong>Our MS Round bar</strong> is suitable for a wide range of manufacturing applications. In addition to general <strong>fabrication</strong>. As Mild steel round bar suppliers, we provide MS Rounds that are used in <strong> agricultural implements,</strong> equipment and Maintenance of <strong>industrial equipment, fencing,</strong> etc
+                </div>
+                <div class="col-12"></div>
             </div>
-            <div class="col-12"></div>
         </div>
     </section>
 
-    <section class="vector">
-        <div class="container my-5">
+    <section class="vector" data-aos="fade-up">
+        <div class="container my-5" data-aos-anchor-placement="center-bottom">
             <div class="row">
                 <div class="col-12">
                     <img src="./images/7-1.png" class="img-fluid" alt="" srcset="">
@@ -51,27 +52,31 @@
             </div>
         </div>
     </section>
-    <section class="container">
-        <div class="row">
+    <section class="" data-aos="fade-up">
+        <div class="container" data-aos-anchor-placement="center-bottom">
 
-            <div class="col-lg-7 col-12">
-                <div class="h1 gradient text-light container lh">Application</div>
-
-                <ul class="lh h3" style="line-height: 56px;">
-                    <li>Automobile Industries</li>
-                    <li>Constructing Railway Engines and Coaches</li>
-                    <li>Making Arms and Ammunition</li>
-                    <li>Making Agricultural Machinery</li>
-                    <li>Used in Oil and Petroleum</li>
-                </ul>
-            </div>
-            <div class="col-lg-5 col-12">
-                <img src="./images/crane.png" class="img-fluid" alt="" style="height: 100%;">
+            <div class="row">
+    
+                <div class="col-lg-7 col-12">
+                    <div class="h1 gradient text-light container lh">Application</div>
+    
+                    <ul class="lh h3" style="line-height: 56px;">
+                        <li>Automobile Industries</li>
+                        <li>Constructing Railway Engines and Coaches</li>
+                        <li>Making Arms and Ammunition</li>
+                        <li>Making Agricultural Machinery</li>
+                        <li>Used in Oil and Petroleum</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-12">
+                    <img src="./images/crane.png" class="img-fluid" alt="" style="height: 100%;">
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="container my-5">
+    <section class=""data-aos="fade-up">
+        <div class="container my-5" data-aos-anchor-placement="center-bottom">
         <h1 class="orange-text h1">Product Size Chart</h1>
         <div class="row d-flex justify-lg-content-left justify-content-center align-content-center my-3 text-light">
             <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>9.8 MM</strong></div>
@@ -96,8 +101,7 @@
             <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>30 MM</strong></div>
             <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>32 MM</strong></div>
             <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>33 MM</strong></div>
-            <!-- <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>15.8 MM</strong></div>
-            <div class="col-2 bg-orange text-center mar-right h-40 pt-6 w-12 mt-2"><strong>16.5 MM</strong></div> -->
+        </div>
         </div>
     </section>
     <?php include('footer.php') ?>

@@ -42,7 +42,9 @@
                     </div>
                     <div class="row">
                         <div class="col-12 text-light bg-orange py-2"><strong>Recommended Consumer Price</strong></div>
-                        <div class="col-12 py-3"><strong>Dealer Locator</strong></div>
+                        <div class="col-12 py-3 linking">
+                            <a href="store_locator.php"><strong>Dealer Locator</strong></a>
+                        </div>
                     </div>
                 </div>
                 

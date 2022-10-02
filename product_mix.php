@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- CSS only -->
@@ -48,13 +50,17 @@
             </div>
         </div>
     </div>
-    <section class="container">
-        <div class="row">
-            <div class="col-lg-5 col-12 h1 gradient text-light lh">OUR PRODUCTS</div>
+    <section class="" data-aos="fade-up">
+        <div class="container" data-aos-anchor-placement="top-center">
+            <div class="row">
+                <div class="col-lg-5 col-12 h1 gradient text-light lh">OUR PRODUCTS</div>
+            </div>
         </div>
     </section>
-    <section class="container my-5 py-3" data-aos="zoom-out">
-        <img src="./images/products-1.png" class="img-fluid" alt="">
+    <section class="vector" data-aos="fade-up">
+        <div class="container  my-5 py-3" data-aos-anchor-placement="top-center">
+            <img src="./images/products-1.png" class="img-fluid" alt="">
+        </div>
     </section>
     <?php include('footer.php') ?>
     <script src="./js/app.js"></script>

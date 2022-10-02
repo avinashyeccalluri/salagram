@@ -10,6 +10,11 @@
   height: 120%;
 }
 
+.linking a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
 /* avinash the carousel code */
 h2{
   text-align: center;
@@ -1084,7 +1089,7 @@ nav ul li ul li a {
 @media only screen and (max-width: 800px) {
 
   .lh-75 {
-    line-height: 60px !important;
+    line-height: 45px !important;
   }
   
   .vh-700 {

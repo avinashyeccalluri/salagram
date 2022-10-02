@@ -41,7 +41,7 @@
                         <strong>Home Owner Zone</strong>
                     </div>
                     <div class="row">
-                        <div class="col-12 py-2"><strong>Recommended Consumer Price</strong></div>
+                        <div class="col-12 py-2 linking"><a href="price_list.php"><strong>Recommended Consumer Price</strong></a></div>
                         <div class="col-12 text-light bg-orange py-3" style="border-bottom-left-radius: 27px;border-bottom-right-radius: 27px;"><strong>Dealer Locator</strong></div>
                     </div>
                 </div>

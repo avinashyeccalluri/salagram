@@ -32,8 +32,8 @@
             </div>
         </div>
     </header>
-    <section class="my-lg-5 py-3 vector">
-        <div class="container">
+    <section class="my-lg-5 py-3 vector" data-aos="fade-up">
+        <div class="container" data-aos-anchor-placement="center-bottom">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-lg-5 col-12 d-flex justify-content-center align-items-center">
                     <img src="./images/Thermax_logo.png" class="img-fluid" alt="" srcset="">
@@ -52,8 +52,8 @@
             </div>
         </div>
     </section>
-    <section class="vector">
-        <div class="my-lg-5 container">
+    <section class="vector" data-aos="fade-up">
+        <div class="my-lg-5 container" data-aos-anchor-placement="center-bottom">
             <div class="row" data-aos="zoom-out">
                 <div class="gradient1 h1 col-lg-4 col-sm-8 text-light text-lg-start text-center">
                     Production Process
@@ -62,8 +62,8 @@
         </div>
     </section>
 
-    <section class="vector">
-        <div class="container my-5">
+    <section class="vector" data-aos="fade-up">
+        <div class="container my-5" data-aos-anchor-placement="center-bottom">
             <div class="row">
                 <div class="col-12">
                     <img src="./images/6-1.png" class="img-fluid" alt="" srcset="">
