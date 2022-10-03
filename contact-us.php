@@ -137,7 +137,7 @@ if(isset($_POST['submit'])){
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div class="row">
                                 <div class="col-12">
-                                    <img src="./images/Layer 2.png" class="img-fluid" alt="" style="height: 362px !important;">
+                                    <img src="./images/Layer 3(1).png" class="img-fluid" alt="" style="height: 362px !important;">
                                 </div>
                                 <div class="col-12 montserrat">
                                     <div class="row py-3 text-light bold">
