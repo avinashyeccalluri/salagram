@@ -25,7 +25,7 @@
     <header>
         <div class="initiative-header-container d-flex flex-column justify-content-between p-4">
             <?php include('header.php') ?>
-            <div class=" row  text-light mbw-100">
+            <div class=" row  text-light mbw-100" data-aos="fade-up">
                 <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text">
                 CSR
                 </div>
@@ -33,7 +33,7 @@
         </div>
     </header>
     <section class="container my-5 py-3">
-        <div class="row d-flex justify-content-center align-items-flex-start">
+        <div class="row d-flex justify-content-center align-items-flex-start" data-aos="fade-right">
             <div class="col-lg-6 col-sm-12 d-flex flex-column" style="line-height: 37px;">
                 <div>We envision a long-term goal of creating
                     a sustainable and self-reliant community.
@@ -50,7 +50,7 @@
                     and values in our policies
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-left">
                 <img src="./images/init-1.png" class="img-fluid" alt="" srcset="" style="height: 400px;">
             </div>
         </div>
@@ -175,7 +175,7 @@
             <div class="col-12"></div>
         </div> -->
     </section>
-    <section class="d-flex justify-content-center align-items-center">
+    <section class="d-flex justify-content-center align-items-center" data-aos="zoom-in-up">
         <figure class="snip1533">
             <figcaption>
                 <blockquote>

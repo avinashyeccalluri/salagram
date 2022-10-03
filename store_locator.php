@@ -23,7 +23,7 @@
 
 <body class="">
     <header>
-        <div class="header-container d-flex flex-column justify-content-between p-4">
+        <div class="header-container d-flex flex-column justify-content-between p-4" data-aos="fade-up">
             <?php include('header.php') ?>
             <div class=" row  text-light mbw-100">
                 <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text">
@@ -41,7 +41,7 @@
                         <strong>Home Owner Zone</strong>
                     </div>
                     <div class="row">
-                        <div class="col-12 py-2"><strong>Recommended Consumer Price</strong></div>
+                        <div class="col-12 py-2 linking"><a href="price_list.php"><strong>Recommended Consumer Price</strong></a></div>
                         <div class="col-12 text-light bg-orange py-3" style="border-bottom-left-radius: 27px;border-bottom-right-radius: 27px;"><strong>Dealer Locator</strong></div>
                     </div>
                 </div>

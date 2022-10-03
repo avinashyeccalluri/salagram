@@ -11,19 +11,18 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  
+
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script><!-- Link to the file hosted on your server, -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js" integrity="sha256-b/fLMBwSqO9vy/phDPv6OufPpR+VfUL+OsTEkJMPg+Q=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css" integrity="sha256-5uKiXEwbaQh9cgd2/5Vp6WmMnsUr3VZZw0a8rKnOKNU=" crossorigin="anonymous">
   <title>Document</title>
   <style type="text/css">
     .carousel-inner {
@@ -88,7 +87,7 @@
   <header>
     <div class="header-container d-flex flex-column justify-content-between p-4">
       <?php include('header.php') ?>
-      <div class=" row  text-light mbw-100">
+      <div class=" row  text-light mbw-100" data-aos="zoom-in">
         <div class="col-lg-6 col-md-6 col-sm-12 px-lg-5 text-lg-start text-center index-text">
           <strong>SMARTER STEEL FOR A BETTER TOMORROW</strong>
         </div>
@@ -122,26 +121,29 @@
       </div>
     </div>
   </section>
-  <section class="container-fluid px-5 vector">
-    <div class="row d-flex justify-content-center mt-lg-5  mt-md-5 mx-lg-5 pt-lg-5">
-      <div data-aos="fade-right" class="col-md-12 col-sm-12 col-lg-7 mt-lg-5 mt-3 fs-3 start-container montserrat animate__backInLeft" style="font-weight: lighter;">
-        The commitment and innovation of Salagram has led to the company
-        becoming a competitive and promising steel manufacturing company with
-        an annual production capacity of 1.2 lakh tons. With its flagship
-        brand Salagram MT, the company plans to become one of the top MT bar
-        manufacturers in India. In order to contribute to India's economic
-        growth, the company has aggressively expanded its footprint across the
-        country
-      </div>
-      <div data-aos="fade-left" class=" col-md-12 col-sm-12 col-lg-5 align-items-end mt-lg-5 mt-3">
-        <div class="">
-          <img src="./images/shutterstock_1138752473.png" class="img-fluid" alt="" srcset="">
+  <section class="vector">
+    <div class="container-fluid px-5">
+
+      <div class="row d-flex justify-content-center mt-lg-5  mt-md-5 mx-lg-5 pt-lg-5">
+        <div data-aos="fade-right" data-aos-delay="10000" class="col-md-12 col-sm-12 col-lg-7 mt-lg-5 mt-3 fs-3 start-container montserrat animate__backInLeft" style="font-weight: lighter;">
+          The commitment and innovation of Salagram has led to the company
+          becoming a competitive and promising steel manufacturing company with
+          an annual production capacity of 1.2 lakh tons. With its flagship
+          brand Salagram MT, the company plans to become one of the top MT bar
+          manufacturers in India. In order to contribute to India's economic
+          growth, the company has aggressively expanded its footprint across the
+          country
+        </div>
+        <div data-aos-delay="300" data-aos="fade-left" class=" col-md-12 col-sm-12 col-lg-5 align-items-end mt-lg-5 mt-3">
+          <div class="">
+            <img src="./images/shutterstock_1138752473.png" class="img-fluid" alt="" srcset="">
+          </div>
         </div>
       </div>
-    </div>
-    <div class="row mx-lg-5 ">
-      <div class="col-md-12 d-flex justify-content-lg-start justify-content-center align-items-start">
-        <button class="my-5 b-about-us text-center">About us</button>
+      <div class="row mx-lg-5 ">
+        <div class="col-md-12 d-flex justify-content-lg-start justify-content-center align-items-start">
+          <button class="my-5 b-about-us text-center">About us</button>
+        </div>
       </div>
     </div>
   </section>
@@ -176,10 +178,10 @@
     </div>
   </section>
   <section class="d-flex w-100 align-items-center justify-content-center text-center my-4">
-    <div class="fs-1 border-orangered px-4 montserrat" ><strong>OUR PRODUCTS</strong></div>
+    <div class="fs-1 border-orangered px-4 montserrat"><strong>OUR PRODUCTS</strong></div>
   </section>
   <!-- avinash -->
-  
+
   <div id="carouselExampleControls" class="carousel mb-5 pb-5 montserrat" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -243,52 +245,54 @@
   <section class="d-flex w-100 align-items-center justify-content-center text-center my-4">
     <div class="fs-1 border-orangered px-4 montserrat"><strong>OUR CLIENTS</strong></div>
   </section>
-  
-  <div class="container-fluid">
-        <section class="customer-logos slider">
-            <div class="slide"><img src="images/Arabian Constructions.png" alt="logo"></div>
-            <div class="slide"><img src="images/Arss png.png" alt="logo"></div>
-            <div class="slide"><img src="images/Bgr energy.png" alt="logo"></div>
-            <div class="slide"><img src="images/Bhel.jpg" alt="logo"></div>
-            <div class="slide"><img src="images/CP MOHANTY.png" alt="logo"></div>
-            <div class="slide"><img src="images/download.png" alt="logo"></div>
-            <div class="slide"><img src="images/jindal trade mark.png" alt="logo"></div>
-            <div class="slide"><img src="images/Jkumar Nhai.png" alt="logo"></div>
-            <div class="slide"><img src="images/Merlin-Group.png" alt="logo"></div>
-            <div class="slide"><img src="images/Ps groups.png" alt="logo"></div>
-            <div class="slide"><img src="images/Rkd Constructios.png" alt="logo"></div>
-            <div class="slide"><img src="images/Tata Housing.png" alt="logo"></div>
-        </section>
+
+
+  <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+    <div class="splide__track">
+      <ul class="splide__list d-flex justify-content-center align-items-center">
+        <li class="splide__slide">
+          <img src="images/Arabian Constructions.png" alt="" srcset="">
+        </li>
+        <li class="splide__slide text-center">
+          <img src="images/Arss png.png" alt="" srcset="">
+        </li>
+        <li class="splide__slide text-center">
+          <img src="images/Bgr energy.png" alt="" srcset="">
+        </li>
+        <li class="splide__slide text-center">
+          <img src="images/Bhel.jpg" alt="" srcset="">
+        </li>
+        <li class="splide__slide text-center">
+          <img src="images/CP MOHANTY.png" alt="" srcset="">
+        </li>
+        <li class="splide__slide text-center">
+          <img src="images/download.png" alt="" srcset="">
+        </li>
+        <li class="splide__slide text-center">
+          <img src="images/jindal trade mark.png" alt="" srcset="">
+        </li>
+        <li class="splide__slide text-center">
+          <img src="images/Jkumar Nhai.png" alt="" srcset="">
+        </li>
+        <li class="splide__slide text-center">
+          <img src="images/Merlin-Group.png" alt="" srcset="">
+        </li>
+        <li class="splide__slide text-center">
+          <img src="images/Ps groups.png" alt="" srcset="">
+        </li>
+        <li class="splide__slide text-center">
+          <img src="images/Rkd Constructios.png" alt="" srcset="">
+        </li>
+        <li class="splide__slide text-center">
+          <img src="images/Tata Housing.png" alt="" srcset="">
+        </li>
+      </ul>
     </div>
+  </div>
+
   <?php include('footer.php') ?>
   <script src="./js/app.js"></script>
-  
-  <script>
-    
-    $(document).ready(function(){
-        $('.customer-logos').slick({
-            slidesToShow: 6,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 1500,
-            arrows: false,
-            dots: false,
-            pauseOnHover:false,
-            responsive: [{
-                breakpoint: 768,
-                setting: {
-                    slidesToShow:4
-                }
-            }, {
-                breakpoint: 520,
-                setting: {
-                    slidesToShow: 3
-                }
-            }]
-        });
-    });
 
-    </script>
   <script type="text/javascript" language="javascript">
     var multipleCardCarousel = document.querySelector(
       "#carouselExampleControls"
@@ -323,11 +327,47 @@
     } else {
       $(multipleCardCarousel).addClass("slide");
     }
-  </script>
-  <script>
+
     
-    AOS.init();
+const splide = new Splide(".splide", {
+  type: "loop",
+  drag: "free",
+  focus: "center",
+  rewind : true,
+  autoStart : true,
+  perPage: 4,
+  autoScroll : true,
+  breakpoints: {
+    1024: {
+      perPage: 4,
+    },
+    800: {
+      perPage: 2,
+    },
+    768: {
+      perPage: 2,
+    },
+    640: {
+      perPage: 1,
+    },
+    576: {
+      perPage: 1,
+    },
+  },
+  autoScroll: {
+    speed: 3,
+    pauseOnHover: false,
+    direction: "ltr",
+  },
+});
+
+splide.mount();
+    
   </script>
+
+
+
+
 </body>
 
 </html>

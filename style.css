@@ -5,6 +5,16 @@
   box-sizing: border-box;
 }
 
+.custom-director {
+  background: url("./images/about-us-header.png");
+  height: 120%;
+}
+
+.linking a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
 /* avinash the carousel code */
 h2{
   text-align: center;
@@ -50,9 +60,12 @@ h2{
   padding-top: 250px;
 }
 /*  */
+
+
 .splide__slide img {
-  width: 100%;
-  height: auto;
+  object-fit: contain;
+  height: 200px;
+  width: 180px;
 }
 
 .index-text {
@@ -483,7 +496,9 @@ a {
 
 .directors-1 {
   background-image: url("./images/leadership.jpg");
-  object-fit: contain;
+  height: 100%;
+  width: 100vw;
+  /* object-fit: cover; */
 }
 
 .crs-header-container {
@@ -1063,7 +1078,7 @@ nav ul li ul li a {
 .nav-mobile {
    display: none;
    position: absolute;
-   top: 0;
+   top: 12px !important;
    right: 0;
    background: transparent;
    height: 55px;
@@ -1074,7 +1089,7 @@ nav ul li ul li a {
 @media only screen and (max-width: 800px) {
 
   .lh-75 {
-    line-height: 60px !important;
+    line-height: 45px !important;
   }
   
   .vh-700 {

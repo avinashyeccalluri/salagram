@@ -1,47 +1,41 @@
-(function($) { 
-    $(function() { 
+(function ($) {
+  $(function () {
+    AOS.init();
 
-      
-      AOS.init();
-  
-      //  open and close nav 
-      $('#navbar-toggle').click(function() {
-        $('nav ul').slideToggle();
-      });
-  
-  
-      // Hamburger toggle
-      $('#navbar-toggle').on('click', function() {
-        this.classList.toggle('active');
-      });
-  
-  
-      // If a link has a dropdown, add sub menu toggle.
-      $('nav ul li a:not(:only-child)').click(function(e) {
-        $(this).siblings('.navbar-dropdown').slideToggle("slow");
-  
-        // Close dropdown when select another dropdown
-        $('.navbar-dropdown').not($(this).siblings()).hide("slow");
-        e.stopPropagation();
-      });
-  
-  
-      // Click outside the dropdown will remove the dropdown class
-      $('html').click(function() {
-        $('.navbar-dropdown').hide();
-      });
+    //  open and close nav
+    $("#navbar-toggle").click(function () {
+      $("nav ul").slideToggle();
+    });
 
-      $(document).on('click','.steel-power', function(e){
-        var type = $(this).attr('type')
-        if(type == "steel"){
-          $('#steel').show()
-          $('#power').hide()
-        }
-        else{
-          $('#steel').hide()
-          $('#power').show()
-        }
-      })
-      
-    }); 
-  })(jQuery); 
+    // Hamburger toggle
+    $("#navbar-toggle").on("click", function () {
+      this.classList.toggle("active");
+    });
+
+    // If a link has a dropdown, add sub menu toggle.
+    $("nav ul li a:not(:only-child)").click(function (e) {
+      $(this).siblings(".navbar-dropdown").slideToggle("slow");
+
+      // Close dropdown when select another dropdown
+      $(".navbar-dropdown").not($(this).siblings()).hide("slow");
+      e.stopPropagation();
+    });
+
+    // Click outside the dropdown will remove the dropdown class
+    $("html").click(function () {
+      $(".navbar-dropdown").hide();
+    });
+
+    $(document).on("click", ".steel-power", function (e) {
+      var type = $(this).attr("type");
+      if (type == "steel") {
+        $("#steel").show();
+        $("#power").hide();
+      } else {
+        $("#steel").hide();
+        $("#power").show();
+      }
+    });
+  });
+})(jQuery);
+
