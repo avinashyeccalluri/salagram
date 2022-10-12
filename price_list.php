@@ -36,7 +36,7 @@
         <div class="container">
 
             <div class="row d-flex justify-content-between">
-                <div class="col-lg-3 col-sm-12 px-3 default-border-color border border-4 price_list_border_radius">
+                <div class="col-lg-3 col-sm-12 px-3 default-border-color price_list_border_radius">
                     <div class="h3 border-bottom border-1 py-2">
                         <strong>Home Owner Zone</strong>
                     </div>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-8 col-sm-12 border border-4 price_list_border_radius mt-2">
+                <div class="col-lg-8 col-sm-12 price_list_border_radius mt-2">
                     <div class="row d-flex justify-content-between ">
 
                         <div class="col-4 py-4">
@@ -69,40 +69,40 @@
                         </div>
                     </div>
                     <div class="row text-center">
-                        <div class="col-12 my-3">
+                        <div class="col-12 mt-3">
                             Note: If your City / Town is not listed, please select the nearest
                         </div>
-                        <div class="col-12 my-3">
-                            <button type="button" class="price_list_border_radius gradient1 h4 price_button">View Price</button>
+                        <div class="col-12 mt-3">
+                            <button type="button" class="price_list_border_radius gradient2 h4 price_button" style="border: none !important;">View Price</button>
                         </div>
-                        <div class="col-12 my-3">Price Chart</div>
-                        <div class="col-12 my-3">TMT BARS</div>
+                        <div class="col-12 mt-3 h5 text-muted">Price Chart</div>
+                        <div class="col-12 mt-3 h5 mb-2 text-muted">TMT BARS</div>
                     </div>
                     <div class="row">
                         <div class="col-lg-1 col-12">Size</div>
                         <div class="col-2 mr-1">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control input-border" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
                             </div>
                         </div>
                         <div class="col-2 mr-1">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control input-border" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
                             </div>
                         </div>
                         <div class="col-2 mr-1">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control input-border" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
                             </div>
                         </div>
                         <div class="col-2 mr-1">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control input-border" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
                             </div>
                         </div>
                         <div class="col-2 mr-1">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control input-border" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
                             </div>
                         </div>
                     </div>
@@ -110,27 +110,27 @@
                         <div class="col-lg-1 col-12">Price</div>
                         <div class="col-2 mr-1">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control input-border" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
                             </div>
                         </div>
                         <div class="col-2 mr-1">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control input-border" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
                             </div>
                         </div>
                         <div class="col-2 mr-1">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control input-border" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
                             </div>
                         </div>
                         <div class="col-2 mr-1">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control input-border" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
                             </div>
                         </div>
                         <div class="col-2 mr-1">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control input-border" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
                             </div>
                         </div>
                     </div>

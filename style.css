@@ -10,6 +10,28 @@
   background-color: #dedede;
 } */
 
+.input-border{
+  border: 3px solid #dd8302 !important;
+}
+
+.form-select{
+  font-size: 1.1rem !important;
+}
+
+.form-control{
+  font-size: 1.1rem !important;
+}
+
+
+.form-select, .form-control, .input-group-text {
+  border: 3px solid #dd8302 !important;
+}
+
+.input-group-text {
+  background-color: #dd8302 !important;
+  color: white !important;
+}
+
 #lab_social_icon_footer a {
   color: #333;
 }
@@ -204,6 +226,7 @@ body {
 }
 
 .price_list_border_radius {
+  border: 5px solid #dd8302;
   border-radius: 30px !important;
   height: fit-content;
 }
@@ -233,6 +256,10 @@ body {
   border-top-right-radius: 15px;
   height: 50px;
 } */
+
+.gradient2 {
+  background: linear-gradient(90deg, rgba(255,60,1,1) 0%, rgba(255,171,107,1) 47%, rgba(255,60,1,1) 100%);;
+}
 
 .gradient1 {
   background: linear-gradient(

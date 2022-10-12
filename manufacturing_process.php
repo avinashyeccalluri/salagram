@@ -32,13 +32,13 @@
             </div>
         </div>
     </header>
-    <section class="my-lg-5 py-3 vector" data-aos="fade-up">
+    <section class="my-lg-5 py-3 " data-aos="fade-up">
         <div class="container" data-aos-anchor-placement="center-bottom">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-lg-5 col-12 d-flex justify-content-center align-items-center">
                     <img src="./images/Thermax_logo.png" class="img-fluid" alt="" srcset="">
                 </div>
-                <div class="col-lg-7 col-12 fs-4 my-3" style="line-height: 50px;">
+                <div class="col-lg-7 col-12 fs-4 my-3 vector" style="line-height: 50px;">
                     <div class="text-lg-start text-center">
                         Contrary to popular belief, Lorem Ipsum is not simply random
                         text. It has roots in a piece of classical Latin literature from 45
@@ -52,7 +52,7 @@
             </div>
         </div>
     </section>
-    <section class="vector" data-aos="fade-up">
+    <section class="" data-aos="fade-up">
         <div class="my-lg-5 container" data-aos-anchor-placement="center-bottom">
             <div class="row" data-aos="zoom-out">
                 <div class="gradient1 h1 col-lg-4 col-sm-8 text-light text-lg-start text-center">

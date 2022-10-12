@@ -46,7 +46,7 @@
         </div>
     </section>
 
-    <div class="" data-aos="fade-up">
+    <div class="vector" data-aos="fade-up">
         <div class="container" data-aos-anchor-placement="center-bottom">
             <div class="row">
                 <div class="col-12">
