@@ -30,7 +30,7 @@
             <div class="row  text-light mbw-100" data-aos="fade-up">
                 <div class="col-12">
                     <div class="row">
-                        <div class="col-lg-6 mb-lg-5 col-sm-12 text-lg-start text-md-start text-center header-text hide">
+                        <div class="col-lg-6 mb-lg-5 col-sm-12 text-lg-start text-md-start text-center header-text hide montserrat">
                             PRODUCT
                             <div>MIX</div>
                         </div>

@@ -1,4 +1,4 @@
-<footer class="bg-dark text-light p-5 vh-50">
+<footer class="bg-dark text-light p-5" style="height: auto !important;">
   <div class="container">
 
     <div class="row d-flex justify-content-between align-items-center">

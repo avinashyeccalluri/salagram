@@ -27,7 +27,7 @@
             <?php include('header.php') ?>
             <div class="row  text-light mbw-100" data-aos="fade-up">
 
-                <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text text-light">
+                <div class="col-lg-6 col-sm-12 text-lg-start text-md-start text-center header-text text-dark">
                     TESTING, APPROVAL <span class="orange-text">AND</span> CERTIFICATION
                 </div>
             </div>

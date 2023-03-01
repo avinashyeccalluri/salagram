@@ -127,8 +127,7 @@ if(isset($_POST['submit'])){
                                             <div>SALAGRAM POWER & STEEL PVT LTD</div>
                                             <div>ROOM NO 403, 4TH FLOOR </div>
                                             <div>CONTINENTAL, 83/2/1 ROAD(S),</div>
-                                            <div>KOLKATA</div>
-                                            <div>PIN-700046</div>
+                                            <div>KOLKATA, PIN-700046</div>
                                         </div>
                                     </div>
                                 </div>
@@ -137,7 +136,7 @@ if(isset($_POST['submit'])){
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div class="row">
                                 <div class="col-12">
-                                    <img src="./images/Layer 3(1).png" class="img-fluid" alt="" style="height: 362px !important;">
+                                    <img src="./images/plant 2.jpg" class="img-fluid w-100" alt="" style="height: 362px !important;">
                                 </div>
                                 <div class="col-12 montserrat">
                                     <div class="row py-3 text-light bold">
@@ -150,6 +149,7 @@ if(isset($_POST['submit'])){
                                             <div>BURWAN,</div>
                                             <div>PIN-713102,</div>
                                         </div>
+                                            <br>
                                     </div>
                                 </div>
                             </div>

@@ -1,5 +1,5 @@
 <section class="navigation">
-  <div class="nav-container">
+  <div class="">
     <div class="brand">
       <a href="#!"><img src="./images/salagram_logo.png" style="height: 80px;" alt="" srcset=""></a>
     </div>

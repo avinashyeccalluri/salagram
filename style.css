@@ -14,6 +14,22 @@
   border: 3px solid #dd8302 !important;
 }
 
+.view-price {
+  border: transparent;
+height: 55px;
+width: 280px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 30px;
+color: white;
+background-color: black;
+}
+
+.h-55 {
+  height: 55px !important;
+}
+
 .form-select{
   font-size: 1.1rem !important;
 }
@@ -34,6 +50,19 @@
 
 #lab_social_icon_footer a {
   color: #333;
+}
+
+.gap15{
+  gap: 15px;
+}
+
+.custom-container{
+  position: relative;
+  top: -350px;
+}
+
+.achievement-container{
+  margin: 0 10% !important;
 }
 
 #lab_social_icon_footer .social:hover {
@@ -287,7 +316,7 @@ body {
 }
 
 .w-20 {
-  width: 19% !important;
+  width: 18% !important;
 }
 
 .vh-90 {
@@ -621,10 +650,6 @@ a {
   background-image: url("./images/square.png");
 }
 
-/* .crs_bar {
-  background-image: url('./images/crs_tmt.png');
-  object-fit: contain;
-} */
 
 .header-container {
   height: 100vh;
@@ -890,8 +915,16 @@ a {
 
 @media only screen and (max-width: 576px) {
 
+  
+.achievement-container{
+  margin: 0 0 !important;
+}
+
   .product-header-container {
       height: 60vh !important;
+  }
+  .custom-container {
+    position: inherit;
   }
 
   .vh-90 {
@@ -994,7 +1027,7 @@ a {
   .quality-header-container,
   .price_list-header-container,
   .directors {
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     max-width: 100%;
   }
@@ -1017,8 +1050,6 @@ a {
     left: 0 !important;
     right: 0% !important;
     bottom: 0%;
-    /* left: 0 !important;
-    right: 0 !important; */
     width: 100% !important;
     height: 70vh !important;
   }
@@ -1109,7 +1140,7 @@ nav ul li {
 }
 nav ul li a,nav ul li a:visited {
    display: block;
-   padding: 0 20px;
+   padding: 0 40px;
    line-height: 55px;
    color: #fff;
    background: #262626 ;

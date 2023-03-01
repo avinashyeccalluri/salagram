@@ -6,23 +6,36 @@ Home page - 1)
 		4) 
 		5) 
 		6) 
+		it is center aligned if if reduced small it wont look nice
 		7) Steel & Power Button Should be lil Smalles & Will be center Aligned 
+			Please provide the text what should be displayed there-|
 		8) Steel & Power Contents are appearing same 
+		It was provided as design but removed as per the suggestion.-|
 		9) There should be No Outline Box Around our Produt & Our Clint.
 		10) Resize products images properly (Not looking good)
 		11)
+			The images were provided as it is shown, please provide an image without the background cut
 		12) All Images of our clint should be Background less. 
 		13) JOIN US button on footer not working.
+				Have introduced the icons over the corner of the header on hover it will be high lighted -| 
            	14) Include the Colourful Social media icon on (All Pages).
 	     
-  Leadership Page - 1) Mr. Suyash Agarwal' Should have One image on BG.		      
+		 Not clear what should de implemented -|
+  Leadership Page - 1) Mr. Suyash Agarwal' Should have One image on BG.
+
+
+				The font style montserrat is maintained for header across the application
 All Products page - 1) "PRODUCT MIX" Text (Use Font- Work Sans) Rearange the space between the letters.
+				This is an image thats used here -|
 			  2) Products name in wall ( font - Gontserrat Mediam, Hex - #ffffff ) 
+			  	Managed to show it better -|
 			  3) vector art used in bg is not properly aligned.
 		
+		This was not a part of integration 
 Tmt bar page - 1) View Price Botton Not working.( Still not rectified)
 		
 
+	completed -|
 Ms Square page - 1) Product size Text colour ( white)
  
  completed -|

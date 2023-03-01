@@ -51,12 +51,12 @@
         </div>
         </div>
     </section>
-    <section class="vector" data-aos="fade-up">
+    <section class="" data-aos="fade-up">
         <div class="container" data-aos-anchor-placement="top-center">
 
             <div class="row d-flex justify-content-center align-items-center flex-lg-row flex-column-reverse">
 
-                <div class="col-lg-7 col-12  py-3">
+                <div class="col-lg-6 col-12  py-3">
                     <div class="h1 gradient text-light container lh">Application</div>
 
                     <ul class="lh-52s fs-3" style="line-height: 56px;">
@@ -68,8 +68,10 @@
                         <li>Constructing Complex Buildings</li>
                     </ul>
                 </div>
-                <div class="col-lg-5 col-12 py-3">
-                    <img src="./images/sea-pillar.png" class="img-fluid" alt="">
+                <div class="col-lg-6 col-12 py-3">
+                    <div class="img-wrapper">
+                        <img src="./images/sea-pillar.png" class="img-fluid w-100" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -77,25 +79,24 @@
 
     <section class="" data-aos="fade-up">
         <div class="container my-5" data-aos-anchor-placement="top-center">
-
-            <h1 class="orange-text h1">Product Size Chart</h1>
-            <div class="row d-flex justify-lg-content-left justify-content-center align-content-center my-3 text-light">
-                <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong> 9.8 MM </strong></div>
-                <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong>10.8 MM </strong></div>
-                <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong>11.2 MM </strong></div>
-                <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong>12.5 MM </strong></div>
-                <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong>13.5 MM </strong></div>
-                <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong>15.2 MM </strong></div>
-                <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong>15.8 MM </strong></div>
-                <div class="col-lg-2 col-3 bg-orange text-center mar-right h-40 pt-6 w-12 my-2"><strong>16.5 MM </strong></div>
+            <strong><h1 class="orange-text h1">Product Size Chart</h1></strong>
+            <div class="row d-flex justify-lg-content-left justify-content-center align-content-center my-3 text-light" style="gap: 20px;">
+                <div class="col-lg-2 col-3 bg-orange d-flex justify-content-center align-items-center text-center w-12 h-55 fs-4"><strong> 8 MM </strong></div>
+                <div class="col-lg-2 col-3 bg-orange d-flex justify-content-center align-items-center text-center w-12 h-55 fs-4"><strong>10 MM </strong></div>
+                <div class="col-lg-2 col-3 bg-orange d-flex justify-content-center align-items-center text-center w-12 h-55 fs-4"><strong>12 MM </strong></div>
+                <div class="col-lg-2 col-3 bg-orange d-flex justify-content-center align-items-center text-center w-12 h-55 fs-4"><strong>16 MM </strong></div>
+                <div class="col-lg-2 col-3 bg-orange d-flex justify-content-center align-items-center text-center w-12 h-55 fs-4"><strong>20 MM </strong></div>
+                <div class="col-lg-2 col-3 bg-orange d-flex justify-content-center align-items-center text-center w-12 h-55 fs-4"><strong>25 MM </strong></div>
+                <div class="col-lg-2 col-3 bg-orange d-flex justify-content-center align-items-center text-center w-12 h-55 fs-4"><strong>28 MM </strong></div>
+                <div class="col-lg-2 col-3 bg-orange d-flex justify-content-center align-items-center text-center w-12 h-55 fs-4"><strong>32 MM </strong></div>
             </div>
         </div>
     </section>
 
-    <section class="container my-4 fs-4">
-        <div class="row text-center justify-content-center">
-            <div class="col-2 price">View price</div>
-        </div>
+    <section class="container my-4 fs-4 d-flex justify-content-center align-items-center">
+        <button class="view-price">
+            View Price
+        </button>
     </section>
 
     <?php include('footer.php') ?>

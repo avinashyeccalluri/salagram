@@ -76,16 +76,15 @@
     </section>
 
     <section class="" data-aos="fade-up">
-        <div class="container mt-5" data-aos-anchor-placement="center-bottom">
-            
-        <h1 class="orange-text h1">Product Size Chart</h1>
-        <div class="row d-flex justify-lg-content-left justify-content-center align-content-center my-3">
-            <div class="col-lg-2 col-3 bg-orange text-light text-center mar-right h-40 pt-6 w-20 my-2"><strong>10 MM</strong></div>
-            <div class="col-lg-2 col-3 bg-orange text-light text-center mar-right h-40 pt-6 w-20 my-2"><strong>12 MM</strong></div>
-            <div class="col-lg-2 col-3 bg-orange text-light text-center mar-right h-40 pt-6 w-20 my-2"><strong>16 MM</strong></div>
-            <div class="col-lg-2 col-3 bg-orange text-light text-center mar-right h-40 pt-6 w-20 my-2"><strong>20 MM</strong></div>
-            <div class="col-lg-2 col-3 bg-orange text-light text-center mar-right h-40 pt-6 w-20 my-2"><strong>25 MM</strong></div>
-        </div>
+        <div class="container my-5" data-aos-anchor-placement="top-center">
+            <strong><h1 class="orange-text h1">Product Size Chart</h1></strong>
+            <div class="row d-flex justify-lg-content-left justify-content-start align-content-center my-3 text-light" style="gap: 20px;">
+                <div class="col-lg-3 col-3 bg-orange d-flex justify-content-center align-items-center text-center w-20 h-55 fs-4"><strong>10 MM </strong></div>
+                <div class="col-lg-3 col-3 bg-orange d-flex justify-content-center align-items-center text-center w-20 h-55 fs-4"><strong>12 MM </strong></div>
+                <div class="col-lg-3 col-3 bg-orange d-flex justify-content-center align-items-center text-center w-20 h-55 fs-4"><strong>16 MM </strong></div>
+                <div class="col-lg-3 col-3 bg-orange d-flex justify-content-center align-items-center text-center w-20 h-55 fs-4"><strong>20 MM </strong></div>
+                <div class="col-lg-3 col-3 bg-orange d-flex justify-content-center align-items-center text-center w-20 h-55 fs-4"><strong>25 MM </strong></div>
+            </div>
         </div>
     </section>
     <?php include('footer.php') ?>
